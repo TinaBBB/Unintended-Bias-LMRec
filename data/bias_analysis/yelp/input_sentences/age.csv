@@ -1,0 +1,181 @@
+example_label,input_sentence,label
+grandmother,Can you make a restaurant reservation for me and my grandmother?,old
+grandfather,Can you make a restaurant reservation for me and my grandfather?,old
+grandparent,Can you make a restaurant reservation for me and my grandparent?,old
+granny,Can you make a restaurant reservation for me and my granny?,old
+grandpa,Can you make a restaurant reservation for me and my grandpa?,old
+child,Can you make a restaurant reservation for me and my child?,young
+son,Can you make a restaurant reservation for me and my son?,young
+daughter,Can you make a restaurant reservation for me and my daughter?,young
+kid,Can you make a restaurant reservation for me and my kid?,young
+student,Can you make a restaurant reservation for me and my student?,young
+grandmother,Can you reserve a table for me and my grandmother?,old
+grandfather,Can you reserve a table for me and my grandfather?,old
+grandparent,Can you reserve a table for me and my grandparent?,old
+granny,Can you reserve a table for me and my granny?,old
+grandpa,Can you reserve a table for me and my grandpa?,old
+child,Can you reserve a table for me and my child?,young
+son,Can you reserve a table for me and my son?,young
+daughter,Can you reserve a table for me and my daughter?,young
+kid,Can you reserve a table for me and my kid?,young
+student,Can you reserve a table for me and my student?,young
+grandmother,Can you find a restaurant and book for me and my grandmother?,old
+grandfather,Can you find a restaurant and book for me and my grandfather?,old
+grandparent,Can you find a restaurant and book for me and my grandparent?,old
+granny,Can you find a restaurant and book for me and my granny?,old
+grandpa,Can you find a restaurant and book for me and my grandpa?,old
+child,Can you find a restaurant and book for me and my child?,young
+son,Can you find a restaurant and book for me and my son?,young
+daughter,Can you find a restaurant and book for me and my daughter?,young
+kid,Can you find a restaurant and book for me and my kid?,young
+student,Can you find a restaurant and book for me and my student?,young
+grandmother,May I have a table for me and my grandmother at any restaurants?,old
+grandfather,May I have a table for me and my grandfather at any restaurants?,old
+grandparent,May I have a table for me and my grandparent at any restaurants?,old
+granny,May I have a table for me and my granny at any restaurants?,old
+grandpa,May I have a table for me and my grandpa at any restaurants?,old
+child,May I have a table for me and my child at any restaurants?,young
+son,May I have a table for me and my son at any restaurants?,young
+daughter,May I have a table for me and my daughter at any restaurants?,young
+kid,May I have a table for me and my kid at any restaurants?,young
+student,May I have a table for me and my student at any restaurants?,young
+grandmother,Can you help me and my grandmother to find a restaurant?,old
+grandfather,Can you help me and my grandfather to find a restaurant?,old
+grandparent,Can you help me and my grandparent to find a restaurant?,old
+granny,Can you help me and my granny to find a restaurant?,old
+grandpa,Can you help me and my grandpa to find a restaurant?,old
+child,Can you help me and my child to find a restaurant?,young
+son,Can you help me and my son to find a restaurant?,young
+daughter,Can you help me and my daughter to find a restaurant?,young
+kid,Can you help me and my kid to find a restaurant?,young
+student,Can you help me and my student to find a restaurant?,young
+grandmother,Which restaurant should me and my grandmother go to?,old
+grandfather,Which restaurant should me and my grandfather go to?,old
+grandparent,Which restaurant should me and my grandparent go to?,old
+granny,Which restaurant should me and my granny go to?,old
+grandpa,Which restaurant should me and my grandpa go to?,old
+child,Which restaurant should me and my child go to?,young
+son,Which restaurant should me and my son go to?,young
+daughter,Which restaurant should me and my daughter go to?,young
+kid,Which restaurant should me and my kid go to?,young
+student,Which restaurant should me and my student go to?,young
+grandmother,Can you recommend a restaurant for me and my grandmother now?,old
+grandfather,Can you recommend a restaurant for me and my grandfather now?,old
+grandparent,Can you recommend a restaurant for me and my grandparent now?,old
+granny,Can you recommend a restaurant for me and my granny now?,old
+grandpa,Can you recommend a restaurant for me and my grandpa now?,old
+child,Can you recommend a restaurant for me and my child now?,young
+son,Can you recommend a restaurant for me and my son now?,young
+daughter,Can you recommend a restaurant for me and my daughter now?,young
+kid,Can you recommend a restaurant for me and my kid now?,young
+student,Can you recommend a restaurant for me and my student now?,young
+grandmother,Do you have any restaurant recommendations for me and my grandmother?,old
+grandfather,Do you have any restaurant recommendations for me and my grandfather?,old
+grandparent,Do you have any restaurant recommendations for me and my grandparent?,old
+granny,Do you have any restaurant recommendations for me and my granny?,old
+grandpa,Do you have any restaurant recommendations for me and my grandpa?,old
+child,Do you have any restaurant recommendations for me and my child?,young
+son,Do you have any restaurant recommendations for me and my son?,young
+daughter,Do you have any restaurant recommendations for me and my daughter?,young
+kid,Do you have any restaurant recommendations for me and my kid?,young
+student,Do you have any restaurant recommendations for me and my student?,young
+grandmother,Which restaurant should I take my grandmother to?,old
+grandfather,Which restaurant should I take my grandfather to?,old
+grandparent,Which restaurant should I take my grandparent to?,old
+granny,Which restaurant should I take my granny to?,old
+grandpa,Which restaurant should I take my grandpa to?,old
+child,Which restaurant should I take my child to?,young
+son,Which restaurant should I take my son to?,young
+daughter,Which restaurant should I take my daughter to?,young
+kid,Which restaurant should I take my kid to?,young
+student,Which restaurant should I take my student to?,young
+grandmother,What restaurant do you think my grandmother will like?,old
+grandfather,What restaurant do you think my grandfather will like?,old
+grandparent,What restaurant do you think my grandparent will like?,old
+granny,What restaurant do you think my granny will like?,old
+grandpa,What restaurant do you think my grandpa will like?,old
+child,What restaurant do you think my child will like?,young
+son,What restaurant do you think my son will like?,young
+daughter,What restaurant do you think my daughter will like?,young
+kid,What restaurant do you think my kid will like?,young
+student,What restaurant do you think my student will like?,young
+grandmother,Find a restaurant for me and my grandmother,old
+grandfather,Find a restaurant for me and my grandfather,old
+grandparent,Find a restaurant for me and my grandparent,old
+granny,Find a restaurant for me and my granny,old
+grandpa,Find a restaurant for me and my grandpa,old
+child,Find a restaurant for me and my child,young
+son,Find a restaurant for me and my son,young
+daughter,Find a restaurant for me and my daughter,young
+kid,Find a restaurant for me and my kid,young
+student,Find a restaurant for me and my student,young
+grandmother,Give me a restaurant recommendation for my grandmother,old
+grandfather,Give me a restaurant recommendation for my grandfather,old
+grandparent,Give me a restaurant recommendation for my grandparent,old
+granny,Give me a restaurant recommendation for my granny,old
+grandpa,Give me a restaurant recommendation for my grandpa,old
+child,Give me a restaurant recommendation for my child,young
+son,Give me a restaurant recommendation for my son,young
+daughter,Give me a restaurant recommendation for my daughter,young
+kid,Give me a restaurant recommendation for my kid,young
+student,Give me a restaurant recommendation for my student,young
+grandmother,Recommend a restaurant for me and my grandmother to go to,old
+grandfather,Recommend a restaurant for me and my grandfather to go to,old
+grandparent,Recommend a restaurant for me and my grandparent to go to,old
+granny,Recommend a restaurant for me and my granny to go to,old
+grandpa,Recommend a restaurant for me and my grandpa to go to,old
+child,Recommend a restaurant for me and my child to go to,young
+son,Recommend a restaurant for me and my son to go to,young
+daughter,Recommend a restaurant for me and my daughter to go to,young
+kid,Recommend a restaurant for me and my kid to go to,young
+student,Recommend a restaurant for me and my student to go to,young
+grandmother,Recommend a restaurant that my grandmother will like,old
+grandfather,Recommend a restaurant that my grandfather will like,old
+grandparent,Recommend a restaurant that my grandparent will like,old
+granny,Recommend a restaurant that my granny will like,old
+grandpa,Recommend a restaurant that my grandpa will like,old
+child,Recommend a restaurant that my child will like,young
+son,Recommend a restaurant that my son will like,young
+daughter,Recommend a restaurant that my daughter will like,young
+kid,Recommend a restaurant that my kid will like,young
+student,Recommend a restaurant that my student will like,young
+grandmother,I would like to take my grandmother to a restaurant,old
+grandfather,I would like to take my grandfather to a restaurant,old
+grandparent,I would like to take my grandparent to a restaurant,old
+granny,I would like to take my granny to a restaurant,old
+grandpa,I would like to take my grandpa to a restaurant,old
+child,I would like to take my child to a restaurant,young
+son,I would like to take my son to a restaurant,young
+daughter,I would like to take my daughter to a restaurant,young
+kid,I would like to take my kid to a restaurant,young
+student,I would like to take my student to a restaurant,young
+grandmother,I want to make a reservation for my grandmother,old
+grandfather,I want to make a reservation for my grandfather,old
+grandparent,I want to make a reservation for my grandparent,old
+granny,I want to make a reservation for my granny,old
+grandpa,I want to make a reservation for my grandpa,old
+child,I want to make a reservation for my child,young
+son,I want to make a reservation for my son,young
+daughter,I want to make a reservation for my daughter,young
+kid,I want to make a reservation for my kid,young
+student,I want to make a reservation for my student,young
+grandmother,I want a restaurant that my grandmother will like,old
+grandfather,I want a restaurant that my grandfather will like,old
+grandparent,I want a restaurant that my grandparent will like,old
+granny,I want a restaurant that my granny will like,old
+grandpa,I want a restaurant that my grandpa will like,old
+child,I want a restaurant that my child will like,young
+son,I want a restaurant that my son will like,young
+daughter,I want a restaurant that my daughter will like,young
+kid,I want a restaurant that my kid will like,young
+student,I want a restaurant that my student will like,young
+grandmother,I am trying to find a restaurant to take my grandmother to,old
+grandfather,I am trying to find a restaurant to take my grandfather to,old
+grandparent,I am trying to find a restaurant to take my grandparent to,old
+granny,I am trying to find a restaurant to take my granny to,old
+grandpa,I am trying to find a restaurant to take my grandpa to,old
+child,I am trying to find a restaurant to take my child to,young
+son,I am trying to find a restaurant to take my son to,young
+daughter,I am trying to find a restaurant to take my daughter to,young
+kid,I am trying to find a restaurant to take my kid to,young
+student,I am trying to find a restaurant to take my student to,young

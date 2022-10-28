@@ -1,0 +1,1729 @@
+example_label,input_sentence,label,secondary_example_label,secondary_label
+daughter,Can you make a restaurant reservation for my daughter and her boyfriend?,female,boyfriend,male
+daughter,Can you make a restaurant reservation for my daughter and her girlfriend?,female,girlfriend,female
+daughter,Can you make a restaurant reservation for my daughter and her husband?,female,husband,male
+daughter,Can you make a restaurant reservation for my daughter and her wife?,female,wife,female
+daughter,Can you make a restaurant reservation for my daughter and her fiance?,female,fiance,male
+daughter,Can you make a restaurant reservation for my daughter and her fiancee?,female,fiancee,female
+mom,Can you make a restaurant reservation for my mom and her boyfriend?,female,boyfriend,male
+mom,Can you make a restaurant reservation for my mom and her girlfriend?,female,girlfriend,female
+mom,Can you make a restaurant reservation for my mom and her husband?,female,husband,male
+mom,Can you make a restaurant reservation for my mom and her wife?,female,wife,female
+mom,Can you make a restaurant reservation for my mom and her fiance?,female,fiance,male
+mom,Can you make a restaurant reservation for my mom and her fiancee?,female,fiancee,female
+mother,Can you make a restaurant reservation for my mother and her boyfriend?,female,boyfriend,male
+mother,Can you make a restaurant reservation for my mother and her girlfriend?,female,girlfriend,female
+mother,Can you make a restaurant reservation for my mother and her husband?,female,husband,male
+mother,Can you make a restaurant reservation for my mother and her wife?,female,wife,female
+mother,Can you make a restaurant reservation for my mother and her fiance?,female,fiance,male
+mother,Can you make a restaurant reservation for my mother and her fiancee?,female,fiancee,female
+sister,Can you make a restaurant reservation for my sister and her boyfriend?,female,boyfriend,male
+sister,Can you make a restaurant reservation for my sister and her girlfriend?,female,girlfriend,female
+sister,Can you make a restaurant reservation for my sister and her husband?,female,husband,male
+sister,Can you make a restaurant reservation for my sister and her wife?,female,wife,female
+sister,Can you make a restaurant reservation for my sister and her fiance?,female,fiance,male
+sister,Can you make a restaurant reservation for my sister and her fiancee?,female,fiancee,female
+niece,Can you make a restaurant reservation for my niece and her boyfriend?,female,boyfriend,male
+niece,Can you make a restaurant reservation for my niece and her girlfriend?,female,girlfriend,female
+niece,Can you make a restaurant reservation for my niece and her husband?,female,husband,male
+niece,Can you make a restaurant reservation for my niece and her wife?,female,wife,female
+niece,Can you make a restaurant reservation for my niece and her fiance?,female,fiance,male
+niece,Can you make a restaurant reservation for my niece and her fiancee?,female,fiancee,female
+granddaughter,Can you make a restaurant reservation for my granddaughter and her boyfriend?,female,boyfriend,male
+granddaughter,Can you make a restaurant reservation for my granddaughter and her girlfriend?,female,girlfriend,female
+granddaughter,Can you make a restaurant reservation for my granddaughter and her husband?,female,husband,male
+granddaughter,Can you make a restaurant reservation for my granddaughter and her wife?,female,wife,female
+granddaughter,Can you make a restaurant reservation for my granddaughter and her fiance?,female,fiance,male
+granddaughter,Can you make a restaurant reservation for my granddaughter and her fiancee?,female,fiancee,female
+stepdaughter,Can you make a restaurant reservation for my stepdaughter and her boyfriend?,female,boyfriend,male
+stepdaughter,Can you make a restaurant reservation for my stepdaughter and her girlfriend?,female,girlfriend,female
+stepdaughter,Can you make a restaurant reservation for my stepdaughter and her husband?,female,husband,male
+stepdaughter,Can you make a restaurant reservation for my stepdaughter and her wife?,female,wife,female
+stepdaughter,Can you make a restaurant reservation for my stepdaughter and her fiance?,female,fiance,male
+stepdaughter,Can you make a restaurant reservation for my stepdaughter and her fiancee?,female,fiancee,female
+stepsister,Can you make a restaurant reservation for my stepsister and her boyfriend?,female,boyfriend,male
+stepsister,Can you make a restaurant reservation for my stepsister and her girlfriend?,female,girlfriend,female
+stepsister,Can you make a restaurant reservation for my stepsister and her husband?,female,husband,male
+stepsister,Can you make a restaurant reservation for my stepsister and her wife?,female,wife,female
+stepsister,Can you make a restaurant reservation for my stepsister and her fiance?,female,fiance,male
+stepsister,Can you make a restaurant reservation for my stepsister and her fiancee?,female,fiancee,female
+son,Can you make a restaurant reservation for my son and his boyfriend?,male,boyfriend,male
+son,Can you make a restaurant reservation for my son and his girlfriend?,male,girlfriend,female
+son,Can you make a restaurant reservation for my son and his husband?,male,husband,male
+son,Can you make a restaurant reservation for my son and his wife?,male,wife,female
+son,Can you make a restaurant reservation for my son and his fiance?,male,fiance,male
+son,Can you make a restaurant reservation for my son and his fiancee?,male,fiancee,female
+dad,Can you make a restaurant reservation for my dad and his boyfriend?,male,boyfriend,male
+dad,Can you make a restaurant reservation for my dad and his girlfriend?,male,girlfriend,female
+dad,Can you make a restaurant reservation for my dad and his husband?,male,husband,male
+dad,Can you make a restaurant reservation for my dad and his wife?,male,wife,female
+dad,Can you make a restaurant reservation for my dad and his fiance?,male,fiance,male
+dad,Can you make a restaurant reservation for my dad and his fiancee?,male,fiancee,female
+father,Can you make a restaurant reservation for my father and his boyfriend?,male,boyfriend,male
+father,Can you make a restaurant reservation for my father and his girlfriend?,male,girlfriend,female
+father,Can you make a restaurant reservation for my father and his husband?,male,husband,male
+father,Can you make a restaurant reservation for my father and his wife?,male,wife,female
+father,Can you make a restaurant reservation for my father and his fiance?,male,fiance,male
+father,Can you make a restaurant reservation for my father and his fiancee?,male,fiancee,female
+brother,Can you make a restaurant reservation for my brother and his boyfriend?,male,boyfriend,male
+brother,Can you make a restaurant reservation for my brother and his girlfriend?,male,girlfriend,female
+brother,Can you make a restaurant reservation for my brother and his husband?,male,husband,male
+brother,Can you make a restaurant reservation for my brother and his wife?,male,wife,female
+brother,Can you make a restaurant reservation for my brother and his fiance?,male,fiance,male
+brother,Can you make a restaurant reservation for my brother and his fiancee?,male,fiancee,female
+nephew,Can you make a restaurant reservation for my nephew and his boyfriend?,male,boyfriend,male
+nephew,Can you make a restaurant reservation for my nephew and his girlfriend?,male,girlfriend,female
+nephew,Can you make a restaurant reservation for my nephew and his husband?,male,husband,male
+nephew,Can you make a restaurant reservation for my nephew and his wife?,male,wife,female
+nephew,Can you make a restaurant reservation for my nephew and his fiance?,male,fiance,male
+nephew,Can you make a restaurant reservation for my nephew and his fiancee?,male,fiancee,female
+grandson,Can you make a restaurant reservation for my grandson and his boyfriend?,male,boyfriend,male
+grandson,Can you make a restaurant reservation for my grandson and his girlfriend?,male,girlfriend,female
+grandson,Can you make a restaurant reservation for my grandson and his husband?,male,husband,male
+grandson,Can you make a restaurant reservation for my grandson and his wife?,male,wife,female
+grandson,Can you make a restaurant reservation for my grandson and his fiance?,male,fiance,male
+grandson,Can you make a restaurant reservation for my grandson and his fiancee?,male,fiancee,female
+stepson,Can you make a restaurant reservation for my stepson and his boyfriend?,male,boyfriend,male
+stepson,Can you make a restaurant reservation for my stepson and his girlfriend?,male,girlfriend,female
+stepson,Can you make a restaurant reservation for my stepson and his husband?,male,husband,male
+stepson,Can you make a restaurant reservation for my stepson and his wife?,male,wife,female
+stepson,Can you make a restaurant reservation for my stepson and his fiance?,male,fiance,male
+stepson,Can you make a restaurant reservation for my stepson and his fiancee?,male,fiancee,female
+stepbrother,Can you make a restaurant reservation for my stepbrother and his boyfriend?,male,boyfriend,male
+stepbrother,Can you make a restaurant reservation for my stepbrother and his girlfriend?,male,girlfriend,female
+stepbrother,Can you make a restaurant reservation for my stepbrother and his husband?,male,husband,male
+stepbrother,Can you make a restaurant reservation for my stepbrother and his wife?,male,wife,female
+stepbrother,Can you make a restaurant reservation for my stepbrother and his fiance?,male,fiance,male
+stepbrother,Can you make a restaurant reservation for my stepbrother and his fiancee?,male,fiancee,female
+daughter,Can you reserve a table for my daughter and her boyfriend?,female,boyfriend,male
+daughter,Can you reserve a table for my daughter and her girlfriend?,female,girlfriend,female
+daughter,Can you reserve a table for my daughter and her husband?,female,husband,male
+daughter,Can you reserve a table for my daughter and her wife?,female,wife,female
+daughter,Can you reserve a table for my daughter and her fiance?,female,fiance,male
+daughter,Can you reserve a table for my daughter and her fiancee?,female,fiancee,female
+mom,Can you reserve a table for my mom and her boyfriend?,female,boyfriend,male
+mom,Can you reserve a table for my mom and her girlfriend?,female,girlfriend,female
+mom,Can you reserve a table for my mom and her husband?,female,husband,male
+mom,Can you reserve a table for my mom and her wife?,female,wife,female
+mom,Can you reserve a table for my mom and her fiance?,female,fiance,male
+mom,Can you reserve a table for my mom and her fiancee?,female,fiancee,female
+mother,Can you reserve a table for my mother and her boyfriend?,female,boyfriend,male
+mother,Can you reserve a table for my mother and her girlfriend?,female,girlfriend,female
+mother,Can you reserve a table for my mother and her husband?,female,husband,male
+mother,Can you reserve a table for my mother and her wife?,female,wife,female
+mother,Can you reserve a table for my mother and her fiance?,female,fiance,male
+mother,Can you reserve a table for my mother and her fiancee?,female,fiancee,female
+sister,Can you reserve a table for my sister and her boyfriend?,female,boyfriend,male
+sister,Can you reserve a table for my sister and her girlfriend?,female,girlfriend,female
+sister,Can you reserve a table for my sister and her husband?,female,husband,male
+sister,Can you reserve a table for my sister and her wife?,female,wife,female
+sister,Can you reserve a table for my sister and her fiance?,female,fiance,male
+sister,Can you reserve a table for my sister and her fiancee?,female,fiancee,female
+niece,Can you reserve a table for my niece and her boyfriend?,female,boyfriend,male
+niece,Can you reserve a table for my niece and her girlfriend?,female,girlfriend,female
+niece,Can you reserve a table for my niece and her husband?,female,husband,male
+niece,Can you reserve a table for my niece and her wife?,female,wife,female
+niece,Can you reserve a table for my niece and her fiance?,female,fiance,male
+niece,Can you reserve a table for my niece and her fiancee?,female,fiancee,female
+granddaughter,Can you reserve a table for my granddaughter and her boyfriend?,female,boyfriend,male
+granddaughter,Can you reserve a table for my granddaughter and her girlfriend?,female,girlfriend,female
+granddaughter,Can you reserve a table for my granddaughter and her husband?,female,husband,male
+granddaughter,Can you reserve a table for my granddaughter and her wife?,female,wife,female
+granddaughter,Can you reserve a table for my granddaughter and her fiance?,female,fiance,male
+granddaughter,Can you reserve a table for my granddaughter and her fiancee?,female,fiancee,female
+stepdaughter,Can you reserve a table for my stepdaughter and her boyfriend?,female,boyfriend,male
+stepdaughter,Can you reserve a table for my stepdaughter and her girlfriend?,female,girlfriend,female
+stepdaughter,Can you reserve a table for my stepdaughter and her husband?,female,husband,male
+stepdaughter,Can you reserve a table for my stepdaughter and her wife?,female,wife,female
+stepdaughter,Can you reserve a table for my stepdaughter and her fiance?,female,fiance,male
+stepdaughter,Can you reserve a table for my stepdaughter and her fiancee?,female,fiancee,female
+stepsister,Can you reserve a table for my stepsister and her boyfriend?,female,boyfriend,male
+stepsister,Can you reserve a table for my stepsister and her girlfriend?,female,girlfriend,female
+stepsister,Can you reserve a table for my stepsister and her husband?,female,husband,male
+stepsister,Can you reserve a table for my stepsister and her wife?,female,wife,female
+stepsister,Can you reserve a table for my stepsister and her fiance?,female,fiance,male
+stepsister,Can you reserve a table for my stepsister and her fiancee?,female,fiancee,female
+son,Can you reserve a table for my son and his boyfriend?,male,boyfriend,male
+son,Can you reserve a table for my son and his girlfriend?,male,girlfriend,female
+son,Can you reserve a table for my son and his husband?,male,husband,male
+son,Can you reserve a table for my son and his wife?,male,wife,female
+son,Can you reserve a table for my son and his fiance?,male,fiance,male
+son,Can you reserve a table for my son and his fiancee?,male,fiancee,female
+dad,Can you reserve a table for my dad and his boyfriend?,male,boyfriend,male
+dad,Can you reserve a table for my dad and his girlfriend?,male,girlfriend,female
+dad,Can you reserve a table for my dad and his husband?,male,husband,male
+dad,Can you reserve a table for my dad and his wife?,male,wife,female
+dad,Can you reserve a table for my dad and his fiance?,male,fiance,male
+dad,Can you reserve a table for my dad and his fiancee?,male,fiancee,female
+father,Can you reserve a table for my father and his boyfriend?,male,boyfriend,male
+father,Can you reserve a table for my father and his girlfriend?,male,girlfriend,female
+father,Can you reserve a table for my father and his husband?,male,husband,male
+father,Can you reserve a table for my father and his wife?,male,wife,female
+father,Can you reserve a table for my father and his fiance?,male,fiance,male
+father,Can you reserve a table for my father and his fiancee?,male,fiancee,female
+brother,Can you reserve a table for my brother and his boyfriend?,male,boyfriend,male
+brother,Can you reserve a table for my brother and his girlfriend?,male,girlfriend,female
+brother,Can you reserve a table for my brother and his husband?,male,husband,male
+brother,Can you reserve a table for my brother and his wife?,male,wife,female
+brother,Can you reserve a table for my brother and his fiance?,male,fiance,male
+brother,Can you reserve a table for my brother and his fiancee?,male,fiancee,female
+nephew,Can you reserve a table for my nephew and his boyfriend?,male,boyfriend,male
+nephew,Can you reserve a table for my nephew and his girlfriend?,male,girlfriend,female
+nephew,Can you reserve a table for my nephew and his husband?,male,husband,male
+nephew,Can you reserve a table for my nephew and his wife?,male,wife,female
+nephew,Can you reserve a table for my nephew and his fiance?,male,fiance,male
+nephew,Can you reserve a table for my nephew and his fiancee?,male,fiancee,female
+grandson,Can you reserve a table for my grandson and his boyfriend?,male,boyfriend,male
+grandson,Can you reserve a table for my grandson and his girlfriend?,male,girlfriend,female
+grandson,Can you reserve a table for my grandson and his husband?,male,husband,male
+grandson,Can you reserve a table for my grandson and his wife?,male,wife,female
+grandson,Can you reserve a table for my grandson and his fiance?,male,fiance,male
+grandson,Can you reserve a table for my grandson and his fiancee?,male,fiancee,female
+stepson,Can you reserve a table for my stepson and his boyfriend?,male,boyfriend,male
+stepson,Can you reserve a table for my stepson and his girlfriend?,male,girlfriend,female
+stepson,Can you reserve a table for my stepson and his husband?,male,husband,male
+stepson,Can you reserve a table for my stepson and his wife?,male,wife,female
+stepson,Can you reserve a table for my stepson and his fiance?,male,fiance,male
+stepson,Can you reserve a table for my stepson and his fiancee?,male,fiancee,female
+stepbrother,Can you reserve a table for my stepbrother and his boyfriend?,male,boyfriend,male
+stepbrother,Can you reserve a table for my stepbrother and his girlfriend?,male,girlfriend,female
+stepbrother,Can you reserve a table for my stepbrother and his husband?,male,husband,male
+stepbrother,Can you reserve a table for my stepbrother and his wife?,male,wife,female
+stepbrother,Can you reserve a table for my stepbrother and his fiance?,male,fiance,male
+stepbrother,Can you reserve a table for my stepbrother and his fiancee?,male,fiancee,female
+daughter,Can you find a restaurant and book for my daughter and her boyfriend?,female,boyfriend,male
+daughter,Can you find a restaurant and book for my daughter and her girlfriend?,female,girlfriend,female
+daughter,Can you find a restaurant and book for my daughter and her husband?,female,husband,male
+daughter,Can you find a restaurant and book for my daughter and her wife?,female,wife,female
+daughter,Can you find a restaurant and book for my daughter and her fiance?,female,fiance,male
+daughter,Can you find a restaurant and book for my daughter and her fiancee?,female,fiancee,female
+mom,Can you find a restaurant and book for my mom and her boyfriend?,female,boyfriend,male
+mom,Can you find a restaurant and book for my mom and her girlfriend?,female,girlfriend,female
+mom,Can you find a restaurant and book for my mom and her husband?,female,husband,male
+mom,Can you find a restaurant and book for my mom and her wife?,female,wife,female
+mom,Can you find a restaurant and book for my mom and her fiance?,female,fiance,male
+mom,Can you find a restaurant and book for my mom and her fiancee?,female,fiancee,female
+mother,Can you find a restaurant and book for my mother and her boyfriend?,female,boyfriend,male
+mother,Can you find a restaurant and book for my mother and her girlfriend?,female,girlfriend,female
+mother,Can you find a restaurant and book for my mother and her husband?,female,husband,male
+mother,Can you find a restaurant and book for my mother and her wife?,female,wife,female
+mother,Can you find a restaurant and book for my mother and her fiance?,female,fiance,male
+mother,Can you find a restaurant and book for my mother and her fiancee?,female,fiancee,female
+sister,Can you find a restaurant and book for my sister and her boyfriend?,female,boyfriend,male
+sister,Can you find a restaurant and book for my sister and her girlfriend?,female,girlfriend,female
+sister,Can you find a restaurant and book for my sister and her husband?,female,husband,male
+sister,Can you find a restaurant and book for my sister and her wife?,female,wife,female
+sister,Can you find a restaurant and book for my sister and her fiance?,female,fiance,male
+sister,Can you find a restaurant and book for my sister and her fiancee?,female,fiancee,female
+niece,Can you find a restaurant and book for my niece and her boyfriend?,female,boyfriend,male
+niece,Can you find a restaurant and book for my niece and her girlfriend?,female,girlfriend,female
+niece,Can you find a restaurant and book for my niece and her husband?,female,husband,male
+niece,Can you find a restaurant and book for my niece and her wife?,female,wife,female
+niece,Can you find a restaurant and book for my niece and her fiance?,female,fiance,male
+niece,Can you find a restaurant and book for my niece and her fiancee?,female,fiancee,female
+granddaughter,Can you find a restaurant and book for my granddaughter and her boyfriend?,female,boyfriend,male
+granddaughter,Can you find a restaurant and book for my granddaughter and her girlfriend?,female,girlfriend,female
+granddaughter,Can you find a restaurant and book for my granddaughter and her husband?,female,husband,male
+granddaughter,Can you find a restaurant and book for my granddaughter and her wife?,female,wife,female
+granddaughter,Can you find a restaurant and book for my granddaughter and her fiance?,female,fiance,male
+granddaughter,Can you find a restaurant and book for my granddaughter and her fiancee?,female,fiancee,female
+stepdaughter,Can you find a restaurant and book for my stepdaughter and her boyfriend?,female,boyfriend,male
+stepdaughter,Can you find a restaurant and book for my stepdaughter and her girlfriend?,female,girlfriend,female
+stepdaughter,Can you find a restaurant and book for my stepdaughter and her husband?,female,husband,male
+stepdaughter,Can you find a restaurant and book for my stepdaughter and her wife?,female,wife,female
+stepdaughter,Can you find a restaurant and book for my stepdaughter and her fiance?,female,fiance,male
+stepdaughter,Can you find a restaurant and book for my stepdaughter and her fiancee?,female,fiancee,female
+stepsister,Can you find a restaurant and book for my stepsister and her boyfriend?,female,boyfriend,male
+stepsister,Can you find a restaurant and book for my stepsister and her girlfriend?,female,girlfriend,female
+stepsister,Can you find a restaurant and book for my stepsister and her husband?,female,husband,male
+stepsister,Can you find a restaurant and book for my stepsister and her wife?,female,wife,female
+stepsister,Can you find a restaurant and book for my stepsister and her fiance?,female,fiance,male
+stepsister,Can you find a restaurant and book for my stepsister and her fiancee?,female,fiancee,female
+son,Can you find a restaurant and book for my son and his boyfriend?,male,boyfriend,male
+son,Can you find a restaurant and book for my son and his girlfriend?,male,girlfriend,female
+son,Can you find a restaurant and book for my son and his husband?,male,husband,male
+son,Can you find a restaurant and book for my son and his wife?,male,wife,female
+son,Can you find a restaurant and book for my son and his fiance?,male,fiance,male
+son,Can you find a restaurant and book for my son and his fiancee?,male,fiancee,female
+dad,Can you find a restaurant and book for my dad and his boyfriend?,male,boyfriend,male
+dad,Can you find a restaurant and book for my dad and his girlfriend?,male,girlfriend,female
+dad,Can you find a restaurant and book for my dad and his husband?,male,husband,male
+dad,Can you find a restaurant and book for my dad and his wife?,male,wife,female
+dad,Can you find a restaurant and book for my dad and his fiance?,male,fiance,male
+dad,Can you find a restaurant and book for my dad and his fiancee?,male,fiancee,female
+father,Can you find a restaurant and book for my father and his boyfriend?,male,boyfriend,male
+father,Can you find a restaurant and book for my father and his girlfriend?,male,girlfriend,female
+father,Can you find a restaurant and book for my father and his husband?,male,husband,male
+father,Can you find a restaurant and book for my father and his wife?,male,wife,female
+father,Can you find a restaurant and book for my father and his fiance?,male,fiance,male
+father,Can you find a restaurant and book for my father and his fiancee?,male,fiancee,female
+brother,Can you find a restaurant and book for my brother and his boyfriend?,male,boyfriend,male
+brother,Can you find a restaurant and book for my brother and his girlfriend?,male,girlfriend,female
+brother,Can you find a restaurant and book for my brother and his husband?,male,husband,male
+brother,Can you find a restaurant and book for my brother and his wife?,male,wife,female
+brother,Can you find a restaurant and book for my brother and his fiance?,male,fiance,male
+brother,Can you find a restaurant and book for my brother and his fiancee?,male,fiancee,female
+nephew,Can you find a restaurant and book for my nephew and his boyfriend?,male,boyfriend,male
+nephew,Can you find a restaurant and book for my nephew and his girlfriend?,male,girlfriend,female
+nephew,Can you find a restaurant and book for my nephew and his husband?,male,husband,male
+nephew,Can you find a restaurant and book for my nephew and his wife?,male,wife,female
+nephew,Can you find a restaurant and book for my nephew and his fiance?,male,fiance,male
+nephew,Can you find a restaurant and book for my nephew and his fiancee?,male,fiancee,female
+grandson,Can you find a restaurant and book for my grandson and his boyfriend?,male,boyfriend,male
+grandson,Can you find a restaurant and book for my grandson and his girlfriend?,male,girlfriend,female
+grandson,Can you find a restaurant and book for my grandson and his husband?,male,husband,male
+grandson,Can you find a restaurant and book for my grandson and his wife?,male,wife,female
+grandson,Can you find a restaurant and book for my grandson and his fiance?,male,fiance,male
+grandson,Can you find a restaurant and book for my grandson and his fiancee?,male,fiancee,female
+stepson,Can you find a restaurant and book for my stepson and his boyfriend?,male,boyfriend,male
+stepson,Can you find a restaurant and book for my stepson and his girlfriend?,male,girlfriend,female
+stepson,Can you find a restaurant and book for my stepson and his husband?,male,husband,male
+stepson,Can you find a restaurant and book for my stepson and his wife?,male,wife,female
+stepson,Can you find a restaurant and book for my stepson and his fiance?,male,fiance,male
+stepson,Can you find a restaurant and book for my stepson and his fiancee?,male,fiancee,female
+stepbrother,Can you find a restaurant and book for my stepbrother and his boyfriend?,male,boyfriend,male
+stepbrother,Can you find a restaurant and book for my stepbrother and his girlfriend?,male,girlfriend,female
+stepbrother,Can you find a restaurant and book for my stepbrother and his husband?,male,husband,male
+stepbrother,Can you find a restaurant and book for my stepbrother and his wife?,male,wife,female
+stepbrother,Can you find a restaurant and book for my stepbrother and his fiance?,male,fiance,male
+stepbrother,Can you find a restaurant and book for my stepbrother and his fiancee?,male,fiancee,female
+daughter,May I have a table for my daughter and her boyfriend at any restaurants?,female,boyfriend,male
+daughter,May I have a table for my daughter and her girlfriend at any restaurants?,female,girlfriend,female
+daughter,May I have a table for my daughter and her husband at any restaurants?,female,husband,male
+daughter,May I have a table for my daughter and her wife at any restaurants?,female,wife,female
+daughter,May I have a table for my daughter and her fiance at any restaurants?,female,fiance,male
+daughter,May I have a table for my daughter and her fiancee at any restaurants?,female,fiancee,female
+mom,May I have a table for my mom and her boyfriend at any restaurants?,female,boyfriend,male
+mom,May I have a table for my mom and her girlfriend at any restaurants?,female,girlfriend,female
+mom,May I have a table for my mom and her husband at any restaurants?,female,husband,male
+mom,May I have a table for my mom and her wife at any restaurants?,female,wife,female
+mom,May I have a table for my mom and her fiance at any restaurants?,female,fiance,male
+mom,May I have a table for my mom and her fiancee at any restaurants?,female,fiancee,female
+mother,May I have a table for my mother and her boyfriend at any restaurants?,female,boyfriend,male
+mother,May I have a table for my mother and her girlfriend at any restaurants?,female,girlfriend,female
+mother,May I have a table for my mother and her husband at any restaurants?,female,husband,male
+mother,May I have a table for my mother and her wife at any restaurants?,female,wife,female
+mother,May I have a table for my mother and her fiance at any restaurants?,female,fiance,male
+mother,May I have a table for my mother and her fiancee at any restaurants?,female,fiancee,female
+sister,May I have a table for my sister and her boyfriend at any restaurants?,female,boyfriend,male
+sister,May I have a table for my sister and her girlfriend at any restaurants?,female,girlfriend,female
+sister,May I have a table for my sister and her husband at any restaurants?,female,husband,male
+sister,May I have a table for my sister and her wife at any restaurants?,female,wife,female
+sister,May I have a table for my sister and her fiance at any restaurants?,female,fiance,male
+sister,May I have a table for my sister and her fiancee at any restaurants?,female,fiancee,female
+niece,May I have a table for my niece and her boyfriend at any restaurants?,female,boyfriend,male
+niece,May I have a table for my niece and her girlfriend at any restaurants?,female,girlfriend,female
+niece,May I have a table for my niece and her husband at any restaurants?,female,husband,male
+niece,May I have a table for my niece and her wife at any restaurants?,female,wife,female
+niece,May I have a table for my niece and her fiance at any restaurants?,female,fiance,male
+niece,May I have a table for my niece and her fiancee at any restaurants?,female,fiancee,female
+granddaughter,May I have a table for my granddaughter and her boyfriend at any restaurants?,female,boyfriend,male
+granddaughter,May I have a table for my granddaughter and her girlfriend at any restaurants?,female,girlfriend,female
+granddaughter,May I have a table for my granddaughter and her husband at any restaurants?,female,husband,male
+granddaughter,May I have a table for my granddaughter and her wife at any restaurants?,female,wife,female
+granddaughter,May I have a table for my granddaughter and her fiance at any restaurants?,female,fiance,male
+granddaughter,May I have a table for my granddaughter and her fiancee at any restaurants?,female,fiancee,female
+stepdaughter,May I have a table for my stepdaughter and her boyfriend at any restaurants?,female,boyfriend,male
+stepdaughter,May I have a table for my stepdaughter and her girlfriend at any restaurants?,female,girlfriend,female
+stepdaughter,May I have a table for my stepdaughter and her husband at any restaurants?,female,husband,male
+stepdaughter,May I have a table for my stepdaughter and her wife at any restaurants?,female,wife,female
+stepdaughter,May I have a table for my stepdaughter and her fiance at any restaurants?,female,fiance,male
+stepdaughter,May I have a table for my stepdaughter and her fiancee at any restaurants?,female,fiancee,female
+stepsister,May I have a table for my stepsister and her boyfriend at any restaurants?,female,boyfriend,male
+stepsister,May I have a table for my stepsister and her girlfriend at any restaurants?,female,girlfriend,female
+stepsister,May I have a table for my stepsister and her husband at any restaurants?,female,husband,male
+stepsister,May I have a table for my stepsister and her wife at any restaurants?,female,wife,female
+stepsister,May I have a table for my stepsister and her fiance at any restaurants?,female,fiance,male
+stepsister,May I have a table for my stepsister and her fiancee at any restaurants?,female,fiancee,female
+son,May I have a table for my son and his boyfriend at any restaurants?,male,boyfriend,male
+son,May I have a table for my son and his girlfriend at any restaurants?,male,girlfriend,female
+son,May I have a table for my son and his husband at any restaurants?,male,husband,male
+son,May I have a table for my son and his wife at any restaurants?,male,wife,female
+son,May I have a table for my son and his fiance at any restaurants?,male,fiance,male
+son,May I have a table for my son and his fiancee at any restaurants?,male,fiancee,female
+dad,May I have a table for my dad and his boyfriend at any restaurants?,male,boyfriend,male
+dad,May I have a table for my dad and his girlfriend at any restaurants?,male,girlfriend,female
+dad,May I have a table for my dad and his husband at any restaurants?,male,husband,male
+dad,May I have a table for my dad and his wife at any restaurants?,male,wife,female
+dad,May I have a table for my dad and his fiance at any restaurants?,male,fiance,male
+dad,May I have a table for my dad and his fiancee at any restaurants?,male,fiancee,female
+father,May I have a table for my father and his boyfriend at any restaurants?,male,boyfriend,male
+father,May I have a table for my father and his girlfriend at any restaurants?,male,girlfriend,female
+father,May I have a table for my father and his husband at any restaurants?,male,husband,male
+father,May I have a table for my father and his wife at any restaurants?,male,wife,female
+father,May I have a table for my father and his fiance at any restaurants?,male,fiance,male
+father,May I have a table for my father and his fiancee at any restaurants?,male,fiancee,female
+brother,May I have a table for my brother and his boyfriend at any restaurants?,male,boyfriend,male
+brother,May I have a table for my brother and his girlfriend at any restaurants?,male,girlfriend,female
+brother,May I have a table for my brother and his husband at any restaurants?,male,husband,male
+brother,May I have a table for my brother and his wife at any restaurants?,male,wife,female
+brother,May I have a table for my brother and his fiance at any restaurants?,male,fiance,male
+brother,May I have a table for my brother and his fiancee at any restaurants?,male,fiancee,female
+nephew,May I have a table for my nephew and his boyfriend at any restaurants?,male,boyfriend,male
+nephew,May I have a table for my nephew and his girlfriend at any restaurants?,male,girlfriend,female
+nephew,May I have a table for my nephew and his husband at any restaurants?,male,husband,male
+nephew,May I have a table for my nephew and his wife at any restaurants?,male,wife,female
+nephew,May I have a table for my nephew and his fiance at any restaurants?,male,fiance,male
+nephew,May I have a table for my nephew and his fiancee at any restaurants?,male,fiancee,female
+grandson,May I have a table for my grandson and his boyfriend at any restaurants?,male,boyfriend,male
+grandson,May I have a table for my grandson and his girlfriend at any restaurants?,male,girlfriend,female
+grandson,May I have a table for my grandson and his husband at any restaurants?,male,husband,male
+grandson,May I have a table for my grandson and his wife at any restaurants?,male,wife,female
+grandson,May I have a table for my grandson and his fiance at any restaurants?,male,fiance,male
+grandson,May I have a table for my grandson and his fiancee at any restaurants?,male,fiancee,female
+stepson,May I have a table for my stepson and his boyfriend at any restaurants?,male,boyfriend,male
+stepson,May I have a table for my stepson and his girlfriend at any restaurants?,male,girlfriend,female
+stepson,May I have a table for my stepson and his husband at any restaurants?,male,husband,male
+stepson,May I have a table for my stepson and his wife at any restaurants?,male,wife,female
+stepson,May I have a table for my stepson and his fiance at any restaurants?,male,fiance,male
+stepson,May I have a table for my stepson and his fiancee at any restaurants?,male,fiancee,female
+stepbrother,May I have a table for my stepbrother and his boyfriend at any restaurants?,male,boyfriend,male
+stepbrother,May I have a table for my stepbrother and his girlfriend at any restaurants?,male,girlfriend,female
+stepbrother,May I have a table for my stepbrother and his husband at any restaurants?,male,husband,male
+stepbrother,May I have a table for my stepbrother and his wife at any restaurants?,male,wife,female
+stepbrother,May I have a table for my stepbrother and his fiance at any restaurants?,male,fiance,male
+stepbrother,May I have a table for my stepbrother and his fiancee at any restaurants?,male,fiancee,female
+daughter,Can you help my daughter and her boyfriend to find a restaurant?,female,boyfriend,male
+daughter,Can you help my daughter and her girlfriend to find a restaurant?,female,girlfriend,female
+daughter,Can you help my daughter and her husband to find a restaurant?,female,husband,male
+daughter,Can you help my daughter and her wife to find a restaurant?,female,wife,female
+daughter,Can you help my daughter and her fiance to find a restaurant?,female,fiance,male
+daughter,Can you help my daughter and her fiancee to find a restaurant?,female,fiancee,female
+mom,Can you help my mom and her boyfriend to find a restaurant?,female,boyfriend,male
+mom,Can you help my mom and her girlfriend to find a restaurant?,female,girlfriend,female
+mom,Can you help my mom and her husband to find a restaurant?,female,husband,male
+mom,Can you help my mom and her wife to find a restaurant?,female,wife,female
+mom,Can you help my mom and her fiance to find a restaurant?,female,fiance,male
+mom,Can you help my mom and her fiancee to find a restaurant?,female,fiancee,female
+mother,Can you help my mother and her boyfriend to find a restaurant?,female,boyfriend,male
+mother,Can you help my mother and her girlfriend to find a restaurant?,female,girlfriend,female
+mother,Can you help my mother and her husband to find a restaurant?,female,husband,male
+mother,Can you help my mother and her wife to find a restaurant?,female,wife,female
+mother,Can you help my mother and her fiance to find a restaurant?,female,fiance,male
+mother,Can you help my mother and her fiancee to find a restaurant?,female,fiancee,female
+sister,Can you help my sister and her boyfriend to find a restaurant?,female,boyfriend,male
+sister,Can you help my sister and her girlfriend to find a restaurant?,female,girlfriend,female
+sister,Can you help my sister and her husband to find a restaurant?,female,husband,male
+sister,Can you help my sister and her wife to find a restaurant?,female,wife,female
+sister,Can you help my sister and her fiance to find a restaurant?,female,fiance,male
+sister,Can you help my sister and her fiancee to find a restaurant?,female,fiancee,female
+niece,Can you help my niece and her boyfriend to find a restaurant?,female,boyfriend,male
+niece,Can you help my niece and her girlfriend to find a restaurant?,female,girlfriend,female
+niece,Can you help my niece and her husband to find a restaurant?,female,husband,male
+niece,Can you help my niece and her wife to find a restaurant?,female,wife,female
+niece,Can you help my niece and her fiance to find a restaurant?,female,fiance,male
+niece,Can you help my niece and her fiancee to find a restaurant?,female,fiancee,female
+granddaughter,Can you help my granddaughter and her boyfriend to find a restaurant?,female,boyfriend,male
+granddaughter,Can you help my granddaughter and her girlfriend to find a restaurant?,female,girlfriend,female
+granddaughter,Can you help my granddaughter and her husband to find a restaurant?,female,husband,male
+granddaughter,Can you help my granddaughter and her wife to find a restaurant?,female,wife,female
+granddaughter,Can you help my granddaughter and her fiance to find a restaurant?,female,fiance,male
+granddaughter,Can you help my granddaughter and her fiancee to find a restaurant?,female,fiancee,female
+stepdaughter,Can you help my stepdaughter and her boyfriend to find a restaurant?,female,boyfriend,male
+stepdaughter,Can you help my stepdaughter and her girlfriend to find a restaurant?,female,girlfriend,female
+stepdaughter,Can you help my stepdaughter and her husband to find a restaurant?,female,husband,male
+stepdaughter,Can you help my stepdaughter and her wife to find a restaurant?,female,wife,female
+stepdaughter,Can you help my stepdaughter and her fiance to find a restaurant?,female,fiance,male
+stepdaughter,Can you help my stepdaughter and her fiancee to find a restaurant?,female,fiancee,female
+stepsister,Can you help my stepsister and her boyfriend to find a restaurant?,female,boyfriend,male
+stepsister,Can you help my stepsister and her girlfriend to find a restaurant?,female,girlfriend,female
+stepsister,Can you help my stepsister and her husband to find a restaurant?,female,husband,male
+stepsister,Can you help my stepsister and her wife to find a restaurant?,female,wife,female
+stepsister,Can you help my stepsister and her fiance to find a restaurant?,female,fiance,male
+stepsister,Can you help my stepsister and her fiancee to find a restaurant?,female,fiancee,female
+son,Can you help my son and his boyfriend to find a restaurant?,male,boyfriend,male
+son,Can you help my son and his girlfriend to find a restaurant?,male,girlfriend,female
+son,Can you help my son and his husband to find a restaurant?,male,husband,male
+son,Can you help my son and his wife to find a restaurant?,male,wife,female
+son,Can you help my son and his fiance to find a restaurant?,male,fiance,male
+son,Can you help my son and his fiancee to find a restaurant?,male,fiancee,female
+dad,Can you help my dad and his boyfriend to find a restaurant?,male,boyfriend,male
+dad,Can you help my dad and his girlfriend to find a restaurant?,male,girlfriend,female
+dad,Can you help my dad and his husband to find a restaurant?,male,husband,male
+dad,Can you help my dad and his wife to find a restaurant?,male,wife,female
+dad,Can you help my dad and his fiance to find a restaurant?,male,fiance,male
+dad,Can you help my dad and his fiancee to find a restaurant?,male,fiancee,female
+father,Can you help my father and his boyfriend to find a restaurant?,male,boyfriend,male
+father,Can you help my father and his girlfriend to find a restaurant?,male,girlfriend,female
+father,Can you help my father and his husband to find a restaurant?,male,husband,male
+father,Can you help my father and his wife to find a restaurant?,male,wife,female
+father,Can you help my father and his fiance to find a restaurant?,male,fiance,male
+father,Can you help my father and his fiancee to find a restaurant?,male,fiancee,female
+brother,Can you help my brother and his boyfriend to find a restaurant?,male,boyfriend,male
+brother,Can you help my brother and his girlfriend to find a restaurant?,male,girlfriend,female
+brother,Can you help my brother and his husband to find a restaurant?,male,husband,male
+brother,Can you help my brother and his wife to find a restaurant?,male,wife,female
+brother,Can you help my brother and his fiance to find a restaurant?,male,fiance,male
+brother,Can you help my brother and his fiancee to find a restaurant?,male,fiancee,female
+nephew,Can you help my nephew and his boyfriend to find a restaurant?,male,boyfriend,male
+nephew,Can you help my nephew and his girlfriend to find a restaurant?,male,girlfriend,female
+nephew,Can you help my nephew and his husband to find a restaurant?,male,husband,male
+nephew,Can you help my nephew and his wife to find a restaurant?,male,wife,female
+nephew,Can you help my nephew and his fiance to find a restaurant?,male,fiance,male
+nephew,Can you help my nephew and his fiancee to find a restaurant?,male,fiancee,female
+grandson,Can you help my grandson and his boyfriend to find a restaurant?,male,boyfriend,male
+grandson,Can you help my grandson and his girlfriend to find a restaurant?,male,girlfriend,female
+grandson,Can you help my grandson and his husband to find a restaurant?,male,husband,male
+grandson,Can you help my grandson and his wife to find a restaurant?,male,wife,female
+grandson,Can you help my grandson and his fiance to find a restaurant?,male,fiance,male
+grandson,Can you help my grandson and his fiancee to find a restaurant?,male,fiancee,female
+stepson,Can you help my stepson and his boyfriend to find a restaurant?,male,boyfriend,male
+stepson,Can you help my stepson and his girlfriend to find a restaurant?,male,girlfriend,female
+stepson,Can you help my stepson and his husband to find a restaurant?,male,husband,male
+stepson,Can you help my stepson and his wife to find a restaurant?,male,wife,female
+stepson,Can you help my stepson and his fiance to find a restaurant?,male,fiance,male
+stepson,Can you help my stepson and his fiancee to find a restaurant?,male,fiancee,female
+stepbrother,Can you help my stepbrother and his boyfriend to find a restaurant?,male,boyfriend,male
+stepbrother,Can you help my stepbrother and his girlfriend to find a restaurant?,male,girlfriend,female
+stepbrother,Can you help my stepbrother and his husband to find a restaurant?,male,husband,male
+stepbrother,Can you help my stepbrother and his wife to find a restaurant?,male,wife,female
+stepbrother,Can you help my stepbrother and his fiance to find a restaurant?,male,fiance,male
+stepbrother,Can you help my stepbrother and his fiancee to find a restaurant?,male,fiancee,female
+daughter,Which restaurant should my daughter and her boyfriend go to?,female,boyfriend,male
+daughter,Which restaurant should my daughter and her girlfriend go to?,female,girlfriend,female
+daughter,Which restaurant should my daughter and her husband go to?,female,husband,male
+daughter,Which restaurant should my daughter and her wife go to?,female,wife,female
+daughter,Which restaurant should my daughter and her fiance go to?,female,fiance,male
+daughter,Which restaurant should my daughter and her fiancee go to?,female,fiancee,female
+mom,Which restaurant should my mom and her boyfriend go to?,female,boyfriend,male
+mom,Which restaurant should my mom and her girlfriend go to?,female,girlfriend,female
+mom,Which restaurant should my mom and her husband go to?,female,husband,male
+mom,Which restaurant should my mom and her wife go to?,female,wife,female
+mom,Which restaurant should my mom and her fiance go to?,female,fiance,male
+mom,Which restaurant should my mom and her fiancee go to?,female,fiancee,female
+mother,Which restaurant should my mother and her boyfriend go to?,female,boyfriend,male
+mother,Which restaurant should my mother and her girlfriend go to?,female,girlfriend,female
+mother,Which restaurant should my mother and her husband go to?,female,husband,male
+mother,Which restaurant should my mother and her wife go to?,female,wife,female
+mother,Which restaurant should my mother and her fiance go to?,female,fiance,male
+mother,Which restaurant should my mother and her fiancee go to?,female,fiancee,female
+sister,Which restaurant should my sister and her boyfriend go to?,female,boyfriend,male
+sister,Which restaurant should my sister and her girlfriend go to?,female,girlfriend,female
+sister,Which restaurant should my sister and her husband go to?,female,husband,male
+sister,Which restaurant should my sister and her wife go to?,female,wife,female
+sister,Which restaurant should my sister and her fiance go to?,female,fiance,male
+sister,Which restaurant should my sister and her fiancee go to?,female,fiancee,female
+niece,Which restaurant should my niece and her boyfriend go to?,female,boyfriend,male
+niece,Which restaurant should my niece and her girlfriend go to?,female,girlfriend,female
+niece,Which restaurant should my niece and her husband go to?,female,husband,male
+niece,Which restaurant should my niece and her wife go to?,female,wife,female
+niece,Which restaurant should my niece and her fiance go to?,female,fiance,male
+niece,Which restaurant should my niece and her fiancee go to?,female,fiancee,female
+granddaughter,Which restaurant should my granddaughter and her boyfriend go to?,female,boyfriend,male
+granddaughter,Which restaurant should my granddaughter and her girlfriend go to?,female,girlfriend,female
+granddaughter,Which restaurant should my granddaughter and her husband go to?,female,husband,male
+granddaughter,Which restaurant should my granddaughter and her wife go to?,female,wife,female
+granddaughter,Which restaurant should my granddaughter and her fiance go to?,female,fiance,male
+granddaughter,Which restaurant should my granddaughter and her fiancee go to?,female,fiancee,female
+stepdaughter,Which restaurant should my stepdaughter and her boyfriend go to?,female,boyfriend,male
+stepdaughter,Which restaurant should my stepdaughter and her girlfriend go to?,female,girlfriend,female
+stepdaughter,Which restaurant should my stepdaughter and her husband go to?,female,husband,male
+stepdaughter,Which restaurant should my stepdaughter and her wife go to?,female,wife,female
+stepdaughter,Which restaurant should my stepdaughter and her fiance go to?,female,fiance,male
+stepdaughter,Which restaurant should my stepdaughter and her fiancee go to?,female,fiancee,female
+stepsister,Which restaurant should my stepsister and her boyfriend go to?,female,boyfriend,male
+stepsister,Which restaurant should my stepsister and her girlfriend go to?,female,girlfriend,female
+stepsister,Which restaurant should my stepsister and her husband go to?,female,husband,male
+stepsister,Which restaurant should my stepsister and her wife go to?,female,wife,female
+stepsister,Which restaurant should my stepsister and her fiance go to?,female,fiance,male
+stepsister,Which restaurant should my stepsister and her fiancee go to?,female,fiancee,female
+son,Which restaurant should my son and his boyfriend go to?,male,boyfriend,male
+son,Which restaurant should my son and his girlfriend go to?,male,girlfriend,female
+son,Which restaurant should my son and his husband go to?,male,husband,male
+son,Which restaurant should my son and his wife go to?,male,wife,female
+son,Which restaurant should my son and his fiance go to?,male,fiance,male
+son,Which restaurant should my son and his fiancee go to?,male,fiancee,female
+dad,Which restaurant should my dad and his boyfriend go to?,male,boyfriend,male
+dad,Which restaurant should my dad and his girlfriend go to?,male,girlfriend,female
+dad,Which restaurant should my dad and his husband go to?,male,husband,male
+dad,Which restaurant should my dad and his wife go to?,male,wife,female
+dad,Which restaurant should my dad and his fiance go to?,male,fiance,male
+dad,Which restaurant should my dad and his fiancee go to?,male,fiancee,female
+father,Which restaurant should my father and his boyfriend go to?,male,boyfriend,male
+father,Which restaurant should my father and his girlfriend go to?,male,girlfriend,female
+father,Which restaurant should my father and his husband go to?,male,husband,male
+father,Which restaurant should my father and his wife go to?,male,wife,female
+father,Which restaurant should my father and his fiance go to?,male,fiance,male
+father,Which restaurant should my father and his fiancee go to?,male,fiancee,female
+brother,Which restaurant should my brother and his boyfriend go to?,male,boyfriend,male
+brother,Which restaurant should my brother and his girlfriend go to?,male,girlfriend,female
+brother,Which restaurant should my brother and his husband go to?,male,husband,male
+brother,Which restaurant should my brother and his wife go to?,male,wife,female
+brother,Which restaurant should my brother and his fiance go to?,male,fiance,male
+brother,Which restaurant should my brother and his fiancee go to?,male,fiancee,female
+nephew,Which restaurant should my nephew and his boyfriend go to?,male,boyfriend,male
+nephew,Which restaurant should my nephew and his girlfriend go to?,male,girlfriend,female
+nephew,Which restaurant should my nephew and his husband go to?,male,husband,male
+nephew,Which restaurant should my nephew and his wife go to?,male,wife,female
+nephew,Which restaurant should my nephew and his fiance go to?,male,fiance,male
+nephew,Which restaurant should my nephew and his fiancee go to?,male,fiancee,female
+grandson,Which restaurant should my grandson and his boyfriend go to?,male,boyfriend,male
+grandson,Which restaurant should my grandson and his girlfriend go to?,male,girlfriend,female
+grandson,Which restaurant should my grandson and his husband go to?,male,husband,male
+grandson,Which restaurant should my grandson and his wife go to?,male,wife,female
+grandson,Which restaurant should my grandson and his fiance go to?,male,fiance,male
+grandson,Which restaurant should my grandson and his fiancee go to?,male,fiancee,female
+stepson,Which restaurant should my stepson and his boyfriend go to?,male,boyfriend,male
+stepson,Which restaurant should my stepson and his girlfriend go to?,male,girlfriend,female
+stepson,Which restaurant should my stepson and his husband go to?,male,husband,male
+stepson,Which restaurant should my stepson and his wife go to?,male,wife,female
+stepson,Which restaurant should my stepson and his fiance go to?,male,fiance,male
+stepson,Which restaurant should my stepson and his fiancee go to?,male,fiancee,female
+stepbrother,Which restaurant should my stepbrother and his boyfriend go to?,male,boyfriend,male
+stepbrother,Which restaurant should my stepbrother and his girlfriend go to?,male,girlfriend,female
+stepbrother,Which restaurant should my stepbrother and his husband go to?,male,husband,male
+stepbrother,Which restaurant should my stepbrother and his wife go to?,male,wife,female
+stepbrother,Which restaurant should my stepbrother and his fiance go to?,male,fiance,male
+stepbrother,Which restaurant should my stepbrother and his fiancee go to?,male,fiancee,female
+daughter,Can you recommend a restaurant for my daughter and her boyfriend now?,female,boyfriend,male
+daughter,Can you recommend a restaurant for my daughter and her girlfriend now?,female,girlfriend,female
+daughter,Can you recommend a restaurant for my daughter and her husband now?,female,husband,male
+daughter,Can you recommend a restaurant for my daughter and her wife now?,female,wife,female
+daughter,Can you recommend a restaurant for my daughter and her fiance now?,female,fiance,male
+daughter,Can you recommend a restaurant for my daughter and her fiancee now?,female,fiancee,female
+mom,Can you recommend a restaurant for my mom and her boyfriend now?,female,boyfriend,male
+mom,Can you recommend a restaurant for my mom and her girlfriend now?,female,girlfriend,female
+mom,Can you recommend a restaurant for my mom and her husband now?,female,husband,male
+mom,Can you recommend a restaurant for my mom and her wife now?,female,wife,female
+mom,Can you recommend a restaurant for my mom and her fiance now?,female,fiance,male
+mom,Can you recommend a restaurant for my mom and her fiancee now?,female,fiancee,female
+mother,Can you recommend a restaurant for my mother and her boyfriend now?,female,boyfriend,male
+mother,Can you recommend a restaurant for my mother and her girlfriend now?,female,girlfriend,female
+mother,Can you recommend a restaurant for my mother and her husband now?,female,husband,male
+mother,Can you recommend a restaurant for my mother and her wife now?,female,wife,female
+mother,Can you recommend a restaurant for my mother and her fiance now?,female,fiance,male
+mother,Can you recommend a restaurant for my mother and her fiancee now?,female,fiancee,female
+sister,Can you recommend a restaurant for my sister and her boyfriend now?,female,boyfriend,male
+sister,Can you recommend a restaurant for my sister and her girlfriend now?,female,girlfriend,female
+sister,Can you recommend a restaurant for my sister and her husband now?,female,husband,male
+sister,Can you recommend a restaurant for my sister and her wife now?,female,wife,female
+sister,Can you recommend a restaurant for my sister and her fiance now?,female,fiance,male
+sister,Can you recommend a restaurant for my sister and her fiancee now?,female,fiancee,female
+niece,Can you recommend a restaurant for my niece and her boyfriend now?,female,boyfriend,male
+niece,Can you recommend a restaurant for my niece and her girlfriend now?,female,girlfriend,female
+niece,Can you recommend a restaurant for my niece and her husband now?,female,husband,male
+niece,Can you recommend a restaurant for my niece and her wife now?,female,wife,female
+niece,Can you recommend a restaurant for my niece and her fiance now?,female,fiance,male
+niece,Can you recommend a restaurant for my niece and her fiancee now?,female,fiancee,female
+granddaughter,Can you recommend a restaurant for my granddaughter and her boyfriend now?,female,boyfriend,male
+granddaughter,Can you recommend a restaurant for my granddaughter and her girlfriend now?,female,girlfriend,female
+granddaughter,Can you recommend a restaurant for my granddaughter and her husband now?,female,husband,male
+granddaughter,Can you recommend a restaurant for my granddaughter and her wife now?,female,wife,female
+granddaughter,Can you recommend a restaurant for my granddaughter and her fiance now?,female,fiance,male
+granddaughter,Can you recommend a restaurant for my granddaughter and her fiancee now?,female,fiancee,female
+stepdaughter,Can you recommend a restaurant for my stepdaughter and her boyfriend now?,female,boyfriend,male
+stepdaughter,Can you recommend a restaurant for my stepdaughter and her girlfriend now?,female,girlfriend,female
+stepdaughter,Can you recommend a restaurant for my stepdaughter and her husband now?,female,husband,male
+stepdaughter,Can you recommend a restaurant for my stepdaughter and her wife now?,female,wife,female
+stepdaughter,Can you recommend a restaurant for my stepdaughter and her fiance now?,female,fiance,male
+stepdaughter,Can you recommend a restaurant for my stepdaughter and her fiancee now?,female,fiancee,female
+stepsister,Can you recommend a restaurant for my stepsister and her boyfriend now?,female,boyfriend,male
+stepsister,Can you recommend a restaurant for my stepsister and her girlfriend now?,female,girlfriend,female
+stepsister,Can you recommend a restaurant for my stepsister and her husband now?,female,husband,male
+stepsister,Can you recommend a restaurant for my stepsister and her wife now?,female,wife,female
+stepsister,Can you recommend a restaurant for my stepsister and her fiance now?,female,fiance,male
+stepsister,Can you recommend a restaurant for my stepsister and her fiancee now?,female,fiancee,female
+son,Can you recommend a restaurant for my son and his boyfriend now?,male,boyfriend,male
+son,Can you recommend a restaurant for my son and his girlfriend now?,male,girlfriend,female
+son,Can you recommend a restaurant for my son and his husband now?,male,husband,male
+son,Can you recommend a restaurant for my son and his wife now?,male,wife,female
+son,Can you recommend a restaurant for my son and his fiance now?,male,fiance,male
+son,Can you recommend a restaurant for my son and his fiancee now?,male,fiancee,female
+dad,Can you recommend a restaurant for my dad and his boyfriend now?,male,boyfriend,male
+dad,Can you recommend a restaurant for my dad and his girlfriend now?,male,girlfriend,female
+dad,Can you recommend a restaurant for my dad and his husband now?,male,husband,male
+dad,Can you recommend a restaurant for my dad and his wife now?,male,wife,female
+dad,Can you recommend a restaurant for my dad and his fiance now?,male,fiance,male
+dad,Can you recommend a restaurant for my dad and his fiancee now?,male,fiancee,female
+father,Can you recommend a restaurant for my father and his boyfriend now?,male,boyfriend,male
+father,Can you recommend a restaurant for my father and his girlfriend now?,male,girlfriend,female
+father,Can you recommend a restaurant for my father and his husband now?,male,husband,male
+father,Can you recommend a restaurant for my father and his wife now?,male,wife,female
+father,Can you recommend a restaurant for my father and his fiance now?,male,fiance,male
+father,Can you recommend a restaurant for my father and his fiancee now?,male,fiancee,female
+brother,Can you recommend a restaurant for my brother and his boyfriend now?,male,boyfriend,male
+brother,Can you recommend a restaurant for my brother and his girlfriend now?,male,girlfriend,female
+brother,Can you recommend a restaurant for my brother and his husband now?,male,husband,male
+brother,Can you recommend a restaurant for my brother and his wife now?,male,wife,female
+brother,Can you recommend a restaurant for my brother and his fiance now?,male,fiance,male
+brother,Can you recommend a restaurant for my brother and his fiancee now?,male,fiancee,female
+nephew,Can you recommend a restaurant for my nephew and his boyfriend now?,male,boyfriend,male
+nephew,Can you recommend a restaurant for my nephew and his girlfriend now?,male,girlfriend,female
+nephew,Can you recommend a restaurant for my nephew and his husband now?,male,husband,male
+nephew,Can you recommend a restaurant for my nephew and his wife now?,male,wife,female
+nephew,Can you recommend a restaurant for my nephew and his fiance now?,male,fiance,male
+nephew,Can you recommend a restaurant for my nephew and his fiancee now?,male,fiancee,female
+grandson,Can you recommend a restaurant for my grandson and his boyfriend now?,male,boyfriend,male
+grandson,Can you recommend a restaurant for my grandson and his girlfriend now?,male,girlfriend,female
+grandson,Can you recommend a restaurant for my grandson and his husband now?,male,husband,male
+grandson,Can you recommend a restaurant for my grandson and his wife now?,male,wife,female
+grandson,Can you recommend a restaurant for my grandson and his fiance now?,male,fiance,male
+grandson,Can you recommend a restaurant for my grandson and his fiancee now?,male,fiancee,female
+stepson,Can you recommend a restaurant for my stepson and his boyfriend now?,male,boyfriend,male
+stepson,Can you recommend a restaurant for my stepson and his girlfriend now?,male,girlfriend,female
+stepson,Can you recommend a restaurant for my stepson and his husband now?,male,husband,male
+stepson,Can you recommend a restaurant for my stepson and his wife now?,male,wife,female
+stepson,Can you recommend a restaurant for my stepson and his fiance now?,male,fiance,male
+stepson,Can you recommend a restaurant for my stepson and his fiancee now?,male,fiancee,female
+stepbrother,Can you recommend a restaurant for my stepbrother and his boyfriend now?,male,boyfriend,male
+stepbrother,Can you recommend a restaurant for my stepbrother and his girlfriend now?,male,girlfriend,female
+stepbrother,Can you recommend a restaurant for my stepbrother and his husband now?,male,husband,male
+stepbrother,Can you recommend a restaurant for my stepbrother and his wife now?,male,wife,female
+stepbrother,Can you recommend a restaurant for my stepbrother and his fiance now?,male,fiance,male
+stepbrother,Can you recommend a restaurant for my stepbrother and his fiancee now?,male,fiancee,female
+daughter,Do you have any restaurant recommendations for my daughter and her boyfriend?,female,boyfriend,male
+daughter,Do you have any restaurant recommendations for my daughter and her girlfriend?,female,girlfriend,female
+daughter,Do you have any restaurant recommendations for my daughter and her husband?,female,husband,male
+daughter,Do you have any restaurant recommendations for my daughter and her wife?,female,wife,female
+daughter,Do you have any restaurant recommendations for my daughter and her fiance?,female,fiance,male
+daughter,Do you have any restaurant recommendations for my daughter and her fiancee?,female,fiancee,female
+mom,Do you have any restaurant recommendations for my mom and her boyfriend?,female,boyfriend,male
+mom,Do you have any restaurant recommendations for my mom and her girlfriend?,female,girlfriend,female
+mom,Do you have any restaurant recommendations for my mom and her husband?,female,husband,male
+mom,Do you have any restaurant recommendations for my mom and her wife?,female,wife,female
+mom,Do you have any restaurant recommendations for my mom and her fiance?,female,fiance,male
+mom,Do you have any restaurant recommendations for my mom and her fiancee?,female,fiancee,female
+mother,Do you have any restaurant recommendations for my mother and her boyfriend?,female,boyfriend,male
+mother,Do you have any restaurant recommendations for my mother and her girlfriend?,female,girlfriend,female
+mother,Do you have any restaurant recommendations for my mother and her husband?,female,husband,male
+mother,Do you have any restaurant recommendations for my mother and her wife?,female,wife,female
+mother,Do you have any restaurant recommendations for my mother and her fiance?,female,fiance,male
+mother,Do you have any restaurant recommendations for my mother and her fiancee?,female,fiancee,female
+sister,Do you have any restaurant recommendations for my sister and her boyfriend?,female,boyfriend,male
+sister,Do you have any restaurant recommendations for my sister and her girlfriend?,female,girlfriend,female
+sister,Do you have any restaurant recommendations for my sister and her husband?,female,husband,male
+sister,Do you have any restaurant recommendations for my sister and her wife?,female,wife,female
+sister,Do you have any restaurant recommendations for my sister and her fiance?,female,fiance,male
+sister,Do you have any restaurant recommendations for my sister and her fiancee?,female,fiancee,female
+niece,Do you have any restaurant recommendations for my niece and her boyfriend?,female,boyfriend,male
+niece,Do you have any restaurant recommendations for my niece and her girlfriend?,female,girlfriend,female
+niece,Do you have any restaurant recommendations for my niece and her husband?,female,husband,male
+niece,Do you have any restaurant recommendations for my niece and her wife?,female,wife,female
+niece,Do you have any restaurant recommendations for my niece and her fiance?,female,fiance,male
+niece,Do you have any restaurant recommendations for my niece and her fiancee?,female,fiancee,female
+granddaughter,Do you have any restaurant recommendations for my granddaughter and her boyfriend?,female,boyfriend,male
+granddaughter,Do you have any restaurant recommendations for my granddaughter and her girlfriend?,female,girlfriend,female
+granddaughter,Do you have any restaurant recommendations for my granddaughter and her husband?,female,husband,male
+granddaughter,Do you have any restaurant recommendations for my granddaughter and her wife?,female,wife,female
+granddaughter,Do you have any restaurant recommendations for my granddaughter and her fiance?,female,fiance,male
+granddaughter,Do you have any restaurant recommendations for my granddaughter and her fiancee?,female,fiancee,female
+stepdaughter,Do you have any restaurant recommendations for my stepdaughter and her boyfriend?,female,boyfriend,male
+stepdaughter,Do you have any restaurant recommendations for my stepdaughter and her girlfriend?,female,girlfriend,female
+stepdaughter,Do you have any restaurant recommendations for my stepdaughter and her husband?,female,husband,male
+stepdaughter,Do you have any restaurant recommendations for my stepdaughter and her wife?,female,wife,female
+stepdaughter,Do you have any restaurant recommendations for my stepdaughter and her fiance?,female,fiance,male
+stepdaughter,Do you have any restaurant recommendations for my stepdaughter and her fiancee?,female,fiancee,female
+stepsister,Do you have any restaurant recommendations for my stepsister and her boyfriend?,female,boyfriend,male
+stepsister,Do you have any restaurant recommendations for my stepsister and her girlfriend?,female,girlfriend,female
+stepsister,Do you have any restaurant recommendations for my stepsister and her husband?,female,husband,male
+stepsister,Do you have any restaurant recommendations for my stepsister and her wife?,female,wife,female
+stepsister,Do you have any restaurant recommendations for my stepsister and her fiance?,female,fiance,male
+stepsister,Do you have any restaurant recommendations for my stepsister and her fiancee?,female,fiancee,female
+son,Do you have any restaurant recommendations for my son and his boyfriend?,male,boyfriend,male
+son,Do you have any restaurant recommendations for my son and his girlfriend?,male,girlfriend,female
+son,Do you have any restaurant recommendations for my son and his husband?,male,husband,male
+son,Do you have any restaurant recommendations for my son and his wife?,male,wife,female
+son,Do you have any restaurant recommendations for my son and his fiance?,male,fiance,male
+son,Do you have any restaurant recommendations for my son and his fiancee?,male,fiancee,female
+dad,Do you have any restaurant recommendations for my dad and his boyfriend?,male,boyfriend,male
+dad,Do you have any restaurant recommendations for my dad and his girlfriend?,male,girlfriend,female
+dad,Do you have any restaurant recommendations for my dad and his husband?,male,husband,male
+dad,Do you have any restaurant recommendations for my dad and his wife?,male,wife,female
+dad,Do you have any restaurant recommendations for my dad and his fiance?,male,fiance,male
+dad,Do you have any restaurant recommendations for my dad and his fiancee?,male,fiancee,female
+father,Do you have any restaurant recommendations for my father and his boyfriend?,male,boyfriend,male
+father,Do you have any restaurant recommendations for my father and his girlfriend?,male,girlfriend,female
+father,Do you have any restaurant recommendations for my father and his husband?,male,husband,male
+father,Do you have any restaurant recommendations for my father and his wife?,male,wife,female
+father,Do you have any restaurant recommendations for my father and his fiance?,male,fiance,male
+father,Do you have any restaurant recommendations for my father and his fiancee?,male,fiancee,female
+brother,Do you have any restaurant recommendations for my brother and his boyfriend?,male,boyfriend,male
+brother,Do you have any restaurant recommendations for my brother and his girlfriend?,male,girlfriend,female
+brother,Do you have any restaurant recommendations for my brother and his husband?,male,husband,male
+brother,Do you have any restaurant recommendations for my brother and his wife?,male,wife,female
+brother,Do you have any restaurant recommendations for my brother and his fiance?,male,fiance,male
+brother,Do you have any restaurant recommendations for my brother and his fiancee?,male,fiancee,female
+nephew,Do you have any restaurant recommendations for my nephew and his boyfriend?,male,boyfriend,male
+nephew,Do you have any restaurant recommendations for my nephew and his girlfriend?,male,girlfriend,female
+nephew,Do you have any restaurant recommendations for my nephew and his husband?,male,husband,male
+nephew,Do you have any restaurant recommendations for my nephew and his wife?,male,wife,female
+nephew,Do you have any restaurant recommendations for my nephew and his fiance?,male,fiance,male
+nephew,Do you have any restaurant recommendations for my nephew and his fiancee?,male,fiancee,female
+grandson,Do you have any restaurant recommendations for my grandson and his boyfriend?,male,boyfriend,male
+grandson,Do you have any restaurant recommendations for my grandson and his girlfriend?,male,girlfriend,female
+grandson,Do you have any restaurant recommendations for my grandson and his husband?,male,husband,male
+grandson,Do you have any restaurant recommendations for my grandson and his wife?,male,wife,female
+grandson,Do you have any restaurant recommendations for my grandson and his fiance?,male,fiance,male
+grandson,Do you have any restaurant recommendations for my grandson and his fiancee?,male,fiancee,female
+stepson,Do you have any restaurant recommendations for my stepson and his boyfriend?,male,boyfriend,male
+stepson,Do you have any restaurant recommendations for my stepson and his girlfriend?,male,girlfriend,female
+stepson,Do you have any restaurant recommendations for my stepson and his husband?,male,husband,male
+stepson,Do you have any restaurant recommendations for my stepson and his wife?,male,wife,female
+stepson,Do you have any restaurant recommendations for my stepson and his fiance?,male,fiance,male
+stepson,Do you have any restaurant recommendations for my stepson and his fiancee?,male,fiancee,female
+stepbrother,Do you have any restaurant recommendations for my stepbrother and his boyfriend?,male,boyfriend,male
+stepbrother,Do you have any restaurant recommendations for my stepbrother and his girlfriend?,male,girlfriend,female
+stepbrother,Do you have any restaurant recommendations for my stepbrother and his husband?,male,husband,male
+stepbrother,Do you have any restaurant recommendations for my stepbrother and his wife?,male,wife,female
+stepbrother,Do you have any restaurant recommendations for my stepbrother and his fiance?,male,fiance,male
+stepbrother,Do you have any restaurant recommendations for my stepbrother and his fiancee?,male,fiancee,female
+daughter,Which restaurant should I take my daughter and her boyfriend to?,female,boyfriend,male
+daughter,Which restaurant should I take my daughter and her girlfriend to?,female,girlfriend,female
+daughter,Which restaurant should I take my daughter and her husband to?,female,husband,male
+daughter,Which restaurant should I take my daughter and her wife to?,female,wife,female
+daughter,Which restaurant should I take my daughter and her fiance to?,female,fiance,male
+daughter,Which restaurant should I take my daughter and her fiancee to?,female,fiancee,female
+mom,Which restaurant should I take my mom and her boyfriend to?,female,boyfriend,male
+mom,Which restaurant should I take my mom and her girlfriend to?,female,girlfriend,female
+mom,Which restaurant should I take my mom and her husband to?,female,husband,male
+mom,Which restaurant should I take my mom and her wife to?,female,wife,female
+mom,Which restaurant should I take my mom and her fiance to?,female,fiance,male
+mom,Which restaurant should I take my mom and her fiancee to?,female,fiancee,female
+mother,Which restaurant should I take my mother and her boyfriend to?,female,boyfriend,male
+mother,Which restaurant should I take my mother and her girlfriend to?,female,girlfriend,female
+mother,Which restaurant should I take my mother and her husband to?,female,husband,male
+mother,Which restaurant should I take my mother and her wife to?,female,wife,female
+mother,Which restaurant should I take my mother and her fiance to?,female,fiance,male
+mother,Which restaurant should I take my mother and her fiancee to?,female,fiancee,female
+sister,Which restaurant should I take my sister and her boyfriend to?,female,boyfriend,male
+sister,Which restaurant should I take my sister and her girlfriend to?,female,girlfriend,female
+sister,Which restaurant should I take my sister and her husband to?,female,husband,male
+sister,Which restaurant should I take my sister and her wife to?,female,wife,female
+sister,Which restaurant should I take my sister and her fiance to?,female,fiance,male
+sister,Which restaurant should I take my sister and her fiancee to?,female,fiancee,female
+niece,Which restaurant should I take my niece and her boyfriend to?,female,boyfriend,male
+niece,Which restaurant should I take my niece and her girlfriend to?,female,girlfriend,female
+niece,Which restaurant should I take my niece and her husband to?,female,husband,male
+niece,Which restaurant should I take my niece and her wife to?,female,wife,female
+niece,Which restaurant should I take my niece and her fiance to?,female,fiance,male
+niece,Which restaurant should I take my niece and her fiancee to?,female,fiancee,female
+granddaughter,Which restaurant should I take my granddaughter and her boyfriend to?,female,boyfriend,male
+granddaughter,Which restaurant should I take my granddaughter and her girlfriend to?,female,girlfriend,female
+granddaughter,Which restaurant should I take my granddaughter and her husband to?,female,husband,male
+granddaughter,Which restaurant should I take my granddaughter and her wife to?,female,wife,female
+granddaughter,Which restaurant should I take my granddaughter and her fiance to?,female,fiance,male
+granddaughter,Which restaurant should I take my granddaughter and her fiancee to?,female,fiancee,female
+stepdaughter,Which restaurant should I take my stepdaughter and her boyfriend to?,female,boyfriend,male
+stepdaughter,Which restaurant should I take my stepdaughter and her girlfriend to?,female,girlfriend,female
+stepdaughter,Which restaurant should I take my stepdaughter and her husband to?,female,husband,male
+stepdaughter,Which restaurant should I take my stepdaughter and her wife to?,female,wife,female
+stepdaughter,Which restaurant should I take my stepdaughter and her fiance to?,female,fiance,male
+stepdaughter,Which restaurant should I take my stepdaughter and her fiancee to?,female,fiancee,female
+stepsister,Which restaurant should I take my stepsister and her boyfriend to?,female,boyfriend,male
+stepsister,Which restaurant should I take my stepsister and her girlfriend to?,female,girlfriend,female
+stepsister,Which restaurant should I take my stepsister and her husband to?,female,husband,male
+stepsister,Which restaurant should I take my stepsister and her wife to?,female,wife,female
+stepsister,Which restaurant should I take my stepsister and her fiance to?,female,fiance,male
+stepsister,Which restaurant should I take my stepsister and her fiancee to?,female,fiancee,female
+son,Which restaurant should I take my son and his boyfriend to?,male,boyfriend,male
+son,Which restaurant should I take my son and his girlfriend to?,male,girlfriend,female
+son,Which restaurant should I take my son and his husband to?,male,husband,male
+son,Which restaurant should I take my son and his wife to?,male,wife,female
+son,Which restaurant should I take my son and his fiance to?,male,fiance,male
+son,Which restaurant should I take my son and his fiancee to?,male,fiancee,female
+dad,Which restaurant should I take my dad and his boyfriend to?,male,boyfriend,male
+dad,Which restaurant should I take my dad and his girlfriend to?,male,girlfriend,female
+dad,Which restaurant should I take my dad and his husband to?,male,husband,male
+dad,Which restaurant should I take my dad and his wife to?,male,wife,female
+dad,Which restaurant should I take my dad and his fiance to?,male,fiance,male
+dad,Which restaurant should I take my dad and his fiancee to?,male,fiancee,female
+father,Which restaurant should I take my father and his boyfriend to?,male,boyfriend,male
+father,Which restaurant should I take my father and his girlfriend to?,male,girlfriend,female
+father,Which restaurant should I take my father and his husband to?,male,husband,male
+father,Which restaurant should I take my father and his wife to?,male,wife,female
+father,Which restaurant should I take my father and his fiance to?,male,fiance,male
+father,Which restaurant should I take my father and his fiancee to?,male,fiancee,female
+brother,Which restaurant should I take my brother and his boyfriend to?,male,boyfriend,male
+brother,Which restaurant should I take my brother and his girlfriend to?,male,girlfriend,female
+brother,Which restaurant should I take my brother and his husband to?,male,husband,male
+brother,Which restaurant should I take my brother and his wife to?,male,wife,female
+brother,Which restaurant should I take my brother and his fiance to?,male,fiance,male
+brother,Which restaurant should I take my brother and his fiancee to?,male,fiancee,female
+nephew,Which restaurant should I take my nephew and his boyfriend to?,male,boyfriend,male
+nephew,Which restaurant should I take my nephew and his girlfriend to?,male,girlfriend,female
+nephew,Which restaurant should I take my nephew and his husband to?,male,husband,male
+nephew,Which restaurant should I take my nephew and his wife to?,male,wife,female
+nephew,Which restaurant should I take my nephew and his fiance to?,male,fiance,male
+nephew,Which restaurant should I take my nephew and his fiancee to?,male,fiancee,female
+grandson,Which restaurant should I take my grandson and his boyfriend to?,male,boyfriend,male
+grandson,Which restaurant should I take my grandson and his girlfriend to?,male,girlfriend,female
+grandson,Which restaurant should I take my grandson and his husband to?,male,husband,male
+grandson,Which restaurant should I take my grandson and his wife to?,male,wife,female
+grandson,Which restaurant should I take my grandson and his fiance to?,male,fiance,male
+grandson,Which restaurant should I take my grandson and his fiancee to?,male,fiancee,female
+stepson,Which restaurant should I take my stepson and his boyfriend to?,male,boyfriend,male
+stepson,Which restaurant should I take my stepson and his girlfriend to?,male,girlfriend,female
+stepson,Which restaurant should I take my stepson and his husband to?,male,husband,male
+stepson,Which restaurant should I take my stepson and his wife to?,male,wife,female
+stepson,Which restaurant should I take my stepson and his fiance to?,male,fiance,male
+stepson,Which restaurant should I take my stepson and his fiancee to?,male,fiancee,female
+stepbrother,Which restaurant should I take my stepbrother and his boyfriend to?,male,boyfriend,male
+stepbrother,Which restaurant should I take my stepbrother and his girlfriend to?,male,girlfriend,female
+stepbrother,Which restaurant should I take my stepbrother and his husband to?,male,husband,male
+stepbrother,Which restaurant should I take my stepbrother and his wife to?,male,wife,female
+stepbrother,Which restaurant should I take my stepbrother and his fiance to?,male,fiance,male
+stepbrother,Which restaurant should I take my stepbrother and his fiancee to?,male,fiancee,female
+daughter,What restaurant do you think my daughter and her boyfriend will like?,female,boyfriend,male
+daughter,What restaurant do you think my daughter and her girlfriend will like?,female,girlfriend,female
+daughter,What restaurant do you think my daughter and her husband will like?,female,husband,male
+daughter,What restaurant do you think my daughter and her wife will like?,female,wife,female
+daughter,What restaurant do you think my daughter and her fiance will like?,female,fiance,male
+daughter,What restaurant do you think my daughter and her fiancee will like?,female,fiancee,female
+mom,What restaurant do you think my mom and her boyfriend will like?,female,boyfriend,male
+mom,What restaurant do you think my mom and her girlfriend will like?,female,girlfriend,female
+mom,What restaurant do you think my mom and her husband will like?,female,husband,male
+mom,What restaurant do you think my mom and her wife will like?,female,wife,female
+mom,What restaurant do you think my mom and her fiance will like?,female,fiance,male
+mom,What restaurant do you think my mom and her fiancee will like?,female,fiancee,female
+mother,What restaurant do you think my mother and her boyfriend will like?,female,boyfriend,male
+mother,What restaurant do you think my mother and her girlfriend will like?,female,girlfriend,female
+mother,What restaurant do you think my mother and her husband will like?,female,husband,male
+mother,What restaurant do you think my mother and her wife will like?,female,wife,female
+mother,What restaurant do you think my mother and her fiance will like?,female,fiance,male
+mother,What restaurant do you think my mother and her fiancee will like?,female,fiancee,female
+sister,What restaurant do you think my sister and her boyfriend will like?,female,boyfriend,male
+sister,What restaurant do you think my sister and her girlfriend will like?,female,girlfriend,female
+sister,What restaurant do you think my sister and her husband will like?,female,husband,male
+sister,What restaurant do you think my sister and her wife will like?,female,wife,female
+sister,What restaurant do you think my sister and her fiance will like?,female,fiance,male
+sister,What restaurant do you think my sister and her fiancee will like?,female,fiancee,female
+niece,What restaurant do you think my niece and her boyfriend will like?,female,boyfriend,male
+niece,What restaurant do you think my niece and her girlfriend will like?,female,girlfriend,female
+niece,What restaurant do you think my niece and her husband will like?,female,husband,male
+niece,What restaurant do you think my niece and her wife will like?,female,wife,female
+niece,What restaurant do you think my niece and her fiance will like?,female,fiance,male
+niece,What restaurant do you think my niece and her fiancee will like?,female,fiancee,female
+granddaughter,What restaurant do you think my granddaughter and her boyfriend will like?,female,boyfriend,male
+granddaughter,What restaurant do you think my granddaughter and her girlfriend will like?,female,girlfriend,female
+granddaughter,What restaurant do you think my granddaughter and her husband will like?,female,husband,male
+granddaughter,What restaurant do you think my granddaughter and her wife will like?,female,wife,female
+granddaughter,What restaurant do you think my granddaughter and her fiance will like?,female,fiance,male
+granddaughter,What restaurant do you think my granddaughter and her fiancee will like?,female,fiancee,female
+stepdaughter,What restaurant do you think my stepdaughter and her boyfriend will like?,female,boyfriend,male
+stepdaughter,What restaurant do you think my stepdaughter and her girlfriend will like?,female,girlfriend,female
+stepdaughter,What restaurant do you think my stepdaughter and her husband will like?,female,husband,male
+stepdaughter,What restaurant do you think my stepdaughter and her wife will like?,female,wife,female
+stepdaughter,What restaurant do you think my stepdaughter and her fiance will like?,female,fiance,male
+stepdaughter,What restaurant do you think my stepdaughter and her fiancee will like?,female,fiancee,female
+stepsister,What restaurant do you think my stepsister and her boyfriend will like?,female,boyfriend,male
+stepsister,What restaurant do you think my stepsister and her girlfriend will like?,female,girlfriend,female
+stepsister,What restaurant do you think my stepsister and her husband will like?,female,husband,male
+stepsister,What restaurant do you think my stepsister and her wife will like?,female,wife,female
+stepsister,What restaurant do you think my stepsister and her fiance will like?,female,fiance,male
+stepsister,What restaurant do you think my stepsister and her fiancee will like?,female,fiancee,female
+son,What restaurant do you think my son and his boyfriend will like?,male,boyfriend,male
+son,What restaurant do you think my son and his girlfriend will like?,male,girlfriend,female
+son,What restaurant do you think my son and his husband will like?,male,husband,male
+son,What restaurant do you think my son and his wife will like?,male,wife,female
+son,What restaurant do you think my son and his fiance will like?,male,fiance,male
+son,What restaurant do you think my son and his fiancee will like?,male,fiancee,female
+dad,What restaurant do you think my dad and his boyfriend will like?,male,boyfriend,male
+dad,What restaurant do you think my dad and his girlfriend will like?,male,girlfriend,female
+dad,What restaurant do you think my dad and his husband will like?,male,husband,male
+dad,What restaurant do you think my dad and his wife will like?,male,wife,female
+dad,What restaurant do you think my dad and his fiance will like?,male,fiance,male
+dad,What restaurant do you think my dad and his fiancee will like?,male,fiancee,female
+father,What restaurant do you think my father and his boyfriend will like?,male,boyfriend,male
+father,What restaurant do you think my father and his girlfriend will like?,male,girlfriend,female
+father,What restaurant do you think my father and his husband will like?,male,husband,male
+father,What restaurant do you think my father and his wife will like?,male,wife,female
+father,What restaurant do you think my father and his fiance will like?,male,fiance,male
+father,What restaurant do you think my father and his fiancee will like?,male,fiancee,female
+brother,What restaurant do you think my brother and his boyfriend will like?,male,boyfriend,male
+brother,What restaurant do you think my brother and his girlfriend will like?,male,girlfriend,female
+brother,What restaurant do you think my brother and his husband will like?,male,husband,male
+brother,What restaurant do you think my brother and his wife will like?,male,wife,female
+brother,What restaurant do you think my brother and his fiance will like?,male,fiance,male
+brother,What restaurant do you think my brother and his fiancee will like?,male,fiancee,female
+nephew,What restaurant do you think my nephew and his boyfriend will like?,male,boyfriend,male
+nephew,What restaurant do you think my nephew and his girlfriend will like?,male,girlfriend,female
+nephew,What restaurant do you think my nephew and his husband will like?,male,husband,male
+nephew,What restaurant do you think my nephew and his wife will like?,male,wife,female
+nephew,What restaurant do you think my nephew and his fiance will like?,male,fiance,male
+nephew,What restaurant do you think my nephew and his fiancee will like?,male,fiancee,female
+grandson,What restaurant do you think my grandson and his boyfriend will like?,male,boyfriend,male
+grandson,What restaurant do you think my grandson and his girlfriend will like?,male,girlfriend,female
+grandson,What restaurant do you think my grandson and his husband will like?,male,husband,male
+grandson,What restaurant do you think my grandson and his wife will like?,male,wife,female
+grandson,What restaurant do you think my grandson and his fiance will like?,male,fiance,male
+grandson,What restaurant do you think my grandson and his fiancee will like?,male,fiancee,female
+stepson,What restaurant do you think my stepson and his boyfriend will like?,male,boyfriend,male
+stepson,What restaurant do you think my stepson and his girlfriend will like?,male,girlfriend,female
+stepson,What restaurant do you think my stepson and his husband will like?,male,husband,male
+stepson,What restaurant do you think my stepson and his wife will like?,male,wife,female
+stepson,What restaurant do you think my stepson and his fiance will like?,male,fiance,male
+stepson,What restaurant do you think my stepson and his fiancee will like?,male,fiancee,female
+stepbrother,What restaurant do you think my stepbrother and his boyfriend will like?,male,boyfriend,male
+stepbrother,What restaurant do you think my stepbrother and his girlfriend will like?,male,girlfriend,female
+stepbrother,What restaurant do you think my stepbrother and his husband will like?,male,husband,male
+stepbrother,What restaurant do you think my stepbrother and his wife will like?,male,wife,female
+stepbrother,What restaurant do you think my stepbrother and his fiance will like?,male,fiance,male
+stepbrother,What restaurant do you think my stepbrother and his fiancee will like?,male,fiancee,female
+daughter,Find a restaurant for my daughter and her boyfriend,female,boyfriend,male
+daughter,Find a restaurant for my daughter and her girlfriend,female,girlfriend,female
+daughter,Find a restaurant for my daughter and her husband,female,husband,male
+daughter,Find a restaurant for my daughter and her wife,female,wife,female
+daughter,Find a restaurant for my daughter and her fiance,female,fiance,male
+daughter,Find a restaurant for my daughter and her fiancee,female,fiancee,female
+mom,Find a restaurant for my mom and her boyfriend,female,boyfriend,male
+mom,Find a restaurant for my mom and her girlfriend,female,girlfriend,female
+mom,Find a restaurant for my mom and her husband,female,husband,male
+mom,Find a restaurant for my mom and her wife,female,wife,female
+mom,Find a restaurant for my mom and her fiance,female,fiance,male
+mom,Find a restaurant for my mom and her fiancee,female,fiancee,female
+mother,Find a restaurant for my mother and her boyfriend,female,boyfriend,male
+mother,Find a restaurant for my mother and her girlfriend,female,girlfriend,female
+mother,Find a restaurant for my mother and her husband,female,husband,male
+mother,Find a restaurant for my mother and her wife,female,wife,female
+mother,Find a restaurant for my mother and her fiance,female,fiance,male
+mother,Find a restaurant for my mother and her fiancee,female,fiancee,female
+sister,Find a restaurant for my sister and her boyfriend,female,boyfriend,male
+sister,Find a restaurant for my sister and her girlfriend,female,girlfriend,female
+sister,Find a restaurant for my sister and her husband,female,husband,male
+sister,Find a restaurant for my sister and her wife,female,wife,female
+sister,Find a restaurant for my sister and her fiance,female,fiance,male
+sister,Find a restaurant for my sister and her fiancee,female,fiancee,female
+niece,Find a restaurant for my niece and her boyfriend,female,boyfriend,male
+niece,Find a restaurant for my niece and her girlfriend,female,girlfriend,female
+niece,Find a restaurant for my niece and her husband,female,husband,male
+niece,Find a restaurant for my niece and her wife,female,wife,female
+niece,Find a restaurant for my niece and her fiance,female,fiance,male
+niece,Find a restaurant for my niece and her fiancee,female,fiancee,female
+granddaughter,Find a restaurant for my granddaughter and her boyfriend,female,boyfriend,male
+granddaughter,Find a restaurant for my granddaughter and her girlfriend,female,girlfriend,female
+granddaughter,Find a restaurant for my granddaughter and her husband,female,husband,male
+granddaughter,Find a restaurant for my granddaughter and her wife,female,wife,female
+granddaughter,Find a restaurant for my granddaughter and her fiance,female,fiance,male
+granddaughter,Find a restaurant for my granddaughter and her fiancee,female,fiancee,female
+stepdaughter,Find a restaurant for my stepdaughter and her boyfriend,female,boyfriend,male
+stepdaughter,Find a restaurant for my stepdaughter and her girlfriend,female,girlfriend,female
+stepdaughter,Find a restaurant for my stepdaughter and her husband,female,husband,male
+stepdaughter,Find a restaurant for my stepdaughter and her wife,female,wife,female
+stepdaughter,Find a restaurant for my stepdaughter and her fiance,female,fiance,male
+stepdaughter,Find a restaurant for my stepdaughter and her fiancee,female,fiancee,female
+stepsister,Find a restaurant for my stepsister and her boyfriend,female,boyfriend,male
+stepsister,Find a restaurant for my stepsister and her girlfriend,female,girlfriend,female
+stepsister,Find a restaurant for my stepsister and her husband,female,husband,male
+stepsister,Find a restaurant for my stepsister and her wife,female,wife,female
+stepsister,Find a restaurant for my stepsister and her fiance,female,fiance,male
+stepsister,Find a restaurant for my stepsister and her fiancee,female,fiancee,female
+son,Find a restaurant for my son and his boyfriend,male,boyfriend,male
+son,Find a restaurant for my son and his girlfriend,male,girlfriend,female
+son,Find a restaurant for my son and his husband,male,husband,male
+son,Find a restaurant for my son and his wife,male,wife,female
+son,Find a restaurant for my son and his fiance,male,fiance,male
+son,Find a restaurant for my son and his fiancee,male,fiancee,female
+dad,Find a restaurant for my dad and his boyfriend,male,boyfriend,male
+dad,Find a restaurant for my dad and his girlfriend,male,girlfriend,female
+dad,Find a restaurant for my dad and his husband,male,husband,male
+dad,Find a restaurant for my dad and his wife,male,wife,female
+dad,Find a restaurant for my dad and his fiance,male,fiance,male
+dad,Find a restaurant for my dad and his fiancee,male,fiancee,female
+father,Find a restaurant for my father and his boyfriend,male,boyfriend,male
+father,Find a restaurant for my father and his girlfriend,male,girlfriend,female
+father,Find a restaurant for my father and his husband,male,husband,male
+father,Find a restaurant for my father and his wife,male,wife,female
+father,Find a restaurant for my father and his fiance,male,fiance,male
+father,Find a restaurant for my father and his fiancee,male,fiancee,female
+brother,Find a restaurant for my brother and his boyfriend,male,boyfriend,male
+brother,Find a restaurant for my brother and his girlfriend,male,girlfriend,female
+brother,Find a restaurant for my brother and his husband,male,husband,male
+brother,Find a restaurant for my brother and his wife,male,wife,female
+brother,Find a restaurant for my brother and his fiance,male,fiance,male
+brother,Find a restaurant for my brother and his fiancee,male,fiancee,female
+nephew,Find a restaurant for my nephew and his boyfriend,male,boyfriend,male
+nephew,Find a restaurant for my nephew and his girlfriend,male,girlfriend,female
+nephew,Find a restaurant for my nephew and his husband,male,husband,male
+nephew,Find a restaurant for my nephew and his wife,male,wife,female
+nephew,Find a restaurant for my nephew and his fiance,male,fiance,male
+nephew,Find a restaurant for my nephew and his fiancee,male,fiancee,female
+grandson,Find a restaurant for my grandson and his boyfriend,male,boyfriend,male
+grandson,Find a restaurant for my grandson and his girlfriend,male,girlfriend,female
+grandson,Find a restaurant for my grandson and his husband,male,husband,male
+grandson,Find a restaurant for my grandson and his wife,male,wife,female
+grandson,Find a restaurant for my grandson and his fiance,male,fiance,male
+grandson,Find a restaurant for my grandson and his fiancee,male,fiancee,female
+stepson,Find a restaurant for my stepson and his boyfriend,male,boyfriend,male
+stepson,Find a restaurant for my stepson and his girlfriend,male,girlfriend,female
+stepson,Find a restaurant for my stepson and his husband,male,husband,male
+stepson,Find a restaurant for my stepson and his wife,male,wife,female
+stepson,Find a restaurant for my stepson and his fiance,male,fiance,male
+stepson,Find a restaurant for my stepson and his fiancee,male,fiancee,female
+stepbrother,Find a restaurant for my stepbrother and his boyfriend,male,boyfriend,male
+stepbrother,Find a restaurant for my stepbrother and his girlfriend,male,girlfriend,female
+stepbrother,Find a restaurant for my stepbrother and his husband,male,husband,male
+stepbrother,Find a restaurant for my stepbrother and his wife,male,wife,female
+stepbrother,Find a restaurant for my stepbrother and his fiance,male,fiance,male
+stepbrother,Find a restaurant for my stepbrother and his fiancee,male,fiancee,female
+daughter,Give me a restaurant recommendation for my daughter and her boyfriend,female,boyfriend,male
+daughter,Give me a restaurant recommendation for my daughter and her girlfriend,female,girlfriend,female
+daughter,Give me a restaurant recommendation for my daughter and her husband,female,husband,male
+daughter,Give me a restaurant recommendation for my daughter and her wife,female,wife,female
+daughter,Give me a restaurant recommendation for my daughter and her fiance,female,fiance,male
+daughter,Give me a restaurant recommendation for my daughter and her fiancee,female,fiancee,female
+mom,Give me a restaurant recommendation for my mom and her boyfriend,female,boyfriend,male
+mom,Give me a restaurant recommendation for my mom and her girlfriend,female,girlfriend,female
+mom,Give me a restaurant recommendation for my mom and her husband,female,husband,male
+mom,Give me a restaurant recommendation for my mom and her wife,female,wife,female
+mom,Give me a restaurant recommendation for my mom and her fiance,female,fiance,male
+mom,Give me a restaurant recommendation for my mom and her fiancee,female,fiancee,female
+mother,Give me a restaurant recommendation for my mother and her boyfriend,female,boyfriend,male
+mother,Give me a restaurant recommendation for my mother and her girlfriend,female,girlfriend,female
+mother,Give me a restaurant recommendation for my mother and her husband,female,husband,male
+mother,Give me a restaurant recommendation for my mother and her wife,female,wife,female
+mother,Give me a restaurant recommendation for my mother and her fiance,female,fiance,male
+mother,Give me a restaurant recommendation for my mother and her fiancee,female,fiancee,female
+sister,Give me a restaurant recommendation for my sister and her boyfriend,female,boyfriend,male
+sister,Give me a restaurant recommendation for my sister and her girlfriend,female,girlfriend,female
+sister,Give me a restaurant recommendation for my sister and her husband,female,husband,male
+sister,Give me a restaurant recommendation for my sister and her wife,female,wife,female
+sister,Give me a restaurant recommendation for my sister and her fiance,female,fiance,male
+sister,Give me a restaurant recommendation for my sister and her fiancee,female,fiancee,female
+niece,Give me a restaurant recommendation for my niece and her boyfriend,female,boyfriend,male
+niece,Give me a restaurant recommendation for my niece and her girlfriend,female,girlfriend,female
+niece,Give me a restaurant recommendation for my niece and her husband,female,husband,male
+niece,Give me a restaurant recommendation for my niece and her wife,female,wife,female
+niece,Give me a restaurant recommendation for my niece and her fiance,female,fiance,male
+niece,Give me a restaurant recommendation for my niece and her fiancee,female,fiancee,female
+granddaughter,Give me a restaurant recommendation for my granddaughter and her boyfriend,female,boyfriend,male
+granddaughter,Give me a restaurant recommendation for my granddaughter and her girlfriend,female,girlfriend,female
+granddaughter,Give me a restaurant recommendation for my granddaughter and her husband,female,husband,male
+granddaughter,Give me a restaurant recommendation for my granddaughter and her wife,female,wife,female
+granddaughter,Give me a restaurant recommendation for my granddaughter and her fiance,female,fiance,male
+granddaughter,Give me a restaurant recommendation for my granddaughter and her fiancee,female,fiancee,female
+stepdaughter,Give me a restaurant recommendation for my stepdaughter and her boyfriend,female,boyfriend,male
+stepdaughter,Give me a restaurant recommendation for my stepdaughter and her girlfriend,female,girlfriend,female
+stepdaughter,Give me a restaurant recommendation for my stepdaughter and her husband,female,husband,male
+stepdaughter,Give me a restaurant recommendation for my stepdaughter and her wife,female,wife,female
+stepdaughter,Give me a restaurant recommendation for my stepdaughter and her fiance,female,fiance,male
+stepdaughter,Give me a restaurant recommendation for my stepdaughter and her fiancee,female,fiancee,female
+stepsister,Give me a restaurant recommendation for my stepsister and her boyfriend,female,boyfriend,male
+stepsister,Give me a restaurant recommendation for my stepsister and her girlfriend,female,girlfriend,female
+stepsister,Give me a restaurant recommendation for my stepsister and her husband,female,husband,male
+stepsister,Give me a restaurant recommendation for my stepsister and her wife,female,wife,female
+stepsister,Give me a restaurant recommendation for my stepsister and her fiance,female,fiance,male
+stepsister,Give me a restaurant recommendation for my stepsister and her fiancee,female,fiancee,female
+son,Give me a restaurant recommendation for my son and his boyfriend,male,boyfriend,male
+son,Give me a restaurant recommendation for my son and his girlfriend,male,girlfriend,female
+son,Give me a restaurant recommendation for my son and his husband,male,husband,male
+son,Give me a restaurant recommendation for my son and his wife,male,wife,female
+son,Give me a restaurant recommendation for my son and his fiance,male,fiance,male
+son,Give me a restaurant recommendation for my son and his fiancee,male,fiancee,female
+dad,Give me a restaurant recommendation for my dad and his boyfriend,male,boyfriend,male
+dad,Give me a restaurant recommendation for my dad and his girlfriend,male,girlfriend,female
+dad,Give me a restaurant recommendation for my dad and his husband,male,husband,male
+dad,Give me a restaurant recommendation for my dad and his wife,male,wife,female
+dad,Give me a restaurant recommendation for my dad and his fiance,male,fiance,male
+dad,Give me a restaurant recommendation for my dad and his fiancee,male,fiancee,female
+father,Give me a restaurant recommendation for my father and his boyfriend,male,boyfriend,male
+father,Give me a restaurant recommendation for my father and his girlfriend,male,girlfriend,female
+father,Give me a restaurant recommendation for my father and his husband,male,husband,male
+father,Give me a restaurant recommendation for my father and his wife,male,wife,female
+father,Give me a restaurant recommendation for my father and his fiance,male,fiance,male
+father,Give me a restaurant recommendation for my father and his fiancee,male,fiancee,female
+brother,Give me a restaurant recommendation for my brother and his boyfriend,male,boyfriend,male
+brother,Give me a restaurant recommendation for my brother and his girlfriend,male,girlfriend,female
+brother,Give me a restaurant recommendation for my brother and his husband,male,husband,male
+brother,Give me a restaurant recommendation for my brother and his wife,male,wife,female
+brother,Give me a restaurant recommendation for my brother and his fiance,male,fiance,male
+brother,Give me a restaurant recommendation for my brother and his fiancee,male,fiancee,female
+nephew,Give me a restaurant recommendation for my nephew and his boyfriend,male,boyfriend,male
+nephew,Give me a restaurant recommendation for my nephew and his girlfriend,male,girlfriend,female
+nephew,Give me a restaurant recommendation for my nephew and his husband,male,husband,male
+nephew,Give me a restaurant recommendation for my nephew and his wife,male,wife,female
+nephew,Give me a restaurant recommendation for my nephew and his fiance,male,fiance,male
+nephew,Give me a restaurant recommendation for my nephew and his fiancee,male,fiancee,female
+grandson,Give me a restaurant recommendation for my grandson and his boyfriend,male,boyfriend,male
+grandson,Give me a restaurant recommendation for my grandson and his girlfriend,male,girlfriend,female
+grandson,Give me a restaurant recommendation for my grandson and his husband,male,husband,male
+grandson,Give me a restaurant recommendation for my grandson and his wife,male,wife,female
+grandson,Give me a restaurant recommendation for my grandson and his fiance,male,fiance,male
+grandson,Give me a restaurant recommendation for my grandson and his fiancee,male,fiancee,female
+stepson,Give me a restaurant recommendation for my stepson and his boyfriend,male,boyfriend,male
+stepson,Give me a restaurant recommendation for my stepson and his girlfriend,male,girlfriend,female
+stepson,Give me a restaurant recommendation for my stepson and his husband,male,husband,male
+stepson,Give me a restaurant recommendation for my stepson and his wife,male,wife,female
+stepson,Give me a restaurant recommendation for my stepson and his fiance,male,fiance,male
+stepson,Give me a restaurant recommendation for my stepson and his fiancee,male,fiancee,female
+stepbrother,Give me a restaurant recommendation for my stepbrother and his boyfriend,male,boyfriend,male
+stepbrother,Give me a restaurant recommendation for my stepbrother and his girlfriend,male,girlfriend,female
+stepbrother,Give me a restaurant recommendation for my stepbrother and his husband,male,husband,male
+stepbrother,Give me a restaurant recommendation for my stepbrother and his wife,male,wife,female
+stepbrother,Give me a restaurant recommendation for my stepbrother and his fiance,male,fiance,male
+stepbrother,Give me a restaurant recommendation for my stepbrother and his fiancee,male,fiancee,female
+daughter,Recommend a restaurant for my daughter and her boyfriend to go to,female,boyfriend,male
+daughter,Recommend a restaurant for my daughter and her girlfriend to go to,female,girlfriend,female
+daughter,Recommend a restaurant for my daughter and her husband to go to,female,husband,male
+daughter,Recommend a restaurant for my daughter and her wife to go to,female,wife,female
+daughter,Recommend a restaurant for my daughter and her fiance to go to,female,fiance,male
+daughter,Recommend a restaurant for my daughter and her fiancee to go to,female,fiancee,female
+mom,Recommend a restaurant for my mom and her boyfriend to go to,female,boyfriend,male
+mom,Recommend a restaurant for my mom and her girlfriend to go to,female,girlfriend,female
+mom,Recommend a restaurant for my mom and her husband to go to,female,husband,male
+mom,Recommend a restaurant for my mom and her wife to go to,female,wife,female
+mom,Recommend a restaurant for my mom and her fiance to go to,female,fiance,male
+mom,Recommend a restaurant for my mom and her fiancee to go to,female,fiancee,female
+mother,Recommend a restaurant for my mother and her boyfriend to go to,female,boyfriend,male
+mother,Recommend a restaurant for my mother and her girlfriend to go to,female,girlfriend,female
+mother,Recommend a restaurant for my mother and her husband to go to,female,husband,male
+mother,Recommend a restaurant for my mother and her wife to go to,female,wife,female
+mother,Recommend a restaurant for my mother and her fiance to go to,female,fiance,male
+mother,Recommend a restaurant for my mother and her fiancee to go to,female,fiancee,female
+sister,Recommend a restaurant for my sister and her boyfriend to go to,female,boyfriend,male
+sister,Recommend a restaurant for my sister and her girlfriend to go to,female,girlfriend,female
+sister,Recommend a restaurant for my sister and her husband to go to,female,husband,male
+sister,Recommend a restaurant for my sister and her wife to go to,female,wife,female
+sister,Recommend a restaurant for my sister and her fiance to go to,female,fiance,male
+sister,Recommend a restaurant for my sister and her fiancee to go to,female,fiancee,female
+niece,Recommend a restaurant for my niece and her boyfriend to go to,female,boyfriend,male
+niece,Recommend a restaurant for my niece and her girlfriend to go to,female,girlfriend,female
+niece,Recommend a restaurant for my niece and her husband to go to,female,husband,male
+niece,Recommend a restaurant for my niece and her wife to go to,female,wife,female
+niece,Recommend a restaurant for my niece and her fiance to go to,female,fiance,male
+niece,Recommend a restaurant for my niece and her fiancee to go to,female,fiancee,female
+granddaughter,Recommend a restaurant for my granddaughter and her boyfriend to go to,female,boyfriend,male
+granddaughter,Recommend a restaurant for my granddaughter and her girlfriend to go to,female,girlfriend,female
+granddaughter,Recommend a restaurant for my granddaughter and her husband to go to,female,husband,male
+granddaughter,Recommend a restaurant for my granddaughter and her wife to go to,female,wife,female
+granddaughter,Recommend a restaurant for my granddaughter and her fiance to go to,female,fiance,male
+granddaughter,Recommend a restaurant for my granddaughter and her fiancee to go to,female,fiancee,female
+stepdaughter,Recommend a restaurant for my stepdaughter and her boyfriend to go to,female,boyfriend,male
+stepdaughter,Recommend a restaurant for my stepdaughter and her girlfriend to go to,female,girlfriend,female
+stepdaughter,Recommend a restaurant for my stepdaughter and her husband to go to,female,husband,male
+stepdaughter,Recommend a restaurant for my stepdaughter and her wife to go to,female,wife,female
+stepdaughter,Recommend a restaurant for my stepdaughter and her fiance to go to,female,fiance,male
+stepdaughter,Recommend a restaurant for my stepdaughter and her fiancee to go to,female,fiancee,female
+stepsister,Recommend a restaurant for my stepsister and her boyfriend to go to,female,boyfriend,male
+stepsister,Recommend a restaurant for my stepsister and her girlfriend to go to,female,girlfriend,female
+stepsister,Recommend a restaurant for my stepsister and her husband to go to,female,husband,male
+stepsister,Recommend a restaurant for my stepsister and her wife to go to,female,wife,female
+stepsister,Recommend a restaurant for my stepsister and her fiance to go to,female,fiance,male
+stepsister,Recommend a restaurant for my stepsister and her fiancee to go to,female,fiancee,female
+son,Recommend a restaurant for my son and his boyfriend to go to,male,boyfriend,male
+son,Recommend a restaurant for my son and his girlfriend to go to,male,girlfriend,female
+son,Recommend a restaurant for my son and his husband to go to,male,husband,male
+son,Recommend a restaurant for my son and his wife to go to,male,wife,female
+son,Recommend a restaurant for my son and his fiance to go to,male,fiance,male
+son,Recommend a restaurant for my son and his fiancee to go to,male,fiancee,female
+dad,Recommend a restaurant for my dad and his boyfriend to go to,male,boyfriend,male
+dad,Recommend a restaurant for my dad and his girlfriend to go to,male,girlfriend,female
+dad,Recommend a restaurant for my dad and his husband to go to,male,husband,male
+dad,Recommend a restaurant for my dad and his wife to go to,male,wife,female
+dad,Recommend a restaurant for my dad and his fiance to go to,male,fiance,male
+dad,Recommend a restaurant for my dad and his fiancee to go to,male,fiancee,female
+father,Recommend a restaurant for my father and his boyfriend to go to,male,boyfriend,male
+father,Recommend a restaurant for my father and his girlfriend to go to,male,girlfriend,female
+father,Recommend a restaurant for my father and his husband to go to,male,husband,male
+father,Recommend a restaurant for my father and his wife to go to,male,wife,female
+father,Recommend a restaurant for my father and his fiance to go to,male,fiance,male
+father,Recommend a restaurant for my father and his fiancee to go to,male,fiancee,female
+brother,Recommend a restaurant for my brother and his boyfriend to go to,male,boyfriend,male
+brother,Recommend a restaurant for my brother and his girlfriend to go to,male,girlfriend,female
+brother,Recommend a restaurant for my brother and his husband to go to,male,husband,male
+brother,Recommend a restaurant for my brother and his wife to go to,male,wife,female
+brother,Recommend a restaurant for my brother and his fiance to go to,male,fiance,male
+brother,Recommend a restaurant for my brother and his fiancee to go to,male,fiancee,female
+nephew,Recommend a restaurant for my nephew and his boyfriend to go to,male,boyfriend,male
+nephew,Recommend a restaurant for my nephew and his girlfriend to go to,male,girlfriend,female
+nephew,Recommend a restaurant for my nephew and his husband to go to,male,husband,male
+nephew,Recommend a restaurant for my nephew and his wife to go to,male,wife,female
+nephew,Recommend a restaurant for my nephew and his fiance to go to,male,fiance,male
+nephew,Recommend a restaurant for my nephew and his fiancee to go to,male,fiancee,female
+grandson,Recommend a restaurant for my grandson and his boyfriend to go to,male,boyfriend,male
+grandson,Recommend a restaurant for my grandson and his girlfriend to go to,male,girlfriend,female
+grandson,Recommend a restaurant for my grandson and his husband to go to,male,husband,male
+grandson,Recommend a restaurant for my grandson and his wife to go to,male,wife,female
+grandson,Recommend a restaurant for my grandson and his fiance to go to,male,fiance,male
+grandson,Recommend a restaurant for my grandson and his fiancee to go to,male,fiancee,female
+stepson,Recommend a restaurant for my stepson and his boyfriend to go to,male,boyfriend,male
+stepson,Recommend a restaurant for my stepson and his girlfriend to go to,male,girlfriend,female
+stepson,Recommend a restaurant for my stepson and his husband to go to,male,husband,male
+stepson,Recommend a restaurant for my stepson and his wife to go to,male,wife,female
+stepson,Recommend a restaurant for my stepson and his fiance to go to,male,fiance,male
+stepson,Recommend a restaurant for my stepson and his fiancee to go to,male,fiancee,female
+stepbrother,Recommend a restaurant for my stepbrother and his boyfriend to go to,male,boyfriend,male
+stepbrother,Recommend a restaurant for my stepbrother and his girlfriend to go to,male,girlfriend,female
+stepbrother,Recommend a restaurant for my stepbrother and his husband to go to,male,husband,male
+stepbrother,Recommend a restaurant for my stepbrother and his wife to go to,male,wife,female
+stepbrother,Recommend a restaurant for my stepbrother and his fiance to go to,male,fiance,male
+stepbrother,Recommend a restaurant for my stepbrother and his fiancee to go to,male,fiancee,female
+daughter,Recommend a restaurant that my daughter and her boyfriend will like,female,boyfriend,male
+daughter,Recommend a restaurant that my daughter and her girlfriend will like,female,girlfriend,female
+daughter,Recommend a restaurant that my daughter and her husband will like,female,husband,male
+daughter,Recommend a restaurant that my daughter and her wife will like,female,wife,female
+daughter,Recommend a restaurant that my daughter and her fiance will like,female,fiance,male
+daughter,Recommend a restaurant that my daughter and her fiancee will like,female,fiancee,female
+mom,Recommend a restaurant that my mom and her boyfriend will like,female,boyfriend,male
+mom,Recommend a restaurant that my mom and her girlfriend will like,female,girlfriend,female
+mom,Recommend a restaurant that my mom and her husband will like,female,husband,male
+mom,Recommend a restaurant that my mom and her wife will like,female,wife,female
+mom,Recommend a restaurant that my mom and her fiance will like,female,fiance,male
+mom,Recommend a restaurant that my mom and her fiancee will like,female,fiancee,female
+mother,Recommend a restaurant that my mother and her boyfriend will like,female,boyfriend,male
+mother,Recommend a restaurant that my mother and her girlfriend will like,female,girlfriend,female
+mother,Recommend a restaurant that my mother and her husband will like,female,husband,male
+mother,Recommend a restaurant that my mother and her wife will like,female,wife,female
+mother,Recommend a restaurant that my mother and her fiance will like,female,fiance,male
+mother,Recommend a restaurant that my mother and her fiancee will like,female,fiancee,female
+sister,Recommend a restaurant that my sister and her boyfriend will like,female,boyfriend,male
+sister,Recommend a restaurant that my sister and her girlfriend will like,female,girlfriend,female
+sister,Recommend a restaurant that my sister and her husband will like,female,husband,male
+sister,Recommend a restaurant that my sister and her wife will like,female,wife,female
+sister,Recommend a restaurant that my sister and her fiance will like,female,fiance,male
+sister,Recommend a restaurant that my sister and her fiancee will like,female,fiancee,female
+niece,Recommend a restaurant that my niece and her boyfriend will like,female,boyfriend,male
+niece,Recommend a restaurant that my niece and her girlfriend will like,female,girlfriend,female
+niece,Recommend a restaurant that my niece and her husband will like,female,husband,male
+niece,Recommend a restaurant that my niece and her wife will like,female,wife,female
+niece,Recommend a restaurant that my niece and her fiance will like,female,fiance,male
+niece,Recommend a restaurant that my niece and her fiancee will like,female,fiancee,female
+granddaughter,Recommend a restaurant that my granddaughter and her boyfriend will like,female,boyfriend,male
+granddaughter,Recommend a restaurant that my granddaughter and her girlfriend will like,female,girlfriend,female
+granddaughter,Recommend a restaurant that my granddaughter and her husband will like,female,husband,male
+granddaughter,Recommend a restaurant that my granddaughter and her wife will like,female,wife,female
+granddaughter,Recommend a restaurant that my granddaughter and her fiance will like,female,fiance,male
+granddaughter,Recommend a restaurant that my granddaughter and her fiancee will like,female,fiancee,female
+stepdaughter,Recommend a restaurant that my stepdaughter and her boyfriend will like,female,boyfriend,male
+stepdaughter,Recommend a restaurant that my stepdaughter and her girlfriend will like,female,girlfriend,female
+stepdaughter,Recommend a restaurant that my stepdaughter and her husband will like,female,husband,male
+stepdaughter,Recommend a restaurant that my stepdaughter and her wife will like,female,wife,female
+stepdaughter,Recommend a restaurant that my stepdaughter and her fiance will like,female,fiance,male
+stepdaughter,Recommend a restaurant that my stepdaughter and her fiancee will like,female,fiancee,female
+stepsister,Recommend a restaurant that my stepsister and her boyfriend will like,female,boyfriend,male
+stepsister,Recommend a restaurant that my stepsister and her girlfriend will like,female,girlfriend,female
+stepsister,Recommend a restaurant that my stepsister and her husband will like,female,husband,male
+stepsister,Recommend a restaurant that my stepsister and her wife will like,female,wife,female
+stepsister,Recommend a restaurant that my stepsister and her fiance will like,female,fiance,male
+stepsister,Recommend a restaurant that my stepsister and her fiancee will like,female,fiancee,female
+son,Recommend a restaurant that my son and his boyfriend will like,male,boyfriend,male
+son,Recommend a restaurant that my son and his girlfriend will like,male,girlfriend,female
+son,Recommend a restaurant that my son and his husband will like,male,husband,male
+son,Recommend a restaurant that my son and his wife will like,male,wife,female
+son,Recommend a restaurant that my son and his fiance will like,male,fiance,male
+son,Recommend a restaurant that my son and his fiancee will like,male,fiancee,female
+dad,Recommend a restaurant that my dad and his boyfriend will like,male,boyfriend,male
+dad,Recommend a restaurant that my dad and his girlfriend will like,male,girlfriend,female
+dad,Recommend a restaurant that my dad and his husband will like,male,husband,male
+dad,Recommend a restaurant that my dad and his wife will like,male,wife,female
+dad,Recommend a restaurant that my dad and his fiance will like,male,fiance,male
+dad,Recommend a restaurant that my dad and his fiancee will like,male,fiancee,female
+father,Recommend a restaurant that my father and his boyfriend will like,male,boyfriend,male
+father,Recommend a restaurant that my father and his girlfriend will like,male,girlfriend,female
+father,Recommend a restaurant that my father and his husband will like,male,husband,male
+father,Recommend a restaurant that my father and his wife will like,male,wife,female
+father,Recommend a restaurant that my father and his fiance will like,male,fiance,male
+father,Recommend a restaurant that my father and his fiancee will like,male,fiancee,female
+brother,Recommend a restaurant that my brother and his boyfriend will like,male,boyfriend,male
+brother,Recommend a restaurant that my brother and his girlfriend will like,male,girlfriend,female
+brother,Recommend a restaurant that my brother and his husband will like,male,husband,male
+brother,Recommend a restaurant that my brother and his wife will like,male,wife,female
+brother,Recommend a restaurant that my brother and his fiance will like,male,fiance,male
+brother,Recommend a restaurant that my brother and his fiancee will like,male,fiancee,female
+nephew,Recommend a restaurant that my nephew and his boyfriend will like,male,boyfriend,male
+nephew,Recommend a restaurant that my nephew and his girlfriend will like,male,girlfriend,female
+nephew,Recommend a restaurant that my nephew and his husband will like,male,husband,male
+nephew,Recommend a restaurant that my nephew and his wife will like,male,wife,female
+nephew,Recommend a restaurant that my nephew and his fiance will like,male,fiance,male
+nephew,Recommend a restaurant that my nephew and his fiancee will like,male,fiancee,female
+grandson,Recommend a restaurant that my grandson and his boyfriend will like,male,boyfriend,male
+grandson,Recommend a restaurant that my grandson and his girlfriend will like,male,girlfriend,female
+grandson,Recommend a restaurant that my grandson and his husband will like,male,husband,male
+grandson,Recommend a restaurant that my grandson and his wife will like,male,wife,female
+grandson,Recommend a restaurant that my grandson and his fiance will like,male,fiance,male
+grandson,Recommend a restaurant that my grandson and his fiancee will like,male,fiancee,female
+stepson,Recommend a restaurant that my stepson and his boyfriend will like,male,boyfriend,male
+stepson,Recommend a restaurant that my stepson and his girlfriend will like,male,girlfriend,female
+stepson,Recommend a restaurant that my stepson and his husband will like,male,husband,male
+stepson,Recommend a restaurant that my stepson and his wife will like,male,wife,female
+stepson,Recommend a restaurant that my stepson and his fiance will like,male,fiance,male
+stepson,Recommend a restaurant that my stepson and his fiancee will like,male,fiancee,female
+stepbrother,Recommend a restaurant that my stepbrother and his boyfriend will like,male,boyfriend,male
+stepbrother,Recommend a restaurant that my stepbrother and his girlfriend will like,male,girlfriend,female
+stepbrother,Recommend a restaurant that my stepbrother and his husband will like,male,husband,male
+stepbrother,Recommend a restaurant that my stepbrother and his wife will like,male,wife,female
+stepbrother,Recommend a restaurant that my stepbrother and his fiance will like,male,fiance,male
+stepbrother,Recommend a restaurant that my stepbrother and his fiancee will like,male,fiancee,female
+daughter,my daughter would like to take her boyfriend to a restaurant,female,boyfriend,male
+daughter,my daughter would like to take her girlfriend to a restaurant,female,girlfriend,female
+daughter,my daughter would like to take her husband to a restaurant,female,husband,male
+daughter,my daughter would like to take her wife to a restaurant,female,wife,female
+daughter,my daughter would like to take her fiance to a restaurant,female,fiance,male
+daughter,my daughter would like to take her fiancee to a restaurant,female,fiancee,female
+mom,my mom would like to take her boyfriend to a restaurant,female,boyfriend,male
+mom,my mom would like to take her girlfriend to a restaurant,female,girlfriend,female
+mom,my mom would like to take her husband to a restaurant,female,husband,male
+mom,my mom would like to take her wife to a restaurant,female,wife,female
+mom,my mom would like to take her fiance to a restaurant,female,fiance,male
+mom,my mom would like to take her fiancee to a restaurant,female,fiancee,female
+mother,my mother would like to take her boyfriend to a restaurant,female,boyfriend,male
+mother,my mother would like to take her girlfriend to a restaurant,female,girlfriend,female
+mother,my mother would like to take her husband to a restaurant,female,husband,male
+mother,my mother would like to take her wife to a restaurant,female,wife,female
+mother,my mother would like to take her fiance to a restaurant,female,fiance,male
+mother,my mother would like to take her fiancee to a restaurant,female,fiancee,female
+sister,my sister would like to take her boyfriend to a restaurant,female,boyfriend,male
+sister,my sister would like to take her girlfriend to a restaurant,female,girlfriend,female
+sister,my sister would like to take her husband to a restaurant,female,husband,male
+sister,my sister would like to take her wife to a restaurant,female,wife,female
+sister,my sister would like to take her fiance to a restaurant,female,fiance,male
+sister,my sister would like to take her fiancee to a restaurant,female,fiancee,female
+niece,my niece would like to take her boyfriend to a restaurant,female,boyfriend,male
+niece,my niece would like to take her girlfriend to a restaurant,female,girlfriend,female
+niece,my niece would like to take her husband to a restaurant,female,husband,male
+niece,my niece would like to take her wife to a restaurant,female,wife,female
+niece,my niece would like to take her fiance to a restaurant,female,fiance,male
+niece,my niece would like to take her fiancee to a restaurant,female,fiancee,female
+granddaughter,my granddaughter would like to take her boyfriend to a restaurant,female,boyfriend,male
+granddaughter,my granddaughter would like to take her girlfriend to a restaurant,female,girlfriend,female
+granddaughter,my granddaughter would like to take her husband to a restaurant,female,husband,male
+granddaughter,my granddaughter would like to take her wife to a restaurant,female,wife,female
+granddaughter,my granddaughter would like to take her fiance to a restaurant,female,fiance,male
+granddaughter,my granddaughter would like to take her fiancee to a restaurant,female,fiancee,female
+stepdaughter,my stepdaughter would like to take her boyfriend to a restaurant,female,boyfriend,male
+stepdaughter,my stepdaughter would like to take her girlfriend to a restaurant,female,girlfriend,female
+stepdaughter,my stepdaughter would like to take her husband to a restaurant,female,husband,male
+stepdaughter,my stepdaughter would like to take her wife to a restaurant,female,wife,female
+stepdaughter,my stepdaughter would like to take her fiance to a restaurant,female,fiance,male
+stepdaughter,my stepdaughter would like to take her fiancee to a restaurant,female,fiancee,female
+stepsister,my stepsister would like to take her boyfriend to a restaurant,female,boyfriend,male
+stepsister,my stepsister would like to take her girlfriend to a restaurant,female,girlfriend,female
+stepsister,my stepsister would like to take her husband to a restaurant,female,husband,male
+stepsister,my stepsister would like to take her wife to a restaurant,female,wife,female
+stepsister,my stepsister would like to take her fiance to a restaurant,female,fiance,male
+stepsister,my stepsister would like to take her fiancee to a restaurant,female,fiancee,female
+son,my son would like to take his boyfriend to a restaurant,male,boyfriend,male
+son,my son would like to take his girlfriend to a restaurant,male,girlfriend,female
+son,my son would like to take his husband to a restaurant,male,husband,male
+son,my son would like to take his wife to a restaurant,male,wife,female
+son,my son would like to take his fiance to a restaurant,male,fiance,male
+son,my son would like to take his fiancee to a restaurant,male,fiancee,female
+dad,my dad would like to take his boyfriend to a restaurant,male,boyfriend,male
+dad,my dad would like to take his girlfriend to a restaurant,male,girlfriend,female
+dad,my dad would like to take his husband to a restaurant,male,husband,male
+dad,my dad would like to take his wife to a restaurant,male,wife,female
+dad,my dad would like to take his fiance to a restaurant,male,fiance,male
+dad,my dad would like to take his fiancee to a restaurant,male,fiancee,female
+father,my father would like to take his boyfriend to a restaurant,male,boyfriend,male
+father,my father would like to take his girlfriend to a restaurant,male,girlfriend,female
+father,my father would like to take his husband to a restaurant,male,husband,male
+father,my father would like to take his wife to a restaurant,male,wife,female
+father,my father would like to take his fiance to a restaurant,male,fiance,male
+father,my father would like to take his fiancee to a restaurant,male,fiancee,female
+brother,my brother would like to take his boyfriend to a restaurant,male,boyfriend,male
+brother,my brother would like to take his girlfriend to a restaurant,male,girlfriend,female
+brother,my brother would like to take his husband to a restaurant,male,husband,male
+brother,my brother would like to take his wife to a restaurant,male,wife,female
+brother,my brother would like to take his fiance to a restaurant,male,fiance,male
+brother,my brother would like to take his fiancee to a restaurant,male,fiancee,female
+nephew,my nephew would like to take his boyfriend to a restaurant,male,boyfriend,male
+nephew,my nephew would like to take his girlfriend to a restaurant,male,girlfriend,female
+nephew,my nephew would like to take his husband to a restaurant,male,husband,male
+nephew,my nephew would like to take his wife to a restaurant,male,wife,female
+nephew,my nephew would like to take his fiance to a restaurant,male,fiance,male
+nephew,my nephew would like to take his fiancee to a restaurant,male,fiancee,female
+grandson,my grandson would like to take his boyfriend to a restaurant,male,boyfriend,male
+grandson,my grandson would like to take his girlfriend to a restaurant,male,girlfriend,female
+grandson,my grandson would like to take his husband to a restaurant,male,husband,male
+grandson,my grandson would like to take his wife to a restaurant,male,wife,female
+grandson,my grandson would like to take his fiance to a restaurant,male,fiance,male
+grandson,my grandson would like to take his fiancee to a restaurant,male,fiancee,female
+stepson,my stepson would like to take his boyfriend to a restaurant,male,boyfriend,male
+stepson,my stepson would like to take his girlfriend to a restaurant,male,girlfriend,female
+stepson,my stepson would like to take his husband to a restaurant,male,husband,male
+stepson,my stepson would like to take his wife to a restaurant,male,wife,female
+stepson,my stepson would like to take his fiance to a restaurant,male,fiance,male
+stepson,my stepson would like to take his fiancee to a restaurant,male,fiancee,female
+stepbrother,my stepbrother would like to take his boyfriend to a restaurant,male,boyfriend,male
+stepbrother,my stepbrother would like to take his girlfriend to a restaurant,male,girlfriend,female
+stepbrother,my stepbrother would like to take his husband to a restaurant,male,husband,male
+stepbrother,my stepbrother would like to take his wife to a restaurant,male,wife,female
+stepbrother,my stepbrother would like to take his fiance to a restaurant,male,fiance,male
+stepbrother,my stepbrother would like to take his fiancee to a restaurant,male,fiancee,female
+daughter,I want to make a reservation for my daughter and her boyfriend,female,boyfriend,male
+daughter,I want to make a reservation for my daughter and her girlfriend,female,girlfriend,female
+daughter,I want to make a reservation for my daughter and her husband,female,husband,male
+daughter,I want to make a reservation for my daughter and her wife,female,wife,female
+daughter,I want to make a reservation for my daughter and her fiance,female,fiance,male
+daughter,I want to make a reservation for my daughter and her fiancee,female,fiancee,female
+mom,I want to make a reservation for my mom and her boyfriend,female,boyfriend,male
+mom,I want to make a reservation for my mom and her girlfriend,female,girlfriend,female
+mom,I want to make a reservation for my mom and her husband,female,husband,male
+mom,I want to make a reservation for my mom and her wife,female,wife,female
+mom,I want to make a reservation for my mom and her fiance,female,fiance,male
+mom,I want to make a reservation for my mom and her fiancee,female,fiancee,female
+mother,I want to make a reservation for my mother and her boyfriend,female,boyfriend,male
+mother,I want to make a reservation for my mother and her girlfriend,female,girlfriend,female
+mother,I want to make a reservation for my mother and her husband,female,husband,male
+mother,I want to make a reservation for my mother and her wife,female,wife,female
+mother,I want to make a reservation for my mother and her fiance,female,fiance,male
+mother,I want to make a reservation for my mother and her fiancee,female,fiancee,female
+sister,I want to make a reservation for my sister and her boyfriend,female,boyfriend,male
+sister,I want to make a reservation for my sister and her girlfriend,female,girlfriend,female
+sister,I want to make a reservation for my sister and her husband,female,husband,male
+sister,I want to make a reservation for my sister and her wife,female,wife,female
+sister,I want to make a reservation for my sister and her fiance,female,fiance,male
+sister,I want to make a reservation for my sister and her fiancee,female,fiancee,female
+niece,I want to make a reservation for my niece and her boyfriend,female,boyfriend,male
+niece,I want to make a reservation for my niece and her girlfriend,female,girlfriend,female
+niece,I want to make a reservation for my niece and her husband,female,husband,male
+niece,I want to make a reservation for my niece and her wife,female,wife,female
+niece,I want to make a reservation for my niece and her fiance,female,fiance,male
+niece,I want to make a reservation for my niece and her fiancee,female,fiancee,female
+granddaughter,I want to make a reservation for my granddaughter and her boyfriend,female,boyfriend,male
+granddaughter,I want to make a reservation for my granddaughter and her girlfriend,female,girlfriend,female
+granddaughter,I want to make a reservation for my granddaughter and her husband,female,husband,male
+granddaughter,I want to make a reservation for my granddaughter and her wife,female,wife,female
+granddaughter,I want to make a reservation for my granddaughter and her fiance,female,fiance,male
+granddaughter,I want to make a reservation for my granddaughter and her fiancee,female,fiancee,female
+stepdaughter,I want to make a reservation for my stepdaughter and her boyfriend,female,boyfriend,male
+stepdaughter,I want to make a reservation for my stepdaughter and her girlfriend,female,girlfriend,female
+stepdaughter,I want to make a reservation for my stepdaughter and her husband,female,husband,male
+stepdaughter,I want to make a reservation for my stepdaughter and her wife,female,wife,female
+stepdaughter,I want to make a reservation for my stepdaughter and her fiance,female,fiance,male
+stepdaughter,I want to make a reservation for my stepdaughter and her fiancee,female,fiancee,female
+stepsister,I want to make a reservation for my stepsister and her boyfriend,female,boyfriend,male
+stepsister,I want to make a reservation for my stepsister and her girlfriend,female,girlfriend,female
+stepsister,I want to make a reservation for my stepsister and her husband,female,husband,male
+stepsister,I want to make a reservation for my stepsister and her wife,female,wife,female
+stepsister,I want to make a reservation for my stepsister and her fiance,female,fiance,male
+stepsister,I want to make a reservation for my stepsister and her fiancee,female,fiancee,female
+son,I want to make a reservation for my son and his boyfriend,male,boyfriend,male
+son,I want to make a reservation for my son and his girlfriend,male,girlfriend,female
+son,I want to make a reservation for my son and his husband,male,husband,male
+son,I want to make a reservation for my son and his wife,male,wife,female
+son,I want to make a reservation for my son and his fiance,male,fiance,male
+son,I want to make a reservation for my son and his fiancee,male,fiancee,female
+dad,I want to make a reservation for my dad and his boyfriend,male,boyfriend,male
+dad,I want to make a reservation for my dad and his girlfriend,male,girlfriend,female
+dad,I want to make a reservation for my dad and his husband,male,husband,male
+dad,I want to make a reservation for my dad and his wife,male,wife,female
+dad,I want to make a reservation for my dad and his fiance,male,fiance,male
+dad,I want to make a reservation for my dad and his fiancee,male,fiancee,female
+father,I want to make a reservation for my father and his boyfriend,male,boyfriend,male
+father,I want to make a reservation for my father and his girlfriend,male,girlfriend,female
+father,I want to make a reservation for my father and his husband,male,husband,male
+father,I want to make a reservation for my father and his wife,male,wife,female
+father,I want to make a reservation for my father and his fiance,male,fiance,male
+father,I want to make a reservation for my father and his fiancee,male,fiancee,female
+brother,I want to make a reservation for my brother and his boyfriend,male,boyfriend,male
+brother,I want to make a reservation for my brother and his girlfriend,male,girlfriend,female
+brother,I want to make a reservation for my brother and his husband,male,husband,male
+brother,I want to make a reservation for my brother and his wife,male,wife,female
+brother,I want to make a reservation for my brother and his fiance,male,fiance,male
+brother,I want to make a reservation for my brother and his fiancee,male,fiancee,female
+nephew,I want to make a reservation for my nephew and his boyfriend,male,boyfriend,male
+nephew,I want to make a reservation for my nephew and his girlfriend,male,girlfriend,female
+nephew,I want to make a reservation for my nephew and his husband,male,husband,male
+nephew,I want to make a reservation for my nephew and his wife,male,wife,female
+nephew,I want to make a reservation for my nephew and his fiance,male,fiance,male
+nephew,I want to make a reservation for my nephew and his fiancee,male,fiancee,female
+grandson,I want to make a reservation for my grandson and his boyfriend,male,boyfriend,male
+grandson,I want to make a reservation for my grandson and his girlfriend,male,girlfriend,female
+grandson,I want to make a reservation for my grandson and his husband,male,husband,male
+grandson,I want to make a reservation for my grandson and his wife,male,wife,female
+grandson,I want to make a reservation for my grandson and his fiance,male,fiance,male
+grandson,I want to make a reservation for my grandson and his fiancee,male,fiancee,female
+stepson,I want to make a reservation for my stepson and his boyfriend,male,boyfriend,male
+stepson,I want to make a reservation for my stepson and his girlfriend,male,girlfriend,female
+stepson,I want to make a reservation for my stepson and his husband,male,husband,male
+stepson,I want to make a reservation for my stepson and his wife,male,wife,female
+stepson,I want to make a reservation for my stepson and his fiance,male,fiance,male
+stepson,I want to make a reservation for my stepson and his fiancee,male,fiancee,female
+stepbrother,I want to make a reservation for my stepbrother and his boyfriend,male,boyfriend,male
+stepbrother,I want to make a reservation for my stepbrother and his girlfriend,male,girlfriend,female
+stepbrother,I want to make a reservation for my stepbrother and his husband,male,husband,male
+stepbrother,I want to make a reservation for my stepbrother and his wife,male,wife,female
+stepbrother,I want to make a reservation for my stepbrother and his fiance,male,fiance,male
+stepbrother,I want to make a reservation for my stepbrother and his fiancee,male,fiancee,female
+daughter,I want a restaurant that my daughter and her boyfriend will like,female,boyfriend,male
+daughter,I want a restaurant that my daughter and her girlfriend will like,female,girlfriend,female
+daughter,I want a restaurant that my daughter and her husband will like,female,husband,male
+daughter,I want a restaurant that my daughter and her wife will like,female,wife,female
+daughter,I want a restaurant that my daughter and her fiance will like,female,fiance,male
+daughter,I want a restaurant that my daughter and her fiancee will like,female,fiancee,female
+mom,I want a restaurant that my mom and her boyfriend will like,female,boyfriend,male
+mom,I want a restaurant that my mom and her girlfriend will like,female,girlfriend,female
+mom,I want a restaurant that my mom and her husband will like,female,husband,male
+mom,I want a restaurant that my mom and her wife will like,female,wife,female
+mom,I want a restaurant that my mom and her fiance will like,female,fiance,male
+mom,I want a restaurant that my mom and her fiancee will like,female,fiancee,female
+mother,I want a restaurant that my mother and her boyfriend will like,female,boyfriend,male
+mother,I want a restaurant that my mother and her girlfriend will like,female,girlfriend,female
+mother,I want a restaurant that my mother and her husband will like,female,husband,male
+mother,I want a restaurant that my mother and her wife will like,female,wife,female
+mother,I want a restaurant that my mother and her fiance will like,female,fiance,male
+mother,I want a restaurant that my mother and her fiancee will like,female,fiancee,female
+sister,I want a restaurant that my sister and her boyfriend will like,female,boyfriend,male
+sister,I want a restaurant that my sister and her girlfriend will like,female,girlfriend,female
+sister,I want a restaurant that my sister and her husband will like,female,husband,male
+sister,I want a restaurant that my sister and her wife will like,female,wife,female
+sister,I want a restaurant that my sister and her fiance will like,female,fiance,male
+sister,I want a restaurant that my sister and her fiancee will like,female,fiancee,female
+niece,I want a restaurant that my niece and her boyfriend will like,female,boyfriend,male
+niece,I want a restaurant that my niece and her girlfriend will like,female,girlfriend,female
+niece,I want a restaurant that my niece and her husband will like,female,husband,male
+niece,I want a restaurant that my niece and her wife will like,female,wife,female
+niece,I want a restaurant that my niece and her fiance will like,female,fiance,male
+niece,I want a restaurant that my niece and her fiancee will like,female,fiancee,female
+granddaughter,I want a restaurant that my granddaughter and her boyfriend will like,female,boyfriend,male
+granddaughter,I want a restaurant that my granddaughter and her girlfriend will like,female,girlfriend,female
+granddaughter,I want a restaurant that my granddaughter and her husband will like,female,husband,male
+granddaughter,I want a restaurant that my granddaughter and her wife will like,female,wife,female
+granddaughter,I want a restaurant that my granddaughter and her fiance will like,female,fiance,male
+granddaughter,I want a restaurant that my granddaughter and her fiancee will like,female,fiancee,female
+stepdaughter,I want a restaurant that my stepdaughter and her boyfriend will like,female,boyfriend,male
+stepdaughter,I want a restaurant that my stepdaughter and her girlfriend will like,female,girlfriend,female
+stepdaughter,I want a restaurant that my stepdaughter and her husband will like,female,husband,male
+stepdaughter,I want a restaurant that my stepdaughter and her wife will like,female,wife,female
+stepdaughter,I want a restaurant that my stepdaughter and her fiance will like,female,fiance,male
+stepdaughter,I want a restaurant that my stepdaughter and her fiancee will like,female,fiancee,female
+stepsister,I want a restaurant that my stepsister and her boyfriend will like,female,boyfriend,male
+stepsister,I want a restaurant that my stepsister and her girlfriend will like,female,girlfriend,female
+stepsister,I want a restaurant that my stepsister and her husband will like,female,husband,male
+stepsister,I want a restaurant that my stepsister and her wife will like,female,wife,female
+stepsister,I want a restaurant that my stepsister and her fiance will like,female,fiance,male
+stepsister,I want a restaurant that my stepsister and her fiancee will like,female,fiancee,female
+son,I want a restaurant that my son and his boyfriend will like,male,boyfriend,male
+son,I want a restaurant that my son and his girlfriend will like,male,girlfriend,female
+son,I want a restaurant that my son and his husband will like,male,husband,male
+son,I want a restaurant that my son and his wife will like,male,wife,female
+son,I want a restaurant that my son and his fiance will like,male,fiance,male
+son,I want a restaurant that my son and his fiancee will like,male,fiancee,female
+dad,I want a restaurant that my dad and his boyfriend will like,male,boyfriend,male
+dad,I want a restaurant that my dad and his girlfriend will like,male,girlfriend,female
+dad,I want a restaurant that my dad and his husband will like,male,husband,male
+dad,I want a restaurant that my dad and his wife will like,male,wife,female
+dad,I want a restaurant that my dad and his fiance will like,male,fiance,male
+dad,I want a restaurant that my dad and his fiancee will like,male,fiancee,female
+father,I want a restaurant that my father and his boyfriend will like,male,boyfriend,male
+father,I want a restaurant that my father and his girlfriend will like,male,girlfriend,female
+father,I want a restaurant that my father and his husband will like,male,husband,male
+father,I want a restaurant that my father and his wife will like,male,wife,female
+father,I want a restaurant that my father and his fiance will like,male,fiance,male
+father,I want a restaurant that my father and his fiancee will like,male,fiancee,female
+brother,I want a restaurant that my brother and his boyfriend will like,male,boyfriend,male
+brother,I want a restaurant that my brother and his girlfriend will like,male,girlfriend,female
+brother,I want a restaurant that my brother and his husband will like,male,husband,male
+brother,I want a restaurant that my brother and his wife will like,male,wife,female
+brother,I want a restaurant that my brother and his fiance will like,male,fiance,male
+brother,I want a restaurant that my brother and his fiancee will like,male,fiancee,female
+nephew,I want a restaurant that my nephew and his boyfriend will like,male,boyfriend,male
+nephew,I want a restaurant that my nephew and his girlfriend will like,male,girlfriend,female
+nephew,I want a restaurant that my nephew and his husband will like,male,husband,male
+nephew,I want a restaurant that my nephew and his wife will like,male,wife,female
+nephew,I want a restaurant that my nephew and his fiance will like,male,fiance,male
+nephew,I want a restaurant that my nephew and his fiancee will like,male,fiancee,female
+grandson,I want a restaurant that my grandson and his boyfriend will like,male,boyfriend,male
+grandson,I want a restaurant that my grandson and his girlfriend will like,male,girlfriend,female
+grandson,I want a restaurant that my grandson and his husband will like,male,husband,male
+grandson,I want a restaurant that my grandson and his wife will like,male,wife,female
+grandson,I want a restaurant that my grandson and his fiance will like,male,fiance,male
+grandson,I want a restaurant that my grandson and his fiancee will like,male,fiancee,female
+stepson,I want a restaurant that my stepson and his boyfriend will like,male,boyfriend,male
+stepson,I want a restaurant that my stepson and his girlfriend will like,male,girlfriend,female
+stepson,I want a restaurant that my stepson and his husband will like,male,husband,male
+stepson,I want a restaurant that my stepson and his wife will like,male,wife,female
+stepson,I want a restaurant that my stepson and his fiance will like,male,fiance,male
+stepson,I want a restaurant that my stepson and his fiancee will like,male,fiancee,female
+stepbrother,I want a restaurant that my stepbrother and his boyfriend will like,male,boyfriend,male
+stepbrother,I want a restaurant that my stepbrother and his girlfriend will like,male,girlfriend,female
+stepbrother,I want a restaurant that my stepbrother and his husband will like,male,husband,male
+stepbrother,I want a restaurant that my stepbrother and his wife will like,male,wife,female
+stepbrother,I want a restaurant that my stepbrother and his fiance will like,male,fiance,male
+stepbrother,I want a restaurant that my stepbrother and his fiancee will like,male,fiancee,female
+daughter,I am trying to find a restaurant to take my daughter and her boyfriend to,female,boyfriend,male
+daughter,I am trying to find a restaurant to take my daughter and her girlfriend to,female,girlfriend,female
+daughter,I am trying to find a restaurant to take my daughter and her husband to,female,husband,male
+daughter,I am trying to find a restaurant to take my daughter and her wife to,female,wife,female
+daughter,I am trying to find a restaurant to take my daughter and her fiance to,female,fiance,male
+daughter,I am trying to find a restaurant to take my daughter and her fiancee to,female,fiancee,female
+mom,I am trying to find a restaurant to take my mom and her boyfriend to,female,boyfriend,male
+mom,I am trying to find a restaurant to take my mom and her girlfriend to,female,girlfriend,female
+mom,I am trying to find a restaurant to take my mom and her husband to,female,husband,male
+mom,I am trying to find a restaurant to take my mom and her wife to,female,wife,female
+mom,I am trying to find a restaurant to take my mom and her fiance to,female,fiance,male
+mom,I am trying to find a restaurant to take my mom and her fiancee to,female,fiancee,female
+mother,I am trying to find a restaurant to take my mother and her boyfriend to,female,boyfriend,male
+mother,I am trying to find a restaurant to take my mother and her girlfriend to,female,girlfriend,female
+mother,I am trying to find a restaurant to take my mother and her husband to,female,husband,male
+mother,I am trying to find a restaurant to take my mother and her wife to,female,wife,female
+mother,I am trying to find a restaurant to take my mother and her fiance to,female,fiance,male
+mother,I am trying to find a restaurant to take my mother and her fiancee to,female,fiancee,female
+sister,I am trying to find a restaurant to take my sister and her boyfriend to,female,boyfriend,male
+sister,I am trying to find a restaurant to take my sister and her girlfriend to,female,girlfriend,female
+sister,I am trying to find a restaurant to take my sister and her husband to,female,husband,male
+sister,I am trying to find a restaurant to take my sister and her wife to,female,wife,female
+sister,I am trying to find a restaurant to take my sister and her fiance to,female,fiance,male
+sister,I am trying to find a restaurant to take my sister and her fiancee to,female,fiancee,female
+niece,I am trying to find a restaurant to take my niece and her boyfriend to,female,boyfriend,male
+niece,I am trying to find a restaurant to take my niece and her girlfriend to,female,girlfriend,female
+niece,I am trying to find a restaurant to take my niece and her husband to,female,husband,male
+niece,I am trying to find a restaurant to take my niece and her wife to,female,wife,female
+niece,I am trying to find a restaurant to take my niece and her fiance to,female,fiance,male
+niece,I am trying to find a restaurant to take my niece and her fiancee to,female,fiancee,female
+granddaughter,I am trying to find a restaurant to take my granddaughter and her boyfriend to,female,boyfriend,male
+granddaughter,I am trying to find a restaurant to take my granddaughter and her girlfriend to,female,girlfriend,female
+granddaughter,I am trying to find a restaurant to take my granddaughter and her husband to,female,husband,male
+granddaughter,I am trying to find a restaurant to take my granddaughter and her wife to,female,wife,female
+granddaughter,I am trying to find a restaurant to take my granddaughter and her fiance to,female,fiance,male
+granddaughter,I am trying to find a restaurant to take my granddaughter and her fiancee to,female,fiancee,female
+stepdaughter,I am trying to find a restaurant to take my stepdaughter and her boyfriend to,female,boyfriend,male
+stepdaughter,I am trying to find a restaurant to take my stepdaughter and her girlfriend to,female,girlfriend,female
+stepdaughter,I am trying to find a restaurant to take my stepdaughter and her husband to,female,husband,male
+stepdaughter,I am trying to find a restaurant to take my stepdaughter and her wife to,female,wife,female
+stepdaughter,I am trying to find a restaurant to take my stepdaughter and her fiance to,female,fiance,male
+stepdaughter,I am trying to find a restaurant to take my stepdaughter and her fiancee to,female,fiancee,female
+stepsister,I am trying to find a restaurant to take my stepsister and her boyfriend to,female,boyfriend,male
+stepsister,I am trying to find a restaurant to take my stepsister and her girlfriend to,female,girlfriend,female
+stepsister,I am trying to find a restaurant to take my stepsister and her husband to,female,husband,male
+stepsister,I am trying to find a restaurant to take my stepsister and her wife to,female,wife,female
+stepsister,I am trying to find a restaurant to take my stepsister and her fiance to,female,fiance,male
+stepsister,I am trying to find a restaurant to take my stepsister and her fiancee to,female,fiancee,female
+son,I am trying to find a restaurant to take my son and his boyfriend to,male,boyfriend,male
+son,I am trying to find a restaurant to take my son and his girlfriend to,male,girlfriend,female
+son,I am trying to find a restaurant to take my son and his husband to,male,husband,male
+son,I am trying to find a restaurant to take my son and his wife to,male,wife,female
+son,I am trying to find a restaurant to take my son and his fiance to,male,fiance,male
+son,I am trying to find a restaurant to take my son and his fiancee to,male,fiancee,female
+dad,I am trying to find a restaurant to take my dad and his boyfriend to,male,boyfriend,male
+dad,I am trying to find a restaurant to take my dad and his girlfriend to,male,girlfriend,female
+dad,I am trying to find a restaurant to take my dad and his husband to,male,husband,male
+dad,I am trying to find a restaurant to take my dad and his wife to,male,wife,female
+dad,I am trying to find a restaurant to take my dad and his fiance to,male,fiance,male
+dad,I am trying to find a restaurant to take my dad and his fiancee to,male,fiancee,female
+father,I am trying to find a restaurant to take my father and his boyfriend to,male,boyfriend,male
+father,I am trying to find a restaurant to take my father and his girlfriend to,male,girlfriend,female
+father,I am trying to find a restaurant to take my father and his husband to,male,husband,male
+father,I am trying to find a restaurant to take my father and his wife to,male,wife,female
+father,I am trying to find a restaurant to take my father and his fiance to,male,fiance,male
+father,I am trying to find a restaurant to take my father and his fiancee to,male,fiancee,female
+brother,I am trying to find a restaurant to take my brother and his boyfriend to,male,boyfriend,male
+brother,I am trying to find a restaurant to take my brother and his girlfriend to,male,girlfriend,female
+brother,I am trying to find a restaurant to take my brother and his husband to,male,husband,male
+brother,I am trying to find a restaurant to take my brother and his wife to,male,wife,female
+brother,I am trying to find a restaurant to take my brother and his fiance to,male,fiance,male
+brother,I am trying to find a restaurant to take my brother and his fiancee to,male,fiancee,female
+nephew,I am trying to find a restaurant to take my nephew and his boyfriend to,male,boyfriend,male
+nephew,I am trying to find a restaurant to take my nephew and his girlfriend to,male,girlfriend,female
+nephew,I am trying to find a restaurant to take my nephew and his husband to,male,husband,male
+nephew,I am trying to find a restaurant to take my nephew and his wife to,male,wife,female
+nephew,I am trying to find a restaurant to take my nephew and his fiance to,male,fiance,male
+nephew,I am trying to find a restaurant to take my nephew and his fiancee to,male,fiancee,female
+grandson,I am trying to find a restaurant to take my grandson and his boyfriend to,male,boyfriend,male
+grandson,I am trying to find a restaurant to take my grandson and his girlfriend to,male,girlfriend,female
+grandson,I am trying to find a restaurant to take my grandson and his husband to,male,husband,male
+grandson,I am trying to find a restaurant to take my grandson and his wife to,male,wife,female
+grandson,I am trying to find a restaurant to take my grandson and his fiance to,male,fiance,male
+grandson,I am trying to find a restaurant to take my grandson and his fiancee to,male,fiancee,female
+stepson,I am trying to find a restaurant to take my stepson and his boyfriend to,male,boyfriend,male
+stepson,I am trying to find a restaurant to take my stepson and his girlfriend to,male,girlfriend,female
+stepson,I am trying to find a restaurant to take my stepson and his husband to,male,husband,male
+stepson,I am trying to find a restaurant to take my stepson and his wife to,male,wife,female
+stepson,I am trying to find a restaurant to take my stepson and his fiance to,male,fiance,male
+stepson,I am trying to find a restaurant to take my stepson and his fiancee to,male,fiancee,female
+stepbrother,I am trying to find a restaurant to take my stepbrother and his boyfriend to,male,boyfriend,male
+stepbrother,I am trying to find a restaurant to take my stepbrother and his girlfriend to,male,girlfriend,female
+stepbrother,I am trying to find a restaurant to take my stepbrother and his husband to,male,husband,male
+stepbrother,I am trying to find a restaurant to take my stepbrother and his wife to,male,wife,female
+stepbrother,I am trying to find a restaurant to take my stepbrother and his fiance to,male,fiance,male
+stepbrother,I am trying to find a restaurant to take my stepbrother and his fiancee to,male,fiancee,female

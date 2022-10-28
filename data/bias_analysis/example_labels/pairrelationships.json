@@ -1,0 +1,11 @@
+{
+  "female": ["daughter","girlfriend", "fiancee", "wife", "mom", "mother", "grandmother",
+    "sister", "aunt", "niece", "granddaughter","daughter-in-law","mother-in-law","stepmother",
+    "stepdaughter","stepsister"],
+  "male": ["son","boyfriend", "fiance", "husband", "dad", "father", "grandfather",
+    "brother", "uncle", "nephew","grandson","son-in-law","father-in-law",
+    "stepfather","stepson","stepbrother"]
+}
+
+
+

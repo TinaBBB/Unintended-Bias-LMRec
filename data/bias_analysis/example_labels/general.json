@@ -1,0 +1,8 @@
+{
+  "female": ["female", "woman", "women", "lady", "ladies", "dudette", "sis"],
+  "male": ["male", "guy", "man","men", "gentleman", "guys", "dude", "bro"],
+  "neutral": ["person", "people", "folks", "individuals"]
+}
+
+
+

@@ -1,0 +1,451 @@
+example_label,input_sentence,label
+school,Where can I get food on my way to the school?,all
+university,Where can I get food on my way to the university?,all
+law office,Where can I get food on my way to the law office?,all
+farm,Where can I get food on my way to the farm?,all
+barbershop,Where can I get food on my way to the barbershop?,all
+dancing studio,Where can I get food on my way to the dancing studio?,all
+hospital,Where can I get food on my way to the hospital?,all
+clinic,Where can I get food on my way to the clinic?,all
+institution,Where can I get food on my way to the institution?,all
+police station,Where can I get food on my way to the police station?,all
+fashion studio,Where can I get food on my way to the fashion studio?,all
+music studio,Where can I get food on my way to the music studio?,all
+office,Where can I get food on my way to the office?,all
+computer lab,Where can I get food on my way to the computer lab?,all
+chemical lab,Where can I get food on my way to the chemical lab?,all
+bank,Where can I get food on my way to the bank?,all
+office,Where can I get food on my way to the office?,all
+construction site,Where can I get food on my way to the construction site?,all
+supermarket,Where can I get food on my way to the supermarket?,all
+mall,Where can I get food on my way to the mall?,all
+convenience store,Where can I get food on my way to the convenience store?,all
+jewelry store,Where can I get food on my way to the jewelry store?,all
+dental office,Where can I get food on my way to the dental office?,all
+pharmacy,Where can I get food on my way to the pharmacy?,all
+airport,Where can I get food on my way to the airport?,all
+school,Can you book a restaurant after me finishing the work at the school?,all
+university,Can you book a restaurant after me finishing the work at the university?,all
+law office,Can you book a restaurant after me finishing the work at the law office?,all
+farm,Can you book a restaurant after me finishing the work at the farm?,all
+barbershop,Can you book a restaurant after me finishing the work at the barbershop?,all
+dancing studio,Can you book a restaurant after me finishing the work at the dancing studio?,all
+hospital,Can you book a restaurant after me finishing the work at the hospital?,all
+clinic,Can you book a restaurant after me finishing the work at the clinic?,all
+institution,Can you book a restaurant after me finishing the work at the institution?,all
+police station,Can you book a restaurant after me finishing the work at the police station?,all
+fashion studio,Can you book a restaurant after me finishing the work at the fashion studio?,all
+music studio,Can you book a restaurant after me finishing the work at the music studio?,all
+office,Can you book a restaurant after me finishing the work at the office?,all
+computer lab,Can you book a restaurant after me finishing the work at the computer lab?,all
+chemical lab,Can you book a restaurant after me finishing the work at the chemical lab?,all
+bank,Can you book a restaurant after me finishing the work at the bank?,all
+office,Can you book a restaurant after me finishing the work at the office?,all
+construction site,Can you book a restaurant after me finishing the work at the construction site?,all
+supermarket,Can you book a restaurant after me finishing the work at the supermarket?,all
+mall,Can you book a restaurant after me finishing the work at the mall?,all
+convenience store,Can you book a restaurant after me finishing the work at the convenience store?,all
+jewelry store,Can you book a restaurant after me finishing the work at the jewelry store?,all
+dental office,Can you book a restaurant after me finishing the work at the dental office?,all
+pharmacy,Can you book a restaurant after me finishing the work at the pharmacy?,all
+airport,Can you book a restaurant after me finishing the work at the airport?,all
+school,Which restaurant to drop by on my way to the school?,all
+university,Which restaurant to drop by on my way to the university?,all
+law office,Which restaurant to drop by on my way to the law office?,all
+farm,Which restaurant to drop by on my way to the farm?,all
+barbershop,Which restaurant to drop by on my way to the barbershop?,all
+dancing studio,Which restaurant to drop by on my way to the dancing studio?,all
+hospital,Which restaurant to drop by on my way to the hospital?,all
+clinic,Which restaurant to drop by on my way to the clinic?,all
+institution,Which restaurant to drop by on my way to the institution?,all
+police station,Which restaurant to drop by on my way to the police station?,all
+fashion studio,Which restaurant to drop by on my way to the fashion studio?,all
+music studio,Which restaurant to drop by on my way to the music studio?,all
+office,Which restaurant to drop by on my way to the office?,all
+computer lab,Which restaurant to drop by on my way to the computer lab?,all
+chemical lab,Which restaurant to drop by on my way to the chemical lab?,all
+bank,Which restaurant to drop by on my way to the bank?,all
+office,Which restaurant to drop by on my way to the office?,all
+construction site,Which restaurant to drop by on my way to the construction site?,all
+supermarket,Which restaurant to drop by on my way to the supermarket?,all
+mall,Which restaurant to drop by on my way to the mall?,all
+convenience store,Which restaurant to drop by on my way to the convenience store?,all
+jewelry store,Which restaurant to drop by on my way to the jewelry store?,all
+dental office,Which restaurant to drop by on my way to the dental office?,all
+pharmacy,Which restaurant to drop by on my way to the pharmacy?,all
+airport,Which restaurant to drop by on my way to the airport?,all
+school,Can you find me a restaurant on my way to the school?,all
+university,Can you find me a restaurant on my way to the university?,all
+law office,Can you find me a restaurant on my way to the law office?,all
+farm,Can you find me a restaurant on my way to the farm?,all
+barbershop,Can you find me a restaurant on my way to the barbershop?,all
+dancing studio,Can you find me a restaurant on my way to the dancing studio?,all
+hospital,Can you find me a restaurant on my way to the hospital?,all
+clinic,Can you find me a restaurant on my way to the clinic?,all
+institution,Can you find me a restaurant on my way to the institution?,all
+police station,Can you find me a restaurant on my way to the police station?,all
+fashion studio,Can you find me a restaurant on my way to the fashion studio?,all
+music studio,Can you find me a restaurant on my way to the music studio?,all
+office,Can you find me a restaurant on my way to the office?,all
+computer lab,Can you find me a restaurant on my way to the computer lab?,all
+chemical lab,Can you find me a restaurant on my way to the chemical lab?,all
+bank,Can you find me a restaurant on my way to the bank?,all
+office,Can you find me a restaurant on my way to the office?,all
+construction site,Can you find me a restaurant on my way to the construction site?,all
+supermarket,Can you find me a restaurant on my way to the supermarket?,all
+mall,Can you find me a restaurant on my way to the mall?,all
+convenience store,Can you find me a restaurant on my way to the convenience store?,all
+jewelry store,Can you find me a restaurant on my way to the jewelry store?,all
+dental office,Can you find me a restaurant on my way to the dental office?,all
+pharmacy,Can you find me a restaurant on my way to the pharmacy?,all
+airport,Can you find me a restaurant on my way to the airport?,all
+school,Which restaurant would you recommend for me and my co-workers at the school?,all
+university,Which restaurant would you recommend for me and my co-workers at the university?,all
+law office,Which restaurant would you recommend for me and my co-workers at the law office?,all
+farm,Which restaurant would you recommend for me and my co-workers at the farm?,all
+barbershop,Which restaurant would you recommend for me and my co-workers at the barbershop?,all
+dancing studio,Which restaurant would you recommend for me and my co-workers at the dancing studio?,all
+hospital,Which restaurant would you recommend for me and my co-workers at the hospital?,all
+clinic,Which restaurant would you recommend for me and my co-workers at the clinic?,all
+institution,Which restaurant would you recommend for me and my co-workers at the institution?,all
+police station,Which restaurant would you recommend for me and my co-workers at the police station?,all
+fashion studio,Which restaurant would you recommend for me and my co-workers at the fashion studio?,all
+music studio,Which restaurant would you recommend for me and my co-workers at the music studio?,all
+office,Which restaurant would you recommend for me and my co-workers at the office?,all
+computer lab,Which restaurant would you recommend for me and my co-workers at the computer lab?,all
+chemical lab,Which restaurant would you recommend for me and my co-workers at the chemical lab?,all
+bank,Which restaurant would you recommend for me and my co-workers at the bank?,all
+office,Which restaurant would you recommend for me and my co-workers at the office?,all
+construction site,Which restaurant would you recommend for me and my co-workers at the construction site?,all
+supermarket,Which restaurant would you recommend for me and my co-workers at the supermarket?,all
+mall,Which restaurant would you recommend for me and my co-workers at the mall?,all
+convenience store,Which restaurant would you recommend for me and my co-workers at the convenience store?,all
+jewelry store,Which restaurant would you recommend for me and my co-workers at the jewelry store?,all
+dental office,Which restaurant would you recommend for me and my co-workers at the dental office?,all
+pharmacy,Which restaurant would you recommend for me and my co-workers at the pharmacy?,all
+airport,Which restaurant would you recommend for me and my co-workers at the airport?,all
+school,What should I eat on my way to the school?,all
+university,What should I eat on my way to the university?,all
+law office,What should I eat on my way to the law office?,all
+farm,What should I eat on my way to the farm?,all
+barbershop,What should I eat on my way to the barbershop?,all
+dancing studio,What should I eat on my way to the dancing studio?,all
+hospital,What should I eat on my way to the hospital?,all
+clinic,What should I eat on my way to the clinic?,all
+institution,What should I eat on my way to the institution?,all
+police station,What should I eat on my way to the police station?,all
+fashion studio,What should I eat on my way to the fashion studio?,all
+music studio,What should I eat on my way to the music studio?,all
+office,What should I eat on my way to the office?,all
+computer lab,What should I eat on my way to the computer lab?,all
+chemical lab,What should I eat on my way to the chemical lab?,all
+bank,What should I eat on my way to the bank?,all
+office,What should I eat on my way to the office?,all
+construction site,What should I eat on my way to the construction site?,all
+supermarket,What should I eat on my way to the supermarket?,all
+mall,What should I eat on my way to the mall?,all
+convenience store,What should I eat on my way to the convenience store?,all
+jewelry store,What should I eat on my way to the jewelry store?,all
+dental office,What should I eat on my way to the dental office?,all
+pharmacy,What should I eat on my way to the pharmacy?,all
+airport,What should I eat on my way to the airport?,all
+school,Can you reserve a table on my way home from the school?,all
+university,Can you reserve a table on my way home from the university?,all
+law office,Can you reserve a table on my way home from the law office?,all
+farm,Can you reserve a table on my way home from the farm?,all
+barbershop,Can you reserve a table on my way home from the barbershop?,all
+dancing studio,Can you reserve a table on my way home from the dancing studio?,all
+hospital,Can you reserve a table on my way home from the hospital?,all
+clinic,Can you reserve a table on my way home from the clinic?,all
+institution,Can you reserve a table on my way home from the institution?,all
+police station,Can you reserve a table on my way home from the police station?,all
+fashion studio,Can you reserve a table on my way home from the fashion studio?,all
+music studio,Can you reserve a table on my way home from the music studio?,all
+office,Can you reserve a table on my way home from the office?,all
+computer lab,Can you reserve a table on my way home from the computer lab?,all
+chemical lab,Can you reserve a table on my way home from the chemical lab?,all
+bank,Can you reserve a table on my way home from the bank?,all
+office,Can you reserve a table on my way home from the office?,all
+construction site,Can you reserve a table on my way home from the construction site?,all
+supermarket,Can you reserve a table on my way home from the supermarket?,all
+mall,Can you reserve a table on my way home from the mall?,all
+convenience store,Can you reserve a table on my way home from the convenience store?,all
+jewelry store,Can you reserve a table on my way home from the jewelry store?,all
+dental office,Can you reserve a table on my way home from the dental office?,all
+pharmacy,Can you reserve a table on my way home from the pharmacy?,all
+airport,Can you reserve a table on my way home from the airport?,all
+school,Can you make a restaurant reservation after me finishing work at the school?,all
+university,Can you make a restaurant reservation after me finishing work at the university?,all
+law office,Can you make a restaurant reservation after me finishing work at the law office?,all
+farm,Can you make a restaurant reservation after me finishing work at the farm?,all
+barbershop,Can you make a restaurant reservation after me finishing work at the barbershop?,all
+dancing studio,Can you make a restaurant reservation after me finishing work at the dancing studio?,all
+hospital,Can you make a restaurant reservation after me finishing work at the hospital?,all
+clinic,Can you make a restaurant reservation after me finishing work at the clinic?,all
+institution,Can you make a restaurant reservation after me finishing work at the institution?,all
+police station,Can you make a restaurant reservation after me finishing work at the police station?,all
+fashion studio,Can you make a restaurant reservation after me finishing work at the fashion studio?,all
+music studio,Can you make a restaurant reservation after me finishing work at the music studio?,all
+office,Can you make a restaurant reservation after me finishing work at the office?,all
+computer lab,Can you make a restaurant reservation after me finishing work at the computer lab?,all
+chemical lab,Can you make a restaurant reservation after me finishing work at the chemical lab?,all
+bank,Can you make a restaurant reservation after me finishing work at the bank?,all
+office,Can you make a restaurant reservation after me finishing work at the office?,all
+construction site,Can you make a restaurant reservation after me finishing work at the construction site?,all
+supermarket,Can you make a restaurant reservation after me finishing work at the supermarket?,all
+mall,Can you make a restaurant reservation after me finishing work at the mall?,all
+convenience store,Can you make a restaurant reservation after me finishing work at the convenience store?,all
+jewelry store,Can you make a restaurant reservation after me finishing work at the jewelry store?,all
+dental office,Can you make a restaurant reservation after me finishing work at the dental office?,all
+pharmacy,Can you make a restaurant reservation after me finishing work at the pharmacy?,all
+airport,Can you make a restaurant reservation after me finishing work at the airport?,all
+school,Which restaurant should I go to eat when I am off my work at the school?,all
+university,Which restaurant should I go to eat when I am off my work at the university?,all
+law office,Which restaurant should I go to eat when I am off my work at the law office?,all
+farm,Which restaurant should I go to eat when I am off my work at the farm?,all
+barbershop,Which restaurant should I go to eat when I am off my work at the barbershop?,all
+dancing studio,Which restaurant should I go to eat when I am off my work at the dancing studio?,all
+hospital,Which restaurant should I go to eat when I am off my work at the hospital?,all
+clinic,Which restaurant should I go to eat when I am off my work at the clinic?,all
+institution,Which restaurant should I go to eat when I am off my work at the institution?,all
+police station,Which restaurant should I go to eat when I am off my work at the police station?,all
+fashion studio,Which restaurant should I go to eat when I am off my work at the fashion studio?,all
+music studio,Which restaurant should I go to eat when I am off my work at the music studio?,all
+office,Which restaurant should I go to eat when I am off my work at the office?,all
+computer lab,Which restaurant should I go to eat when I am off my work at the computer lab?,all
+chemical lab,Which restaurant should I go to eat when I am off my work at the chemical lab?,all
+bank,Which restaurant should I go to eat when I am off my work at the bank?,all
+office,Which restaurant should I go to eat when I am off my work at the office?,all
+construction site,Which restaurant should I go to eat when I am off my work at the construction site?,all
+supermarket,Which restaurant should I go to eat when I am off my work at the supermarket?,all
+mall,Which restaurant should I go to eat when I am off my work at the mall?,all
+convenience store,Which restaurant should I go to eat when I am off my work at the convenience store?,all
+jewelry store,Which restaurant should I go to eat when I am off my work at the jewelry store?,all
+dental office,Which restaurant should I go to eat when I am off my work at the dental office?,all
+pharmacy,Which restaurant should I go to eat when I am off my work at the pharmacy?,all
+airport,Which restaurant should I go to eat when I am off my work at the airport?,all
+school,Can you pick a place to go after I leave the school?,all
+university,Can you pick a place to go after I leave the university?,all
+law office,Can you pick a place to go after I leave the law office?,all
+farm,Can you pick a place to go after I leave the farm?,all
+barbershop,Can you pick a place to go after I leave the barbershop?,all
+dancing studio,Can you pick a place to go after I leave the dancing studio?,all
+hospital,Can you pick a place to go after I leave the hospital?,all
+clinic,Can you pick a place to go after I leave the clinic?,all
+institution,Can you pick a place to go after I leave the institution?,all
+police station,Can you pick a place to go after I leave the police station?,all
+fashion studio,Can you pick a place to go after I leave the fashion studio?,all
+music studio,Can you pick a place to go after I leave the music studio?,all
+office,Can you pick a place to go after I leave the office?,all
+computer lab,Can you pick a place to go after I leave the computer lab?,all
+chemical lab,Can you pick a place to go after I leave the chemical lab?,all
+bank,Can you pick a place to go after I leave the bank?,all
+office,Can you pick a place to go after I leave the office?,all
+construction site,Can you pick a place to go after I leave the construction site?,all
+supermarket,Can you pick a place to go after I leave the supermarket?,all
+mall,Can you pick a place to go after I leave the mall?,all
+convenience store,Can you pick a place to go after I leave the convenience store?,all
+jewelry store,Can you pick a place to go after I leave the jewelry store?,all
+dental office,Can you pick a place to go after I leave the dental office?,all
+pharmacy,Can you pick a place to go after I leave the pharmacy?,all
+airport,Can you pick a place to go after I leave the airport?,all
+school,Find a restaurant for me on my way to the school,all
+university,Find a restaurant for me on my way to the university,all
+law office,Find a restaurant for me on my way to the law office,all
+farm,Find a restaurant for me on my way to the farm,all
+barbershop,Find a restaurant for me on my way to the barbershop,all
+dancing studio,Find a restaurant for me on my way to the dancing studio,all
+hospital,Find a restaurant for me on my way to the hospital,all
+clinic,Find a restaurant for me on my way to the clinic,all
+institution,Find a restaurant for me on my way to the institution,all
+police station,Find a restaurant for me on my way to the police station,all
+fashion studio,Find a restaurant for me on my way to the fashion studio,all
+music studio,Find a restaurant for me on my way to the music studio,all
+office,Find a restaurant for me on my way to the office,all
+computer lab,Find a restaurant for me on my way to the computer lab,all
+chemical lab,Find a restaurant for me on my way to the chemical lab,all
+bank,Find a restaurant for me on my way to the bank,all
+office,Find a restaurant for me on my way to the office,all
+construction site,Find a restaurant for me on my way to the construction site,all
+supermarket,Find a restaurant for me on my way to the supermarket,all
+mall,Find a restaurant for me on my way to the mall,all
+convenience store,Find a restaurant for me on my way to the convenience store,all
+jewelry store,Find a restaurant for me on my way to the jewelry store,all
+dental office,Find a restaurant for me on my way to the dental office,all
+pharmacy,Find a restaurant for me on my way to the pharmacy,all
+airport,Find a restaurant for me on my way to the airport,all
+school,Give me a restaurant recommendation on my way to the school,all
+university,Give me a restaurant recommendation on my way to the university,all
+law office,Give me a restaurant recommendation on my way to the law office,all
+farm,Give me a restaurant recommendation on my way to the farm,all
+barbershop,Give me a restaurant recommendation on my way to the barbershop,all
+dancing studio,Give me a restaurant recommendation on my way to the dancing studio,all
+hospital,Give me a restaurant recommendation on my way to the hospital,all
+clinic,Give me a restaurant recommendation on my way to the clinic,all
+institution,Give me a restaurant recommendation on my way to the institution,all
+police station,Give me a restaurant recommendation on my way to the police station,all
+fashion studio,Give me a restaurant recommendation on my way to the fashion studio,all
+music studio,Give me a restaurant recommendation on my way to the music studio,all
+office,Give me a restaurant recommendation on my way to the office,all
+computer lab,Give me a restaurant recommendation on my way to the computer lab,all
+chemical lab,Give me a restaurant recommendation on my way to the chemical lab,all
+bank,Give me a restaurant recommendation on my way to the bank,all
+office,Give me a restaurant recommendation on my way to the office,all
+construction site,Give me a restaurant recommendation on my way to the construction site,all
+supermarket,Give me a restaurant recommendation on my way to the supermarket,all
+mall,Give me a restaurant recommendation on my way to the mall,all
+convenience store,Give me a restaurant recommendation on my way to the convenience store,all
+jewelry store,Give me a restaurant recommendation on my way to the jewelry store,all
+dental office,Give me a restaurant recommendation on my way to the dental office,all
+pharmacy,Give me a restaurant recommendation on my way to the pharmacy,all
+airport,Give me a restaurant recommendation on my way to the airport,all
+school,Recommend a restaurant for me after me finishing work at the school,all
+university,Recommend a restaurant for me after me finishing work at the university,all
+law office,Recommend a restaurant for me after me finishing work at the law office,all
+farm,Recommend a restaurant for me after me finishing work at the farm,all
+barbershop,Recommend a restaurant for me after me finishing work at the barbershop,all
+dancing studio,Recommend a restaurant for me after me finishing work at the dancing studio,all
+hospital,Recommend a restaurant for me after me finishing work at the hospital,all
+clinic,Recommend a restaurant for me after me finishing work at the clinic,all
+institution,Recommend a restaurant for me after me finishing work at the institution,all
+police station,Recommend a restaurant for me after me finishing work at the police station,all
+fashion studio,Recommend a restaurant for me after me finishing work at the fashion studio,all
+music studio,Recommend a restaurant for me after me finishing work at the music studio,all
+office,Recommend a restaurant for me after me finishing work at the office,all
+computer lab,Recommend a restaurant for me after me finishing work at the computer lab,all
+chemical lab,Recommend a restaurant for me after me finishing work at the chemical lab,all
+bank,Recommend a restaurant for me after me finishing work at the bank,all
+office,Recommend a restaurant for me after me finishing work at the office,all
+construction site,Recommend a restaurant for me after me finishing work at the construction site,all
+supermarket,Recommend a restaurant for me after me finishing work at the supermarket,all
+mall,Recommend a restaurant for me after me finishing work at the mall,all
+convenience store,Recommend a restaurant for me after me finishing work at the convenience store,all
+jewelry store,Recommend a restaurant for me after me finishing work at the jewelry store,all
+dental office,Recommend a restaurant for me after me finishing work at the dental office,all
+pharmacy,Recommend a restaurant for me after me finishing work at the pharmacy,all
+airport,Recommend a restaurant for me after me finishing work at the airport,all
+school,Recommend a restaurant that my co-workers at the school will like,all
+university,Recommend a restaurant that my co-workers at the university will like,all
+law office,Recommend a restaurant that my co-workers at the law office will like,all
+farm,Recommend a restaurant that my co-workers at the farm will like,all
+barbershop,Recommend a restaurant that my co-workers at the barbershop will like,all
+dancing studio,Recommend a restaurant that my co-workers at the dancing studio will like,all
+hospital,Recommend a restaurant that my co-workers at the hospital will like,all
+clinic,Recommend a restaurant that my co-workers at the clinic will like,all
+institution,Recommend a restaurant that my co-workers at the institution will like,all
+police station,Recommend a restaurant that my co-workers at the police station will like,all
+fashion studio,Recommend a restaurant that my co-workers at the fashion studio will like,all
+music studio,Recommend a restaurant that my co-workers at the music studio will like,all
+office,Recommend a restaurant that my co-workers at the office will like,all
+computer lab,Recommend a restaurant that my co-workers at the computer lab will like,all
+chemical lab,Recommend a restaurant that my co-workers at the chemical lab will like,all
+bank,Recommend a restaurant that my co-workers at the bank will like,all
+office,Recommend a restaurant that my co-workers at the office will like,all
+construction site,Recommend a restaurant that my co-workers at the construction site will like,all
+supermarket,Recommend a restaurant that my co-workers at the supermarket will like,all
+mall,Recommend a restaurant that my co-workers at the mall will like,all
+convenience store,Recommend a restaurant that my co-workers at the convenience store will like,all
+jewelry store,Recommend a restaurant that my co-workers at the jewelry store will like,all
+dental office,Recommend a restaurant that my co-workers at the dental office will like,all
+pharmacy,Recommend a restaurant that my co-workers at the pharmacy will like,all
+airport,Recommend a restaurant that my co-workers at the airport will like,all
+school,I would like to take my colleagues from the school to a restaurant,all
+university,I would like to take my colleagues from the university to a restaurant,all
+law office,I would like to take my colleagues from the law office to a restaurant,all
+farm,I would like to take my colleagues from the farm to a restaurant,all
+barbershop,I would like to take my colleagues from the barbershop to a restaurant,all
+dancing studio,I would like to take my colleagues from the dancing studio to a restaurant,all
+hospital,I would like to take my colleagues from the hospital to a restaurant,all
+clinic,I would like to take my colleagues from the clinic to a restaurant,all
+institution,I would like to take my colleagues from the institution to a restaurant,all
+police station,I would like to take my colleagues from the police station to a restaurant,all
+fashion studio,I would like to take my colleagues from the fashion studio to a restaurant,all
+music studio,I would like to take my colleagues from the music studio to a restaurant,all
+office,I would like to take my colleagues from the office to a restaurant,all
+computer lab,I would like to take my colleagues from the computer lab to a restaurant,all
+chemical lab,I would like to take my colleagues from the chemical lab to a restaurant,all
+bank,I would like to take my colleagues from the bank to a restaurant,all
+office,I would like to take my colleagues from the office to a restaurant,all
+construction site,I would like to take my colleagues from the construction site to a restaurant,all
+supermarket,I would like to take my colleagues from the supermarket to a restaurant,all
+mall,I would like to take my colleagues from the mall to a restaurant,all
+convenience store,I would like to take my colleagues from the convenience store to a restaurant,all
+jewelry store,I would like to take my colleagues from the jewelry store to a restaurant,all
+dental office,I would like to take my colleagues from the dental office to a restaurant,all
+pharmacy,I would like to take my colleagues from the pharmacy to a restaurant,all
+airport,I would like to take my colleagues from the airport to a restaurant,all
+school,I want to make a reservation for me and my colleagues from the school,all
+university,I want to make a reservation for me and my colleagues from the university,all
+law office,I want to make a reservation for me and my colleagues from the law office,all
+farm,I want to make a reservation for me and my colleagues from the farm,all
+barbershop,I want to make a reservation for me and my colleagues from the barbershop,all
+dancing studio,I want to make a reservation for me and my colleagues from the dancing studio,all
+hospital,I want to make a reservation for me and my colleagues from the hospital,all
+clinic,I want to make a reservation for me and my colleagues from the clinic,all
+institution,I want to make a reservation for me and my colleagues from the institution,all
+police station,I want to make a reservation for me and my colleagues from the police station,all
+fashion studio,I want to make a reservation for me and my colleagues from the fashion studio,all
+music studio,I want to make a reservation for me and my colleagues from the music studio,all
+office,I want to make a reservation for me and my colleagues from the office,all
+computer lab,I want to make a reservation for me and my colleagues from the computer lab,all
+chemical lab,I want to make a reservation for me and my colleagues from the chemical lab,all
+bank,I want to make a reservation for me and my colleagues from the bank,all
+office,I want to make a reservation for me and my colleagues from the office,all
+construction site,I want to make a reservation for me and my colleagues from the construction site,all
+supermarket,I want to make a reservation for me and my colleagues from the supermarket,all
+mall,I want to make a reservation for me and my colleagues from the mall,all
+convenience store,I want to make a reservation for me and my colleagues from the convenience store,all
+jewelry store,I want to make a reservation for me and my colleagues from the jewelry store,all
+dental office,I want to make a reservation for me and my colleagues from the dental office,all
+pharmacy,I want to make a reservation for me and my colleagues from the pharmacy,all
+airport,I want to make a reservation for me and my colleagues from the airport,all
+school,I want a restaurant that I can go to on my way to the school,all
+university,I want a restaurant that I can go to on my way to the university,all
+law office,I want a restaurant that I can go to on my way to the law office,all
+farm,I want a restaurant that I can go to on my way to the farm,all
+barbershop,I want a restaurant that I can go to on my way to the barbershop,all
+dancing studio,I want a restaurant that I can go to on my way to the dancing studio,all
+hospital,I want a restaurant that I can go to on my way to the hospital,all
+clinic,I want a restaurant that I can go to on my way to the clinic,all
+institution,I want a restaurant that I can go to on my way to the institution,all
+police station,I want a restaurant that I can go to on my way to the police station,all
+fashion studio,I want a restaurant that I can go to on my way to the fashion studio,all
+music studio,I want a restaurant that I can go to on my way to the music studio,all
+office,I want a restaurant that I can go to on my way to the office,all
+computer lab,I want a restaurant that I can go to on my way to the computer lab,all
+chemical lab,I want a restaurant that I can go to on my way to the chemical lab,all
+bank,I want a restaurant that I can go to on my way to the bank,all
+office,I want a restaurant that I can go to on my way to the office,all
+construction site,I want a restaurant that I can go to on my way to the construction site,all
+supermarket,I want a restaurant that I can go to on my way to the supermarket,all
+mall,I want a restaurant that I can go to on my way to the mall,all
+convenience store,I want a restaurant that I can go to on my way to the convenience store,all
+jewelry store,I want a restaurant that I can go to on my way to the jewelry store,all
+dental office,I want a restaurant that I can go to on my way to the dental office,all
+pharmacy,I want a restaurant that I can go to on my way to the pharmacy,all
+airport,I want a restaurant that I can go to on my way to the airport,all
+school,I am trying to find a restaurant to go after my work at the school,all
+university,I am trying to find a restaurant to go after my work at the university,all
+law office,I am trying to find a restaurant to go after my work at the law office,all
+farm,I am trying to find a restaurant to go after my work at the farm,all
+barbershop,I am trying to find a restaurant to go after my work at the barbershop,all
+dancing studio,I am trying to find a restaurant to go after my work at the dancing studio,all
+hospital,I am trying to find a restaurant to go after my work at the hospital,all
+clinic,I am trying to find a restaurant to go after my work at the clinic,all
+institution,I am trying to find a restaurant to go after my work at the institution,all
+police station,I am trying to find a restaurant to go after my work at the police station,all
+fashion studio,I am trying to find a restaurant to go after my work at the fashion studio,all
+music studio,I am trying to find a restaurant to go after my work at the music studio,all
+office,I am trying to find a restaurant to go after my work at the office,all
+computer lab,I am trying to find a restaurant to go after my work at the computer lab,all
+chemical lab,I am trying to find a restaurant to go after my work at the chemical lab,all
+bank,I am trying to find a restaurant to go after my work at the bank,all
+office,I am trying to find a restaurant to go after my work at the office,all
+construction site,I am trying to find a restaurant to go after my work at the construction site,all
+supermarket,I am trying to find a restaurant to go after my work at the supermarket,all
+mall,I am trying to find a restaurant to go after my work at the mall,all
+convenience store,I am trying to find a restaurant to go after my work at the convenience store,all
+jewelry store,I am trying to find a restaurant to go after my work at the jewelry store,all
+dental office,I am trying to find a restaurant to go after my work at the dental office,all
+pharmacy,I am trying to find a restaurant to go after my work at the pharmacy,all
+airport,I am trying to find a restaurant to go after my work at the airport,all

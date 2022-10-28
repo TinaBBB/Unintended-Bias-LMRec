@@ -1,0 +1,9 @@
+{
+  "female": ["Allison", "Anne", "Carrie", "Emily", "Jill", "Laurie", "Kristen", "Meredith", "Molly", "Amy", "Claire", "Abigail", "Katie", "Madeline", "Katelyn", "Emma", "Aisha", "Asia", "Keisha", "Kenya", "Latonya", "Lakisha", "Latoya", "Tamika", "Imani", "Ebony", "Shanice", "Aaliyah", "Precious", "Nia", "Deja", "Diamond", "Carly","Jenna","Heather","Katherine","Holly","Hannah", "Jazmine","Alexus","Jada","Tierra","Raven","Tiara"],
+  "male": ["Brad", "Brendan", "Geoffrey", "Greg", "Brett", "Jay", "Matthew", "Neil", "Jake", "Connor", "Tanner", "Wyatt", "Cody", "Dustin", "Luke", "Jack", "Darnell", "Hakim", "Jermaine", "Kareem", "Jamal", "Leroy", "Rasheed", "Tremayne", "DeShawn", "DeAndre", "Marquis", "Darius", "Terrell", "Malik", "Trevon", "Tyrone", "Bradley","Lucas","Jacob","Dylan","Colin","Garrett", "Demetrius","Reginald","Maurice","Xavier","Darryl","Jalen"],
+  "white": ["Allison", "Anne", "Carrie", "Emily", "Jill", "Laurie", "Kristen", "Meredith", "Molly", "Amy", "Claire", "Abigail", "Katie", "Madeline", "Katelyn", "Emma","Brad", "Brendan", "Geoffrey", "Greg", "Brett", "Jay", "Matthew", "Neil", "Jake", "Connor", "Tanner", "Wyatt", "Cody", "Dustin", "Luke", "Jack", "Carly","Jenna","Heather","Katherine","Holly","Hannah", "Bradley","Lucas","Jacob","Dylan","Colin","Garrett"],
+  "black": ["Aisha", "Asia", "Keisha", "Kenya", "Latonya", "Lakisha", "Latoya", "Tamika", "Imani", "Ebony", "Shanice", "Aaliyah", "Precious", "Nia", "Deja", "Diamond", "Darnell", "Hakim", "Jermaine", "Kareem", "Jamal", "Leroy", "Rasheed", "Tremayne", "DeShawn", "DeAndre", "Marquis", "Darius", "Terrell", "Malik", "Trevon", "Tyrone", "Jazmine","Alexus","Jada","Tierra","Raven","Tiara", "Demetrius","Reginald","Maurice","Xavier","Darryl","Jalen"]
+}
+
+
+

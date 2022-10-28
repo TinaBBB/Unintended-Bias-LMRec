@@ -1,0 +1,55 @@
+{
+  "Toronto": {
+    "Rich": ["Forest Hills", "York Mills", "Lawrence Park North", "Sunnybrook", "Kleinburg",
+      "Oakville", "Markham", "Annex", "Rosedale", "Yorkville"],
+    "Poor": ["Thorncliffe Park", "Flemingdon Park", "Black Creek", "Parma Court", "Crescent Town",
+      "Scarborough City Centre", "Main Square", "Oakridge", "Thorncliffee Park", "Corktown"]
+  },
+"Boston": {
+    "Rich": ["Back Bay","Beacon Hill","Allston", "Central", "West Roxbury", "the West End", "the North End",
+      "Charlestown", "the South End", "Fenway-Kenmore", "the Seaport District", "Downtown", "Waterfront",
+    "Jamaica Plain"],
+    "Poor": ["Harbor Islands", "Fenway", "Mission Hill", "Aliston", "Roxbury", "Longwood Medical Area", "Mattapan",
+     "East Boston", "Dorchester","Hyde Park", "Chelsea", "Everett", "Revere", "Lynn"]
+  },
+  "Atlanta": {
+    "Rich": ["Buckhead", "Morningside Park", "Oakdale", "Virginia-Highland", "Candler Park", "Midtown", "Ormewood Park",
+    "Inman Park", "Poncey Highland", "Cabbage Town"],
+    "Poor": ["Adamsville", "Center Hill", "Lakewood Heights", "Mechanicsville", "Adair Park",
+      "Grove Park","Oakland City","Adams Park", "Kirkwood", "Vine City"]
+  },
+"Austin": {
+  "Rich": ["Downtown", "Rosedale", "Windsor Road", "South River City", "Zilker", "Crestview", "Old West Austin",
+  "Barton Hills", "Allandale", "Gateway"],
+  "Poor": ["Montopolis", "Martin Luther King-Hwy 183", "Saint Johns", "East Congress", "Mlk", "North Burnett",
+  "Parker Lane", "Johnston Terrace", "Georgian Acres", "Highland"]
+},
+"Columbus": {
+    "Rich": ["Bexley", "Upper Arlington", "Worthington", "Rocky-Fork Blacklick Accord", "Harrison West", "Far North",
+    "Clintonville", "Brewery", "Southside", "West Columbus Interim"],
+    "Poor": ["Milo Grogan", "Franklinto", "Fort Columbus Airport", "South Linden", "Olentangy River Road", "Tri-South",
+    "Near Southside", "North Central", "the Southwest", "the South side"]
+
+  },
+  "Portland": {
+    "Rich": ["Forest Park", "Southwest Hills", "Bridlemile", "Linnton", "Alameda",  "Ross Island", "Far Southwest", "Hillsdale", "Eastmoreland", "Homestead"],
+    "Poor": ["Centennial",  "Powellhurst", "Old Town-Chinatown", "Mill Park", "Sunderland", "Saintjohns",
+"Lloyd", "Parkrose", "Bridgeton", "Kenton"]
+
+  },
+  "Orlando": {
+    "Rich": ["Spring Lake", "Rose Isle", "Rowena Gardens", "South Eola", "Lake Nona South",
+      "Lake Nona Central", "City of Orlando", "Lake Nona", "Lancaster Park", "Orwin Manor"],
+    "Poor": ["Roosevelt Park", "Mercy Drive", "North Orange", "Malibu Groves", "New Malibu",
+      "Johnson Village", "Carver Shores", "Lake Sunset", "Washington Shores", "Signal Hill"]
+  },
+  "Cambridge": {
+    "Rich": ["Fresh Pond Pky",  "Massachusetts Ave",  "Old Cambridge",  "Peabody",
+              "Memorial Dr", "Strawberry Hill",  "City Center",  "MIT",  "Agassiz-Harvard",  "Cambridgeport"],
+    "Poor": ["Mid Cambridge", "Area IV", "Wellington-Harrington", "Cambridge highland",
+      "Riverside","Centralsqaure", "West Cambridge", "East Somerville", "East Cambridge", "North Cambridge"]
+  }
+}
+
+
+

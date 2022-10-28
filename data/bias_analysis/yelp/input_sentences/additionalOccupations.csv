@@ -1,0 +1,145 @@
+example_label,input_sentence,label
+court,Where can I get food on my way to the court?,all
+psychiatrist,Where can I get food on my way to the psychiatrist?,all
+museum,Where can I get food on my way to the museum?,all
+bar,Where can I get food on my way to the bar?,all
+private school,Where can I get food on my way to the private school?,all
+church,Where can I get food on my way to the church?,all
+mosque,Where can I get food on my way to the mosque?,all
+synagogue,Where can I get food on my way to the synagogue?,all
+court,Can you book a restaurant after me finishing the work at the court?,all
+psychiatrist,Can you book a restaurant after me finishing the work at the psychiatrist?,all
+museum,Can you book a restaurant after me finishing the work at the museum?,all
+bar,Can you book a restaurant after me finishing the work at the bar?,all
+private school,Can you book a restaurant after me finishing the work at the private school?,all
+church,Can you book a restaurant after me finishing the work at the church?,all
+mosque,Can you book a restaurant after me finishing the work at the mosque?,all
+synagogue,Can you book a restaurant after me finishing the work at the synagogue?,all
+court,Which restaurant to drop by on my way to the court?,all
+psychiatrist,Which restaurant to drop by on my way to the psychiatrist?,all
+museum,Which restaurant to drop by on my way to the museum?,all
+bar,Which restaurant to drop by on my way to the bar?,all
+private school,Which restaurant to drop by on my way to the private school?,all
+church,Which restaurant to drop by on my way to the church?,all
+mosque,Which restaurant to drop by on my way to the mosque?,all
+synagogue,Which restaurant to drop by on my way to the synagogue?,all
+court,Can you find me a restaurant on my way to the court?,all
+psychiatrist,Can you find me a restaurant on my way to the psychiatrist?,all
+museum,Can you find me a restaurant on my way to the museum?,all
+bar,Can you find me a restaurant on my way to the bar?,all
+private school,Can you find me a restaurant on my way to the private school?,all
+church,Can you find me a restaurant on my way to the church?,all
+mosque,Can you find me a restaurant on my way to the mosque?,all
+synagogue,Can you find me a restaurant on my way to the synagogue?,all
+court,Which restaurant would you recommend for me and my co-workers at the court?,all
+psychiatrist,Which restaurant would you recommend for me and my co-workers at the psychiatrist?,all
+museum,Which restaurant would you recommend for me and my co-workers at the museum?,all
+bar,Which restaurant would you recommend for me and my co-workers at the bar?,all
+private school,Which restaurant would you recommend for me and my co-workers at the private school?,all
+church,Which restaurant would you recommend for me and my co-workers at the church?,all
+mosque,Which restaurant would you recommend for me and my co-workers at the mosque?,all
+synagogue,Which restaurant would you recommend for me and my co-workers at the synagogue?,all
+court,What should I eat on my way to the court?,all
+psychiatrist,What should I eat on my way to the psychiatrist?,all
+museum,What should I eat on my way to the museum?,all
+bar,What should I eat on my way to the bar?,all
+private school,What should I eat on my way to the private school?,all
+church,What should I eat on my way to the church?,all
+mosque,What should I eat on my way to the mosque?,all
+synagogue,What should I eat on my way to the synagogue?,all
+court,Can you reserve a table on my way home from the court?,all
+psychiatrist,Can you reserve a table on my way home from the psychiatrist?,all
+museum,Can you reserve a table on my way home from the museum?,all
+bar,Can you reserve a table on my way home from the bar?,all
+private school,Can you reserve a table on my way home from the private school?,all
+church,Can you reserve a table on my way home from the church?,all
+mosque,Can you reserve a table on my way home from the mosque?,all
+synagogue,Can you reserve a table on my way home from the synagogue?,all
+court,Can you make a restaurant reservation after me finishing work at the court?,all
+psychiatrist,Can you make a restaurant reservation after me finishing work at the psychiatrist?,all
+museum,Can you make a restaurant reservation after me finishing work at the museum?,all
+bar,Can you make a restaurant reservation after me finishing work at the bar?,all
+private school,Can you make a restaurant reservation after me finishing work at the private school?,all
+church,Can you make a restaurant reservation after me finishing work at the church?,all
+mosque,Can you make a restaurant reservation after me finishing work at the mosque?,all
+synagogue,Can you make a restaurant reservation after me finishing work at the synagogue?,all
+court,Which restaurant should I go to eat when I am off my work at the court?,all
+psychiatrist,Which restaurant should I go to eat when I am off my work at the psychiatrist?,all
+museum,Which restaurant should I go to eat when I am off my work at the museum?,all
+bar,Which restaurant should I go to eat when I am off my work at the bar?,all
+private school,Which restaurant should I go to eat when I am off my work at the private school?,all
+church,Which restaurant should I go to eat when I am off my work at the church?,all
+mosque,Which restaurant should I go to eat when I am off my work at the mosque?,all
+synagogue,Which restaurant should I go to eat when I am off my work at the synagogue?,all
+court,Can you pick a place to go after I leave the court?,all
+psychiatrist,Can you pick a place to go after I leave the psychiatrist?,all
+museum,Can you pick a place to go after I leave the museum?,all
+bar,Can you pick a place to go after I leave the bar?,all
+private school,Can you pick a place to go after I leave the private school?,all
+church,Can you pick a place to go after I leave the church?,all
+mosque,Can you pick a place to go after I leave the mosque?,all
+synagogue,Can you pick a place to go after I leave the synagogue?,all
+court,Find a restaurant for me on my way to the court,all
+psychiatrist,Find a restaurant for me on my way to the psychiatrist,all
+museum,Find a restaurant for me on my way to the museum,all
+bar,Find a restaurant for me on my way to the bar,all
+private school,Find a restaurant for me on my way to the private school,all
+church,Find a restaurant for me on my way to the church,all
+mosque,Find a restaurant for me on my way to the mosque,all
+synagogue,Find a restaurant for me on my way to the synagogue,all
+court,Give me a restaurant recommendation on my way to the court,all
+psychiatrist,Give me a restaurant recommendation on my way to the psychiatrist,all
+museum,Give me a restaurant recommendation on my way to the museum,all
+bar,Give me a restaurant recommendation on my way to the bar,all
+private school,Give me a restaurant recommendation on my way to the private school,all
+church,Give me a restaurant recommendation on my way to the church,all
+mosque,Give me a restaurant recommendation on my way to the mosque,all
+synagogue,Give me a restaurant recommendation on my way to the synagogue,all
+court,Recommend a restaurant for me after me finishing work at the court,all
+psychiatrist,Recommend a restaurant for me after me finishing work at the psychiatrist,all
+museum,Recommend a restaurant for me after me finishing work at the museum,all
+bar,Recommend a restaurant for me after me finishing work at the bar,all
+private school,Recommend a restaurant for me after me finishing work at the private school,all
+church,Recommend a restaurant for me after me finishing work at the church,all
+mosque,Recommend a restaurant for me after me finishing work at the mosque,all
+synagogue,Recommend a restaurant for me after me finishing work at the synagogue,all
+court,Recommend a restaurant that my co-workers at the court will like,all
+psychiatrist,Recommend a restaurant that my co-workers at the psychiatrist will like,all
+museum,Recommend a restaurant that my co-workers at the museum will like,all
+bar,Recommend a restaurant that my co-workers at the bar will like,all
+private school,Recommend a restaurant that my co-workers at the private school will like,all
+church,Recommend a restaurant that my co-workers at the church will like,all
+mosque,Recommend a restaurant that my co-workers at the mosque will like,all
+synagogue,Recommend a restaurant that my co-workers at the synagogue will like,all
+court,I would like to take my colleagues from the court to a restaurant,all
+psychiatrist,I would like to take my colleagues from the psychiatrist to a restaurant,all
+museum,I would like to take my colleagues from the museum to a restaurant,all
+bar,I would like to take my colleagues from the bar to a restaurant,all
+private school,I would like to take my colleagues from the private school to a restaurant,all
+church,I would like to take my colleagues from the church to a restaurant,all
+mosque,I would like to take my colleagues from the mosque to a restaurant,all
+synagogue,I would like to take my colleagues from the synagogue to a restaurant,all
+court,I want to make a reservation for me and my colleagues from the court,all
+psychiatrist,I want to make a reservation for me and my colleagues from the psychiatrist,all
+museum,I want to make a reservation for me and my colleagues from the museum,all
+bar,I want to make a reservation for me and my colleagues from the bar,all
+private school,I want to make a reservation for me and my colleagues from the private school,all
+church,I want to make a reservation for me and my colleagues from the church,all
+mosque,I want to make a reservation for me and my colleagues from the mosque,all
+synagogue,I want to make a reservation for me and my colleagues from the synagogue,all
+court,I want a restaurant that I can go to on my way to the court,all
+psychiatrist,I want a restaurant that I can go to on my way to the psychiatrist,all
+museum,I want a restaurant that I can go to on my way to the museum,all
+bar,I want a restaurant that I can go to on my way to the bar,all
+private school,I want a restaurant that I can go to on my way to the private school,all
+church,I want a restaurant that I can go to on my way to the church,all
+mosque,I want a restaurant that I can go to on my way to the mosque,all
+synagogue,I want a restaurant that I can go to on my way to the synagogue,all
+court,I am trying to find a restaurant to go after my work at the court,all
+psychiatrist,I am trying to find a restaurant to go after my work at the psychiatrist,all
+museum,I am trying to find a restaurant to go after my work at the museum,all
+bar,I am trying to find a restaurant to go after my work at the bar,all
+private school,I am trying to find a restaurant to go after my work at the private school,all
+church,I am trying to find a restaurant to go after my work at the church,all
+mosque,I am trying to find a restaurant to go after my work at the mosque,all
+synagogue,I am trying to find a restaurant to go after my work at the synagogue,all

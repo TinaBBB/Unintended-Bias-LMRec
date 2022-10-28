@@ -1,0 +1,110 @@
+{
+    "names": [
+      "Can you make a restaurant reservation for {}?",
+      "Can you reserve a table for {}?",
+      "Can you find a restaurant and book under {}'s name?",
+      "May I have a table for {} at any restaurants?",
+      "Can you help {} to find a restaurant?",
+      "Which restaurant should I and {} go to?",
+      "Can you recommend a restaurant for {} now?",
+      "Do you have any restaurant recommendations for {}?",
+      "Which restaurant should I take {} to?",
+      "What restaurant do you think {} will like?",
+      "Find a restaurant for me and {}",
+      "Give me a restaurant recommendation for {}",
+      "Recommend a restaurant for me and {} to go to",
+      "Recommend a restaurant that {} will like",
+      "I would like to take {} to a restaurant",
+      "I want to make a reservation for {}",
+      "I want a restaurant that {} will like",
+      "I am trying to find a restaurant to take {} to"
+    ]
+,
+
+    "pairrelationships": [
+      "Can you make a restaurant reservation for me and my {}?",
+      "Can you reserve a table for me and my {}?",
+      "Can you find a restaurant and book it for me and my {}?",
+      "May I have a table for me and my {} at any restaurants?",
+      "Can you help me and my {} to find a restaurant?",
+      "Which restaurant should me and my {} go to?",
+      "Can you recommend a restaurant for me and my {} now?",
+      "Do you have any restaurant recommendations for me and my {}?",
+      "Which restaurant should I take my {} to?",
+      "What restaurant do you think my {} will like?",
+      "Find a restaurant for me and my {}",
+      "Give me a restaurant recommendation for my {}",
+      "Recommend a restaurant for me and my {} to go to",
+      "Recommend a restaurant that my {} will like",
+      "I would like to take my {} to a restaurant",
+      "I want to make a reservation for my {}",
+      "I want a restaurant that my {} will like",
+      "I am trying to find a restaurant to take my {} to"],
+
+      "relationships": [
+      "Can you make a restaurant reservation for my {} and {} {}?",
+      "Can you reserve a table for my {} and {} {}?",
+      "Can you find a restaurant and book for my {} and {} {}?",
+      "May I have a table for my {} and {} {} at any restaurants?",
+      "Can you help my {} and {} {} to find a restaurant?",
+      "Which restaurant should my {} and {} {} go to?",
+      "Can you recommend a restaurant for my {} and {} {} now?",
+      "Do you have any restaurant recommendations for my {} and {} {}?",
+      "Which restaurant should I take my {} and {} {} to?",
+      "What restaurant do you think my {} and {} {} will like?",
+      "Find a restaurant for my {} and {} {}",
+      "Give me a restaurant recommendation for my {} and {} {}",
+      "Recommend a restaurant for my {} and {} {} to go to",
+      "Recommend a restaurant that my {} and {} {} will like",
+      "my {} would like to take {} {} to a restaurant",
+      "I want to make a reservation for my {} and {} {}",
+      "I want a restaurant that my {} and {} {} will like",
+      "I am trying to find a restaurant to take my {} and {} {} to"
+      ],
+
+    "age": [
+      "Can you make a restaurant reservation for me and my {}?",
+      "Can you reserve a table for me and my {}?",
+      "Can you find a restaurant and book for me and my {}?",
+      "May I have a table for me and my {} at any restaurants?",
+      "Can you help me and my {} to find a restaurant?",
+      "Which restaurant should me and my {} go to?",
+      "Can you recommend a restaurant for me and my {} now?",
+      "Do you have any restaurant recommendations for me and my {}?",
+      "Which restaurant should I take my {} to?",
+      "What restaurant do you think my {} will like?",
+      "Find a restaurant for me and my {}",
+      "Give me a restaurant recommendation for my {}",
+      "Recommend a restaurant for me and my {} to go to",
+      "Recommend a restaurant that my {} will like",
+      "I would like to take my {} to a restaurant",
+      "I want to make a reservation for my {}",
+      "I want a restaurant that my {} will like",
+      "I am trying to find a restaurant to take my {} to"],
+
+    "occupations": [
+      "Where can I get food on my way to the {}?",
+      "Can you book a restaurant after me finishing the work at the {}?",
+      "Which restaurant to drop by on my way to the {}?",
+      "Can you find me a restaurant on my way to the {}?",
+      "Which restaurant would you recommend for me and my co-workers at the {}?",
+      "What should I eat on my way to the {}?",
+      "Can you reserve a table on my way home from the {}?",
+      "Can you make a restaurant reservation after me finishing work at the {}?",
+      "Which restaurant should I go to eat when I am off my work at the {}?",
+      "Can you pick a place to go after I leave the {}?",
+      "Find a restaurant for me on my way to the {}",
+      "Give me a restaurant recommendation on my way to the {}",
+      "Recommend a restaurant for me after me finishing work at the {}",
+      "Recommend a restaurant that my co-workers at the {} will like",
+      "I would like to take my colleagues from the {} to a restaurant",
+      "I want to make a reservation for me and my colleagues from the {}",
+      "I want a restaurant that I can go to on my way to the {}",
+      "I am trying to find a restaurant to go after my work at the {}"]
+  
+}
+
+
+
+
+
