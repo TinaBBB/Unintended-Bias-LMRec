@@ -1,2 +1,4 @@
 /bert_base_uncased/
 .idea
+*.h5
+data/Yelp_cities/*.csv
