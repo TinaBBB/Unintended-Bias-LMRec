@@ -120,3 +120,24 @@ def get_input_list(review_list, max_len):
     return [np.array(input_id_list), np.array(attention_mask_list)]
 
 
+# model
+def create_model(max_len, labels, learning_rate=5e-5, ):
+    encoder = TFBertModel.from_pretrained("bert-base-uncased")
+    input_ids = layers.Input(shape=(max_len,), dtype=tf.int32)
+    attention_mask = layers.Input(shape=(max_len,), dtype=tf.int32)
+
+    embedding = encoder(
+        input_ids, attention_mask=attention_mask
+    )['pooler_output']
+
+    dense = layers.Dense(1024, activation='relu')(embedding)
+    out = layers.Dense(len(labels), activation='softmax')(dense)
+
+    model = keras.Model(
+        inputs=[input_ids, attention_mask],
+        outputs=out, )
+
+    loss = keras.losses.SparseCategoricalCrossentropy()
+    optimizer = keras.optimizers.Adam(learning_rate=learning_rate)
+    model.compile(optimizer=optimizer, loss=loss, metrics=['accuracy'])
+    return model

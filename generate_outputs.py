@@ -15,50 +15,40 @@ import numpy as np
 import pandas as pd
 import tensorflow as tf
 
-from config.experiment_configs import experiment_model_mappings
-from utils import multireplace, create_model, get_input_list
+from utils.utils import create_model, get_input_list
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument('--data_dir', type=str, default='data/Yelp_cities')
     parser.add_argument('--city_name', type=str, default='Austin')
-    parser.add_argument('--experiment', type=str, default='5f', help='experiment title, including 5f, 4f, 5n')
-    parser.add_argument('--subExp', type=str, default='freezeBoth', help='sub-experiment for 5n, deciding which layers to freeze')
     parser.add_argument('--topk', type=str, default=20, help='top number of recommendations to retrieve')
     parser.add_argument('--test_neutralization', action='store_true', help='whether to perform test-side neutralization towards the results')
     parser.add_argument('--use_tpu', action='store_true', help='whether to use tpu')
-
+    parser.add_argument('--model_dir_root', type=str, default='models/{}/model.h5')
+    parser.add_argument('--label_dir_root', type=str, default='data/Yelp_cities/{}_trainValidTest/')
+    parser.add_argument('--biasAnalysis_path', type=str, default='data/bias_analysis/yelp/')
     p = parser.parse_args()
 
     # Get model and label directories
-    model_dir = '/content/gdrive/MyDrive/TF_TPU/models/yelp_{}_{}/'.format(p.city_name, p.experiment)
-    if p.experiment == '5n':
-        label_dir = '/content/gdrive/MyDrive/Yelp_cities/{}_trainValidTest_5f/'.format(p.city_name)
-    else:
-        label_dir = '/content/gdrive/MyDrive/Yelp_cities/{}_trainValidTest_{}/'.format(p.city_name, p.experiment)
+    model_dir = p.model_dir_root.format(p.city_name)
+    label_dir = p.label_dir_root.format(p.city_name)
     print('Model directory', model_dir)
     print('Label directory', label_dir)
 
     # Get input sentence path
-    biasAnalysis_path = 'data/bias_analysis/yelp/'
-    input_path = biasAnalysis_path + 'input_sentences/'
+    input_path = p.biasAnalysis_path + 'input_sentences/'
 
     # Set up save path
     if p.test_neutralization:
-        save_path = biasAnalysis_path + '{}_output_dataframes_Neutralized/'.format(p.city_name)
+        save_path = p.biasAnalysis_path + '{}_output_dataframes_Neutralized/'.format(p.city_name)
     else:
-        save_path = biasAnalysis_path + '{}_output_dataframes_{}/'.format(p.city_name, p.experiment)
-        if not os.path.exists(save_path):
-            os.mkdir(save_path)
-
-        if p.experiment == '5n':
-            save_path = biasAnalysis_path + '{}_output_dataframes_{}/{}/'.format(p.city_name, p.experiment, p.subExp)
-            if not os.path.exists(save_path):
-                os.mkdir(save_path)
+        save_path = p.biasAnalysis_path + '{}_output_dataframes/'.format(p.city_name)
+    if not os.path.exists(save_path):
+        os.mkdir(save_path)
     print('saving to:', save_path)
 
     # Set maximum len for input text
-    if (p.experiment == '5f' or p.experiment == '5n') and p.city_name == 'Boston':
+    if p.city_name == 'Boston':
         max_len = 500
     else:
         max_len = 400
@@ -67,21 +57,17 @@ if __name__ == "__main__":
     city_df = pd.read_csv('{}/{}_reviews.csv'.format(p.data_dir, p.city_name), lineterminator='\n')
     city_df.rename(columns={'stars': 'review_stars', 'text': 'review_text'}, inplace=True)
 
-    df_map = city_df[['business_id', 'name']]
-    df_map = df_map.drop_duplicates()
+    df_map = city_df[['business_id', 'name']].drop_duplicates()
     busNumId_2_movieName = df_map.set_index('business_id').T.to_dict('records')[0]
 
-    df_map = city_df[['business_id', 'categories']]
-    df_map = df_map.drop_duplicates()
+    df_map = city_df[['business_id', 'categories']].drop_duplicates()
     busNumId_2_category = df_map.set_index('business_id').T.to_dict('records')[0]
 
     # calculate average
-    df_map = city_df[['business_id', 'review_stars']]
-    df_map = df_map.groupby('business_id').mean().reset_index()
+    df_map = city_df[['business_id', 'review_stars']].groupby('business_id').mean().reset_index()
     busNumId_2_avgStars = df_map.set_index('business_id').T.to_dict('records')[0]
 
-    df_map = city_df[['business_id', 'price']]
-    df_map = df_map.drop_duplicates()
+    df_map = city_df[['business_id', 'price']].drop_duplicates()
     busNumId_2_price = df_map.set_index('business_id').T.to_dict('records')[0]
 
     """Load model and labels"""
@@ -94,15 +80,11 @@ if __name__ == "__main__":
         tf.tpu.experimental.initialize_tpu_system(tpu)
         strategy = tf.distribute.TPUStrategy(tpu)
         with strategy.scope():
-            loaded_model = create_model(max_len=max_len, labels=labels, experiment=p.experiment, subexp=p.subExp)
+            loaded_model = create_model(max_len=max_len, labels=labels)
     else:
-        loaded_model = create_model(max_len=max_len, labels=labels, experiment=p.experiment, subexp=p.subExp)
+        loaded_model = create_model(max_len=max_len, labels=labels)
 
-    model_mappings = experiment_model_mappings[p.experiment]
-    if p.experiment == '5n':
-        loaded_model.load_weights(model_dir + model_mappings[p.city_name + '_' + p.subExp])
-    else:
-        loaded_model.load_weights(model_dir + model_mappings[p.city_name])
+    loaded_model.load_weights(model_dir)
     print(loaded_model.summary())
 
     for filename in os.listdir(input_path):
