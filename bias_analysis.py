@@ -11,7 +11,6 @@ $chmod +x /usr/local/bin/orca
 """
 
 import argparse
-import gc
 import os
 import pickle
 import matplotlib.pyplot as plt
@@ -28,7 +27,7 @@ from tqdm import tqdm
 import warnings
 from wordcloud import WordCloud
 
-from config.configs import city_list, replacements
+from config.configs import city_list, replacements, nightlife_list
 from utils.bias_analysis_utils import create_occupationPlotDf, get_counts, get_counts_so, get_counts_so_wFolds, get_counts_wFold, get_deviation_score, \
     get_fraction_df, \
     get_price_ratio_df, \
@@ -36,7 +35,6 @@ from utils.bias_analysis_utils import create_occupationPlotDf, get_counts, get_c
     getOccupation_df, mean_confidence_interval, \
     plot_barChart, plot_scatter
 from utils.utils import concat_city_df, multireplace
-
 warnings.filterwarnings("ignore")
 
 nltk.download('stopwords')
@@ -53,45 +51,30 @@ if __name__ == "__main__":
                                                                                                                    'path for gender: '
                                                                                                                    'gender_statistics.csv')
     parser.add_argument('--city_name', type=str, default='Austin')
-    parser.add_argument('--experiment', type=str, default='5f', help='experiment title, including 5f, 4f, 5n')
-    parser.add_argument('--subExp', type=str, default='freezeBoth', help='sub-experiment for 5n, deciding which layers to freeze')
     parser.add_argument('--save_figure', action='store_true', help='whether to save the figures')
     parser.add_argument('--test_neutralization', action='store_true', help='whether to perform test-side neutralization towards the results')
     parser.add_argument('--rank_threshold_all', type=int, default=20, help='number of top recommendations to analyse')
     parser.add_argument('--sample_number', type=int, default=0, help='number of samples for subsampling in the price-ratio analysis')
-    parser.add_argument('--fold_number_correlations', type=int, default=0, help='number of folds to use to calculate the dataset-recommendation'
-                                                                                'correlation')
     parser.add_argument('--prob_choice_2d_plot', type=str, default='difference', help="probability choice for creating the 2d categories plot, "
                                                                                       "alternatively can use 'ratio'")
+    parser.add_argument('--bias_placeholder_dir', type=str, default='data/bias_analysis/yelp/output_dataframes/{}_output_dataframes/')
+    parser.add_argument('--neutralizedBias_placeholder_dir', type=str,
+                        default='data/bias_analysis/yelp/output_dataframes/{}_output_dataframes_Neutralized/')
+    parser.add_argument('--saveFigure_dir', type=str, default='bias_analysis/yelp/figures/')
     p = parser.parse_args()
 
     """
     Settings
     """
 
-    # Rename city list for experiment 5n
-    new_city_list = list()
-    if p.experiment == '5n':
-        for city in city_list:
-            new_city_list.append('{}_{}'.format(city, p.subExp))
-        city_list = new_city_list.copy()
-    del new_city_list
-    gc.collect()
     print("City list:", city_list)
-
-    if p.experiment == '5n':
-        bias_placeholder_dir = 'data/bias_analysis/yelp/output_dataframes/{}_output_dataframes_{}/{}/'
-    else:
-        bias_placeholder_dir = 'data/bias_analysis/yelp/output_dataframes/{}_output_dataframes_{}/'
-    neutralizedBias_placeholder_dir = 'data/bias_analysis/yelp/output_dataframes/{}_output_dataframes_Neutralized/'
-    saveFigure_dir = 'bias_analysis/yelp/figures_{}/'.format(p.experiment)
-    if not os.path.exists(saveFigure_dir):
-        os.makedirs(saveFigure_dir)
+    if not os.path.exists(p.saveFigure_dir):
+        os.makedirs(p.saveFigure_dir)
 
     """ 
     1.Price ratio for race
     """
-    print('-' * 20 + 'Generating bar charts for price ratio' + '-' * 20)
+    print('-' * 20 + '1/6: Generating bar charts for price ratio' + '-' * 20)
     df_list = []
     for cityName in city_list:
         origin_cityName = cityName
@@ -99,11 +82,7 @@ if __name__ == "__main__":
             cityName, subExp = cityName.split('_')
 
         # get reading directory
-        if p.experiment == '5n':
-            temp_bias_dir = bias_placeholder_dir.format(cityName, p.experiment, subExp)
-        else:
-            temp_bias_dir = bias_placeholder_dir.format(cityName, p.experiment)
-
+        temp_bias_dir = p.bias_placeholder_dir.format(cityName)
         temp_url = temp_bias_dir + 'yelp_qa_names.csv'
         temp_df_names = pd.read_csv(temp_url, index_col=0)
         if cityName == 'Toronto':
@@ -188,167 +167,17 @@ if __name__ == "__main__":
     fig.text(0.46, 0.07, 'price level ($)', fontsize=16)
 
     if p.save_figure:
-        fig.savefig(saveFigure_dir + 'price_level_ratio_All_Cities.pdf', bbox_inches='tight')
-
-    """ 1.1 Calculate Deviation Scores and save to model performance folder """
-    print('-' * 20 + 'Calculating Deviation Scores, saving to model performance folder' + '-' * 20)
-    print(p.experiment, p.subExp)
-    if p.experiment == '5n':
-        temp_result_dir = 'performance_analysis/{}/{}/'.format(p.experiment, subExp)
-    else:
-        temp_result_dir = 'performance_analysis/{}/'.format(p.experiment)
-    print('Saving deviation score table into directory:', temp_result_dir)
-
-    deviation_score_list = ['Mean AD', 'Median AD', 'Max AD', 'Std']
-    for bias_type in ['gender', 'race']:
-        deviation_df = pd.DataFrame(columns=['City'] + deviation_score_list)
-
-        for city in df_avg_city_plot['city'].unique().tolist():
-            row = {'City': city}
-            deviation = np.array(
-                df_avg_city_plot[(df_avg_city_plot['city'] == city) & (df_avg_city_plot['bias'] == bias_type)]['ratio'].to_list()) - 0.5
-            get_deviation_score(deviation, deviation_score_list, row)
-            # deviation_df = deviation_df.append(row, ignore_index=True)
-            deviation_df = pd.concat([deviation_df, pd.DataFrame.from_records([row])])
-
-        row = {'City': 'Overall'}
-        deviation = np.array(df_avg_city_plot[df_avg_city_plot['bias'] == bias_type]['ratio'].to_list()) - 0.5
-        get_deviation_score(deviation, deviation_score_list, row)
-        # deviation_df = deviation_df.append(row, ignore_index=True)
-        deviation_df = pd.concat([deviation_df, pd.DataFrame.from_records([row])])
-        deviation_df.to_csv(temp_result_dir + 'performance_deviationScore_{}.csv'.format(bias_type), index=False)
-
-    print('Deviation scores saved')
-
-    """
-    1.2 Calculate correlations
-    """
-    print('1.2 Calculating correlations')
-    correlations_save_dir = 'bias_analysis/yelp/figures_{}/correlation_{}.pdf'
-
-    if p.fold_number_correlations != 0:
-        df_list = []
-        for cityName in city_list:
-            origin_cityName = cityName
-            if '_' in cityName:
-                cityName, subExp = cityName.split('_')
-
-            if p.experiment == '5n':
-                temp_bias_dir = bias_placeholder_dir.format(cityName, p.experiment, subExp)
-            else:
-                temp_bias_dir = bias_placeholder_dir.format(cityName, p.experiment)
-
-            temp_url = temp_bias_dir + 'yelp_qa_names.csv'
-            temp_df_names = pd.read_csv(temp_url, index_col=0)
-            if cityName == 'Toronto':
-                temp_df_names['price_lvl'] = temp_df_names['price'].str.len()
-            else:
-                temp_df_names['price_lvl'] = temp_df_names['price']
-
-            temp_df_price_ratio_plot = get_price_ratio_df_wFold(temp_df_names, fold=p.fold_number_correlations)
-            temp_df_price_ratio_plot['city'] = origin_cityName
-            df_list.append(temp_df_price_ratio_plot)
-
-        # concatenate all dataframes
-        price_ratio_df = pd.concat(df_list, ignore_index=True)
-        recommendation_df = price_ratio_df.copy()  # if apply fold number
-    else:
-        recommendation_df = df_avg_city_plot.copy()  # if use original data
-
-    recommendation_df = recommendation_df.rename(columns={"ratio": "ratio_recommendation"})
-
-    """Get statistics dataframe"""
-    statistics_df = pd.read_csv(p.statistics_df_dir)
-    statistics_df = statistics_df.rename(columns={"City": "city",
-                                                  "Price_level": "price_lvl",
-                                                  "Category": "bias",
-                                                  "Percent": "percent_stats",
-                                                  "Type": "label", })
-    statistics_df['percent_stats'] = statistics_df['percent_stats'] / 100
-    statistics_df['price_lvl'] = statistics_df['price_lvl'].str.len()
-    statistics_df['label'] = statistics_df['label'].str.lower()
-    statistics_df['bias'] = statistics_df['bias'].str.lower()
-
-    df_join = pd.merge(recommendation_df, statistics_df, how='left', on=['city',
-                                                                         'price_lvl',
-                                                                         'bias',
-                                                                         'label'])
-
-    race_percentStats = statistics_df[statistics_df['bias'] == 'race']['percent_stats'].to_list()
-    gender_percentStats = statistics_df[statistics_df['bias'] == 'gender']['percent_stats'].to_list()
-
-    """1.2.1 Gender"""
-
-    gender_polarity = ['male', 'female']
-    gender_ratio_df = df_join[df_join['bias'] == 'gender']
-
-    """Overall"""
-    # get fraction or difference dataframe dataframe
-    for calculation_method in ['fraction', 'difference']:
-        gender_frac_df = get_fraction_df(bias_ratio_df=gender_ratio_df,
-                                         bias_polarity=gender_polarity,
-                                         calculation_method=calculation_method)
-        plot_scatter(gender_frac_df[['percent_stats', 'ratio_recommendation']],
-                     bias_polarity=gender_polarity,
-                     calculation_method=calculation_method,
-                     title='Gender',
-                     withTrend=True,
-                     save_dir=correlations_save_dir.format(p.experiment, 'gender_overall_'+calculation_method))
-
-    """Overall - no $$$$"""
-    # get fraction or difference dataframe dataframe
-    disgard_price = 4
-    for calculation_method in ['fraction', 'difference']:
-        gender_frac_df = get_fraction_df(bias_ratio_df=gender_ratio_df,
-                                         bias_polarity=gender_polarity,
-                                         calculation_method=calculation_method)
-        plot_scatter(gender_frac_df[gender_frac_df['price_lvl'] != disgard_price][['percent_stats', 'ratio_recommendation']],
-                     bias_polarity=gender_polarity,
-                     calculation_method=calculation_method,
-                     title='Gender - no {}'.format('\$' * disgard_price),
-                     withTrend=True,
-                     save_dir=correlations_save_dir.format(p.experiment, 'gender_overall_no$$$$_'+calculation_method))
-
-    """1.2.2 Race"""
-
-    race_polarity = ['white', 'black']
-    race_ratio_df = df_join[(df_join['bias'] == 'race')]
-    race_frac_df = get_fraction_df(bias_ratio_df=race_ratio_df, bias_polarity=race_polarity, calculation_method='difference')
-
-    """Overall"""
-    # get fraction or difference dataframe dataframe
-    for calculation_method in ['fraction', 'difference']:
-        race_frac_df = get_fraction_df(bias_ratio_df=race_ratio_df,
-                                       bias_polarity=race_polarity,
-                                       calculation_method=calculation_method)
-        plot_scatter(race_frac_df[['percent_stats', 'ratio_recommendation']],
-                     bias_polarity=race_polarity,
-                     calculation_method=calculation_method,
-                     title='Race',
-                     withTrend=True,
-                     save_dir=correlations_save_dir.format(p.experiment, 'race_overall_'+calculation_method))
-
-    """Without $$$$"""
-    # get fraction or difference dataframe dataframe
-    disgard_price = 4
-    for calculation_method in ['fraction', 'difference']:
-        race_frac_df = get_fraction_df(bias_ratio_df=race_ratio_df,
-                                       bias_polarity=race_polarity,
-                                       calculation_method=calculation_method)
-        plot_scatter(race_frac_df[race_frac_df['price_lvl'] != disgard_price][['percent_stats', 'ratio_recommendation']],
-                     bias_polarity=race_polarity,
-                     calculation_method=calculation_method,
-                     title='Race - no {}'.format('\$' * disgard_price),
-                     withTrend=True,
-                     save_dir=correlations_save_dir.format(p.experiment, 'race_overall_no$$$$_'+calculation_method))
+        temp_file_path = p.saveFigure_dir + 'price_level_ratio_All_Cities.pdf'
+        print('Saving figure to', temp_file_path)
+        plt.savefig(temp_file_path, bbox_inches='tight')
 
     """
     2.Joint scatter plot for price ratio for race
     """
-    print('-' * 20 + 'Generating scatter plot for price ratio for racial bias' + '-' * 20)
+    print('-' * 20 + '2/6: Generating scatter plot for price ratio for racial bias' + '-' * 20)
     df_list_joint = []
     for cityName in city_list:
-        temp_bias_dir = bias_placeholder_dir.format(cityName, p.experiment)
+        temp_bias_dir = p.bias_placeholder_dir.format(cityName)
         temp_url = temp_bias_dir + 'yelp_qa_names.csv'
         temp_df_names = pd.read_csv(temp_url, index_col=0)
         if cityName == 'Toronto':
@@ -414,15 +243,17 @@ if __name__ == "__main__":
     plt.text(-1.2, 12, 'price level', fontsize=16)
 
     if p.save_figure:
-        plt.savefig(saveFigure_dir + 'price_ratio_scatters_race.pdf', bbox_inches='tight')
+        temp_file_path = p.saveFigure_dir + 'price_ratio_scatters_race.pdf'
+        print('Saving figure to', temp_file_path)
+        plt.savefig(temp_file_path, bbox_inches='tight')
 
     """3.The 2D plot for association score"""
-    print('-' * 20 + 'Generating 2D plot for association scores' + '-' * 20)
+    print('-' * 20 + '3/6: Generating 2D plot for association scores' + '-' * 20)
     fold_number = 20
     split_number = 4
 
     # load all cities into one dataframe
-    df_city_all_plot = concat_city_df(city_list, bias_placeholder_dir, p, file_name='yelp_qa_names.csv')
+    df_city_all_plot = concat_city_df(city_list, p.bias_placeholder_dir, file_name='yelp_qa_names.csv')
 
     # indicates how many front recommended items we want to check
     rank_bar = 20
@@ -590,10 +421,10 @@ if __name__ == "__main__":
         height=600,
         width=1800,
         margin=go.layout.Margin(
-            l=0,  # left margin
-            r=0,  # right margin
-            b=0,  # bottom margin
-            t=0,  # top margin
+            l=0,
+            r=0,
+            b=0,
+            t=0,
         ),
         xaxis=dict(
             title=dict(
@@ -613,15 +444,15 @@ if __name__ == "__main__":
         ))
 
     if p.save_figure:
-        fig.write_image("{}all_categories_2D.pdf".format(saveFigure_dir), scale=1, width=1850, height=600)
+        fig.write_image("{}all_categories_2D.pdf".format(p.saveFigure_dir), scale=1, width=1850, height=600)
 
     """4.The 2D plot for nightlife"""
-    print('-' * 20 + 'Generating 2D plot for nightlife' + '-' * 20)
+    print('-' * 20 + '4/6: Generating 2D plot for nightlife' + '-' * 20)
     fold_number = 10  # number of folds per validation
     split_number = 4  # number of cross validations
 
     # load all cities into one dataframe
-    df_sex_orien = concat_city_df(city_list, bias_placeholder_dir, p, 'yelp_qa_relationships.csv')
+    df_sex_orien = concat_city_df(city_list, p.bias_placeholder_dir, 'yelp_qa_relationships.csv')
     df_sex_orien['status'] = np.where(df_sex_orien['label'] == df_sex_orien['secondary_label'], 'homosexual', 'heterosexual')
     df_sex_orien['distribution'] = ''
 
@@ -668,14 +499,6 @@ if __name__ == "__main__":
             mostInnerDict[label2] = mostInnerDict.get(label2, 0) + 1
             innerDict[fold_n] = mostInnerDict
             jointCount_dict[cat] = innerDict
-
-    nightlife_list = {
-        'arcades', 'bars', 'bar crawl', 'beer', 'beer bar', 'brewpubs', 'cabaret',
-        'dance clubs', 'champagne bars', 'cocktail bars', 'dance clubs', 'dive bars', 'gastropubs',
-        'gay bars', 'hookah bars', 'irish pub', 'izakaya', 'jazz & blues', 'karaoke', 'lounges',
-        'pool halls', 'pool & billiards', 'music venues', 'nightlife', 'party supplies', 'piano bars', 'pubs',
-        'recreation centers', 'sports bars', 'sports clubs', 'tabletop games', 'tapas bars',
-        'tiki bars', 'whiskey bars', 'wine & spirits', 'wine bars'}
 
     plot_df_all = pd.DataFrame()
     point_list = []
@@ -820,14 +643,14 @@ if __name__ == "__main__":
                           size=20,
                       ))
     if p.save_figure:
-        fig.write_image("{}nightLifes_sexualOrientation.pdf".format(saveFigure_dir), scale=1, width=1250, height=500)
+        fig.write_image("{}nightLifes_sexualOrientation.pdf".format(p.saveFigure_dir), scale=1, width=1250, height=500)
 
     """
     5.The 1D plot for occupation and religion
     """
-    print('-' * 20 + 'Generating 1D plot for occupation and religion' + '-' * 20)
-    df_occupation_orig = getOccupation_df(city_list, bias_placeholder_dir, p, use_folds=True, fold_number=10)
-    df_occupation_neutralized = getOccupation_df(city_list, neutralizedBias_placeholder_dir, p, use_folds=True, fold_number=10)
+    print('-' * 20 + '5/6: Generating 1D plot for occupation and religion' + '-' * 20)
+    df_occupation_orig = getOccupation_df(city_list, p.bias_placeholder_dir, use_folds=True, fold_number=10)
+    df_occupation_neutralized = getOccupation_df(city_list, p.neutralizedBias_placeholder_dir, use_folds=True, fold_number=10)
 
     """Vertical view"""
     margin = 0.03
@@ -892,7 +715,7 @@ if __name__ == "__main__":
     plt.legend(loc='upper center', bbox_to_anchor=[0.5, 0.95], ncol=2,
                bbox_transform=plt.gcf().transFigure, fontsize=13)
     if p.save_figure:
-        plt.savefig(saveFigure_dir + 'avg_price_linechart_errorBar_vertical.pdf', bbox_inches='tight')
+        plt.savefig(p.saveFigure_dir + 'avg_price_linechart_errorBar_vertical.pdf', bbox_inches='tight')
 
     """
     6.Wordcloud analysis
@@ -900,13 +723,13 @@ if __name__ == "__main__":
     * Joint bias
     * Single bias
     """
-    print('-' * 20 + 'Generating word cloud analysis' + '-' * 20)
+    print('-' * 20 + '6/6: Generating word cloud analysis' + '-' * 20)
 
     # read in the dataset for all cities
     df_list_joint = []
     for cityName in city_list:
         # get reading directory
-        temp_bias_dir = bias_placeholder_dir.format(cityName, p.experiment)
+        temp_bias_dir = p.bias_placeholder_dir.format(cityName)
         temp_url = temp_bias_dir + 'yelp_qa_names.csv'
         temp_df_names = pd.read_csv(temp_url, index_col=0)
         if cityName == 'Toronto':
@@ -964,8 +787,8 @@ if __name__ == "__main__":
 
     """6.1 Wordcloud for joint bias"""
     print('6.1 Generating word cloud for joint bias')
-    if not os.path.exists(saveFigure_dir + 'wordcloud_jointBias/'):
-        os.makedirs(saveFigure_dir + 'wordcloud_jointBias/')
+    if not os.path.exists(p.saveFigure_dir + 'wordcloud_jointBias/'):
+        os.makedirs(p.saveFigure_dir + 'wordcloud_jointBias/')
 
     item_name_dict = {'while, female': list(),
                       'white, male': list(),
@@ -998,12 +821,12 @@ if __name__ == "__main__":
         plt.axis("off")
 
         if p.save_figure:
-            wordcloud.to_file(saveFigure_dir + 'wordcloud_jointBias/split_cat_{}.pdf'.format(bias.replace(', ', '_')))
+            wordcloud.to_file(p.saveFigure_dir + 'wordcloud_jointBias/split_cat_{}.pdf'.format(bias.replace(', ', '_')))
 
     """6.2 For single bias (female, male, black, white)"""
     print('6.2 Generating word cloud for single bias')
-    if not os.path.exists(saveFigure_dir + 'wordcloud_singleBias/'):
-        os.makedirs(saveFigure_dir + 'wordcloud_singleBias/')
+    if not os.path.exists(p.saveFigure_dir + 'wordcloud_singleBias/'):
+        os.makedirs(p.saveFigure_dir + 'wordcloud_singleBias/')
     item_name_dict = {'white': list(),
                       'black': list(),
                       'female': list(),
@@ -1035,12 +858,12 @@ if __name__ == "__main__":
         plt.imshow(wordcloud, interpolation='bilinear')
         plt.axis("off")
         if p.save_figure:
-            wordcloud.to_file('{}wordcloud_singleBias/split_cat_{}.pdf'.format(saveFigure_dir, bias))
+            wordcloud.to_file('{}wordcloud_singleBias/split_cat_{}.pdf'.format(p.saveFigure_dir, bias))
 
     """6.3 Sexual Orientations"""
     print('6.3 Generating word cloud for sexual orientations')
     # load all cities into one dataframe
-    df_sex_orien = concat_city_df(city_list, bias_placeholder_dir, p, 'yelp_qa_relationships.csv')
+    df_sex_orien = concat_city_df(city_list, p.bias_placeholder_dir, 'yelp_qa_relationships.csv')
     df_sex_orien['status'] = np.where(df_sex_orien['label'] == df_sex_orien['secondary_label'], 'homosexual', 'heterosexual')
     df_sex_orien['distribution'] = ''
     df_sex_orien_all = df_sex_orien[df_sex_orien['rank'] <= p.rank_threshold_all]
@@ -1137,4 +960,4 @@ if __name__ == "__main__":
         plt.imshow(wordcloud, interpolation='bilinear')
         plt.axis("off")
         if p.save_figure:
-            wordcloud.to_file('{}wordcloud_singleBias/split_cat_{}.pdf'.format(saveFigure_dir, bias))
+            wordcloud.to_file('{}wordcloud_singleBias/split_cat_{}.pdf'.format(p.saveFigure_dir, bias))

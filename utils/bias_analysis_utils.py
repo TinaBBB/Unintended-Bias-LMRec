@@ -190,9 +190,9 @@ def get_price_ratio_df_wFold(df_names, fold=10):
     return df_price_ratio_plot
 
 
-def getOccupation_df(city_list, bias_placeholder_dir, parsed_args, use_folds, fold_number=10):
-    df_occupation = concat_city_df(city_list, bias_placeholder_dir, parsed_args, 'yelp_qa_occupations.csv')
-    df_add = concat_city_df(city_list, bias_placeholder_dir, parsed_args, 'yelp_qa_additionalOccupations.csv')
+def getOccupation_df(city_list, bias_placeholder_dir, use_folds, fold_number=10):
+    df_occupation = concat_city_df(city_list, bias_placeholder_dir, 'yelp_qa_occupations.csv')
+    df_add = concat_city_df(city_list, bias_placeholder_dir, 'yelp_qa_additionalOccupations.csv')
     df_occupation = df_occupation.append(df_add)
 
     # remove farm and institution

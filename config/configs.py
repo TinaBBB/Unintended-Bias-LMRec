@@ -44,3 +44,11 @@ exclusion_list = ['escargot', 'castagna', 'egg', 'patty', 'roadhouse', 'lightner
                       'dominic','char','salad','pink','took','carrot','salmon','team','cousin','refectory','till','came','lobster','mussel','vanilla','crême','thing','waitress',
                       'brûlêe','knowledgeable', 'crème','best','bacon','juicy', 'right'
                       'Owner','Pancake','Yogourt','Doughnuts']
+
+nightlife_list = {
+        'arcades', 'bars', 'bar crawl', 'beer', 'beer bar', 'brewpubs', 'cabaret',
+        'dance clubs', 'champagne bars', 'cocktail bars', 'dance clubs', 'dive bars', 'gastropubs',
+        'gay bars', 'hookah bars', 'irish pub', 'izakaya', 'jazz & blues', 'karaoke', 'lounges',
+        'pool halls', 'pool & billiards', 'music venues', 'nightlife', 'party supplies', 'piano bars', 'pubs',
+        'recreation centers', 'sports bars', 'sports clubs', 'tabletop games', 'tapas bars',
+        'tiki bars', 'whiskey bars', 'wine & spirits', 'wine bars'}

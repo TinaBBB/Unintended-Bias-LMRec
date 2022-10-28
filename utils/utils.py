@@ -35,10 +35,10 @@ def get_latex_table_from_stats_df(df, save_dir):
         tf.write(print_df.style.to_latex())
 
 
-def concat_city_df(city_list, bias_placeholder_dir, parsed_args, file_name):
+def concat_city_df(city_list, bias_placeholder_dir, file_name):
     df_list_total = []
     for cityName in city_list:
-        temp_bias_dir = bias_placeholder_dir.format(cityName, parsed_args.experiment)
+        temp_bias_dir = bias_placeholder_dir.format(cityName)
         temp_url = temp_bias_dir + file_name
         temp_df_names = pd.read_csv(temp_url, index_col=0)
         if cityName == 'Toronto':
