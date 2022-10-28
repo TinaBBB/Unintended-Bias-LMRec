@@ -6,43 +6,15 @@ Original file is located at
 """
 
 import argparse
-import colorlover as cl
 import gender_guesser.detector as gender
-import re
 import json
-import matplotlib
-import matplotlib.pyplot as plt
-import nltk
 import numpy as np
-import os
 import pandas as pd
-import pickle
-import plotly.express as px
-import plotly.graph_objects as go
 import seaborn as sns
-import spacy
-import string
-import sklearn
-
-from ethnicolr import census_ln, pred_census_ln
-from functools import reduce
-from langdetect import detect
-from matplotlib.ticker import StrMethodFormatter
-from scipy import stats
-from sklearn.metrics.pairwise import cosine_similarity
-from sklearn.feature_extraction.text import CountVectorizer
-from spacy import displacy
-from tabulate import tabulate
+from ethnicolr import census_ln
 import nltk
 from nltk.corpus import stopwords
-from nltk.tag.stanford import StanfordNERTagger
-from nltk.tokenize import word_tokenize
-from IPython.display import HTML
-from matplotlib.pyplot import figure
 from tqdm import tqdm
-from IPython.display import display
-from PIL import Image
-from wordcloud import WordCloud, STOPWORDS, ImageColorGenerator
 
 from config.configs import city_list, exclusion_list
 from utils.utils import get_latex_table_from_stats_df, pickle_load
