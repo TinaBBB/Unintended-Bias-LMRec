@@ -17,7 +17,7 @@ from nltk.corpus import stopwords
 from tqdm import tqdm
 
 from config.configs import city_list, exclusion_list
-from utils.utils import get_latex_table_from_stats_df, pickle_load
+from utils.utils import get_latex_table_from_stats_df, pickle_dump, pickle_load
 
 nltk.download('stopwords')
 stopwords = stopwords.words('english')
@@ -93,7 +93,7 @@ if __name__ == "__main__":
         gender_stats_dict = {city: {price: {label: 0 for label in gender_dict.keys()} for price in range(1, 5)} for city in city_list}
         for city_name in city_list:
             print('---------{}---------'.format(city_name))
-            city_df = pd.read_csv('{}/{}_reviews.csv'.format(data_dir, city_name), lineterminator='\n')
+            city_df = pd.read_csv('{}/{}_reviews.csv'.format(p.data_dir, city_name), lineterminator='\n')
             city_df.rename(columns={'text': 'review_text'}, inplace=True)
 
             load_dir = 'data/Yelp_cities/{}_trainValidTest_5f/'.format(city_name)
