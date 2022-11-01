@@ -71,6 +71,15 @@ or
 python3 installations.py
 ```
 
+On command line, enter the following code:
+
+```
+    wget 'https://nlp.stanford.edu/software/stanford-ner-2018-10-16.zip'
+    unzip stanford-ner-2018-10-16.zip
+```
+
+this will create a folder in your repository named with `stanford-ner-2018-10-16`.
+
 ## 2. Model Training and Recommendation Performance Results
 
 ## 3. Template-based & Attribute-based Bias Analysis
@@ -166,7 +175,7 @@ python3 bias_analysis.py --save_figure
 
 All figures reported in the paper will be saved under the directory `bias_analysis/yelp/figures/`
 
-## Generate statistics for the datasets
+## Generate name statistics for the datasets
 
 A table of gender and race-related name statistics is presented in our work. We store this data under
 `bias_analysis/yelp/statistics.*`
@@ -175,4 +184,27 @@ A table of gender and race-related name statistics is presented in our work. We 
 * `statistics.txt` is the latex version of the statistics table, which is automatically generated along with the statistics dataframe.
 
 We provide some samples of detected name entities in
-`data/debias/<city_name>_peopleNames_<price_level>priceLvl.json`. 
+`data/names/<city_name>_peopleNames_<price_level>priceLvl.json`. All the names are detected by 
+[Stanford NER](https://aclanthology.org/P05-1045.pdf). To find names in the review data, run:
+
+```
+python find_names.py
+
+or
+
+python3 find_names.py
+
+```
+
+Note that this code takes a long time to run. 
+
+After all the names have been collected into `data/names/` folder, you can get the name statistics
+(in terms of gender and race) by running:
+
+```
+python generate_dataset_stats.py
+
+or
+
+python3 generate_dataset_stats.py
+```
