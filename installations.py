@@ -1,4 +1,5 @@
 import os
+import nltk
 from transformers import BertTokenizer
 
 
@@ -10,3 +11,8 @@ if __name__ == "__main__":
     if not os.path.exists(save_path):
         os.makedirs(save_path)
     slow_tokenizer.save_pretrained(save_path)
+
+    nltk.download('stopwords')
+
+
+

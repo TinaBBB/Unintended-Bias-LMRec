@@ -8,6 +8,7 @@ from utils.utils import concat_city_df
 import matplotlib.pyplot as plt
 from pandas.api.types import CategoricalDtype
 from scipy import stats
+from nltk.tokenize import word_tokenize
 
 
 def get_deviation_score(deviation_list, deviation_score_list, deviation_score_dict, decimal_places=4):
@@ -291,3 +292,27 @@ def plot_scatter(df, bias_polarity, calculation_method, x_data="percent_stats", 
         plt.title(title + ' \n ({},{})'.format(round(cor, 3), round(pvalue, 3)))
     plt.savefig(save_dir, bbox_inches='tight')
     return cor, pvalue
+
+
+def find_names(aText_string, exlusion_list):
+    from nltk.corpus import stopwords
+    stopwords = stopwords.words('english')
+
+    from nltk.tag.stanford import StanfordNERTagger
+    st = StanfordNERTagger('stanford-ner-2018-10-16/classifiers/english.all.3class.distsim.crf.ser.gz',
+                           'stanford-ner-2018-10-16/stanford-ner.jar',
+                           encoding='utf-8')
+
+    all_names = []
+    tokenized_text = word_tokenize(aText_string)
+    token_txt = [txt.capitalize() for txt in tokenized_text if txt.lower() not in stopwords
+                 and txt.lower() not in exlusion_list]
+    classified_text = st.tag(token_txt)
+    classified_text = np.array(classified_text)
+    person_idx = np.where(classified_text[:, 1] == 'PERSON')[0]
+    classified_text = classified_text[person_idx]
+
+    for txt, lbl in classified_text:
+        if lbl == 'PERSON' and len(txt) > 2:
+            all_names.append(txt)
+    return all_names

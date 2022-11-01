@@ -44,7 +44,7 @@ if __name__ == "__main__":
     d = gender.Detector()
     for city_name in city_name_list:
         for set_price in range(1, 5):
-            with open('data/debias/{}_peopleNames_{}priceLvl.json'.format(city_name, set_price), 'r') as fp:
+            with open('data/names/{}_peopleNames_{}priceLvl.json'.format(city_name, set_price), 'r') as fp:
                 all_names = fp.read()
                 input_text = [txt for txt in all_names.split(' . ') if txt.lower() not in exclusion_list]
                 print('-----------------------------------------------------------------')
@@ -158,7 +158,7 @@ if __name__ == "__main__":
     print('-' * 20 + '2. Check Race' + '-' * 20)
     for city_name in city_name_list:
         for set_price in range(1, 5):
-            with open('data/debias/{}_peopleNames_{}priceLvl.json'.format(city_name, set_price), 'r') as fp:
+            with open('data/names/{}_peopleNames_{}priceLvl.json'.format(city_name, set_price), 'r') as fp:
                 all_names = json.loads(fp.read())[str(set_price)]
                 input_text = [txt for txt in all_names.split(' . ') if txt.lower() not in exclusion_list]
                 input_text = input_text[1:]
