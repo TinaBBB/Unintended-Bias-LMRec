@@ -17,7 +17,7 @@ related to 7 North American cities, including:
 * [Portland](https://drive.google.com/file/d/1L-TL83f0E9vKVT2LfOhYW-Gq95HibPI1/view?usp=sharing)
 * [Toronto](https://drive.google.com/file/d/19wrnZVth0YWQvWrk9wtdXmpUvcJsg2s6/view?usp=sharing)
 
-The review dataset for each city can be accessed by clicking the city name above. Save the data files
+**The review dataset for each city can be accessed by clicking the city name above.** Save the data files
 as `data/Yelp_cities/<city_name>_reviews.csv` once downloaded.
 
 Each dataset has the following format as csv files.
